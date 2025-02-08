@@ -15,6 +15,9 @@ namespace TatehamaInterlockingConsole.Models
         /// </summary>
         public class DataToServer
         {
+            // Todo: 常時送信用のクラスと、操作した時用のクラスは分けたほうがよい
+            //       常時送信 =>駅名用
+            //       操作した時 => てこ・着点
             /// <summary>
             /// 起動しているウィンドウの駅名
             /// </summary>
@@ -49,6 +52,7 @@ namespace TatehamaInterlockingConsole.Models
         /// </summary>
         public class InterlockingAuthentication
         {
+            // Todo: サーバーのTraincrewRoleクラスを使おう
             /// <summary>
             /// 司令主任判定
             /// </summary>
@@ -64,6 +68,7 @@ namespace TatehamaInterlockingConsole.Models
         /// </summary>
         public class InterlockingPhysicalUI
         {
+            // Todo: こいつが何を表すか理解できないのでレビュー不可
             /// <summary>
             /// 名称
             /// </summary>
@@ -79,6 +84,7 @@ namespace TatehamaInterlockingConsole.Models
         /// </summary>
         public class InterlockingInternalUI
         {
+            // Todo: こいつが何を表すか理解できないのでレビュー不可
             /// <summary>
             /// 名称
             /// </summary>
@@ -94,6 +100,7 @@ namespace TatehamaInterlockingConsole.Models
         /// </summary>
         public class InterlockingTrackCircuit
         {
+            // Todo: TrackCircuitInfoを拡張したクラスを利用する
             /// <summary>
             /// 名称
             /// </summary>
@@ -117,6 +124,8 @@ namespace TatehamaInterlockingConsole.Models
         /// </summary>
         public class InterlockingPoint
         {
+            // Todo: てこの状態と実際の状態をもたせたほうが良いのでは？
+            // Todo: NRCにしないと、状態が足りなくない？
             /// <summary>
             /// 名称
             /// </summary>
@@ -132,6 +141,7 @@ namespace TatehamaInterlockingConsole.Models
         /// </summary>
         public class InterlockingSignal
         {
+            // Todo: SignalDataに統一したほうがよい？
             /// <summary>
             /// 名称
             /// </summary>
@@ -147,6 +157,7 @@ namespace TatehamaInterlockingConsole.Models
         /// </summary>
         public class InterlockingLamp
         {
+            // Todo: Mapでええんとちゃうか・・？
             /// <summary>
             /// 名称
             /// </summary>
@@ -162,6 +173,7 @@ namespace TatehamaInterlockingConsole.Models
         /// </summary>
         public class InterlockingRetsuban
         {
+            // Todo: これもMapでええんとちゃうか・・・
             /// <summary>
             /// 名称
             /// </summary>
