@@ -242,5 +242,9 @@ namespace TatehamaInterlockingConsole.Manager
         /// 更新時刻
         /// </summary>
         public DateTime UpdateTime { get; set; }
+        /// <summary>
+        /// 方向てこ警報音声が鳴動済みかどうか
+        /// </summary>
+        public bool IsAlarmPlayed { get; set; }
     }
 }

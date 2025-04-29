@@ -105,16 +105,16 @@ namespace TatehamaInterlockingConsole.Handlers
         /// <param name="isLeftClick"></param>
         private void HandleLeverImageMouseDown(UIControlSetting control, bool isLeftClick)
         {
-            int newIndex;
+            int newIndex = control.ImageIndex;
 
             // LRパターンのみ別処理
             if (control.ImagePatternSymbol == "LR")
             {
-                if (control.ImageIndex == -1 && !isLeftClick)
+                if (newIndex == -1 && !isLeftClick)
                 {
                     newIndex = 1;
                 }
-                else if (control.ImageIndex == 1 && isLeftClick)
+                else if (newIndex == 1 && isLeftClick)
                 {
                     newIndex = -1;
                 }
@@ -126,14 +126,13 @@ namespace TatehamaInterlockingConsole.Handlers
             else
             {
                 int change = isLeftClick ? -1 : 1;
-                newIndex = control.ImageIndex + change;
+                newIndex += change;
 
                 if (!IsValidIndex(control.ImagePatternSymbol, newIndex))
                 {
                     return;
                 }
             }
-            control.ImageIndex = newIndex;
 
             // サーバーへリクエスト送信
             if (control.ServerType != string.Empty)
@@ -144,7 +143,7 @@ namespace TatehamaInterlockingConsole.Handlers
                 var leverData = new DatabaseOperational.LeverData
                 {
                     Name = control.ServerName,
-                    State = EnumData.ConvertToLCR(control.ImageIndex)
+                    State = EnumData.ConvertToLCR(newIndex)
                 };
                 _ = _serverCommunication.SendLeverEventDataRequestToServerAsync(leverData);
                 //CustomMessage.Show($"Name: {leverData.Name} State: {leverData.State}",
@@ -162,34 +161,37 @@ namespace TatehamaInterlockingConsole.Handlers
         /// <param name="isLeftClick"></param>
         private void HandleKeyImageMouseDown(UIControlSetting control, bool isLeftClick)
         {
+            int newIndex = control.ImageIndex;
+            bool newKeyInserted = control.KeyInserted;
+
             // Shiftキーが押されているかを判定
             bool isShiftPressed = (System.Windows.Input.Keyboard.Modifiers & System.Windows.Input.ModifierKeys.Shift) == System.Windows.Input.ModifierKeys.Shift;
             if (isShiftPressed)
             {
                 // Shiftキーが押されている場合、KeyInsertedを切り替え
-                if (control.KeyInserted)
+                if (newKeyInserted)
                 {
-                    if (control.ImageIndex >= 0)
+                    if (newIndex >= 0)
                     {
-                        control.ImageIndex -= 10;
+                        newIndex -= 10;
                     }
                     else
                     {
-                        control.ImageIndex += 10;
+                        newIndex += 10;
                     }
                 }
                 else
                 {
-                    if (control.ImageIndex >= 0)
+                    if (newIndex >= 0)
                     {
-                        control.ImageIndex += 10;
+                        newIndex += 10;
                     }
                     else
                     {
-                        control.ImageIndex -= 10;
+                        newIndex -= 10;
                     }
                 }
-                control.KeyInserted = !control.KeyInserted;
+                newKeyInserted = !newKeyInserted;
 
                 // サーバーへリクエスト送信
                 if (control.ServerType != string.Empty)
@@ -200,8 +202,8 @@ namespace TatehamaInterlockingConsole.Handlers
                     var keyLeverData = new DatabaseOperational.KeyLeverData
                     {
                         Name = control.ServerName,
-                        State = EnumData.ConvertToLNR(control.ImageIndex),
-                        IsKeyInserted = control.KeyInserted
+                        State = EnumData.ConvertToLNR(newIndex),
+                        IsKeyInserted = newKeyInserted
                     };
                     _ = _serverCommunication.SendKeyLeverEventDataRequestToServerAsync(keyLeverData);
                     //CustomMessage.Show($"Name: {keyLeverData.Name} State: {keyLeverData.State} Key: {keyLeverData.IsKeyInserted}",
@@ -213,16 +215,14 @@ namespace TatehamaInterlockingConsole.Handlers
             }
             else if (control.KeyInserted)
             {
-                int newIndex;
-
                 // LRパターンのみ別処理
                 if (control.ImagePatternSymbol == "KeyLR")
                 {
-                    if (control.ImageIndex == -11 && !isLeftClick)
+                    if (newIndex == -11 && !isLeftClick)
                     {
                         newIndex = 11;
                     }
-                    else if (control.ImageIndex == 11 && isLeftClick)
+                    else if (newIndex == 11 && isLeftClick)
                     {
                         newIndex = -11;
                     }
@@ -234,14 +234,13 @@ namespace TatehamaInterlockingConsole.Handlers
                 else
                 {
                     int change = isLeftClick ? -1 : 1;
-                    newIndex = control.ImageIndex + change;
+                    newIndex = newIndex + change;
 
                     if (!IsValidIndex(control.ImagePatternSymbol, newIndex))
                     {
                         return;
                     }
                 }
-                control.ImageIndex = newIndex;
 
                 // サーバーへリクエスト送信
                 if (control.ServerType != string.Empty)
@@ -252,8 +251,8 @@ namespace TatehamaInterlockingConsole.Handlers
                     var keyLeverData = new DatabaseOperational.KeyLeverData
                     {
                         Name = control.ServerName,
-                        State = EnumData.ConvertToLNR(control.ImageIndex),
-                        IsKeyInserted = control.KeyInserted
+                        State = EnumData.ConvertToLNR(newIndex),
+                        IsKeyInserted = newKeyInserted
                     };
                     _ = _serverCommunication.SendKeyLeverEventDataRequestToServerAsync(keyLeverData);
                     //CustomMessage.Show($"Name: {keyLeverData.Name} State: {keyLeverData.State} Key: {keyLeverData.IsKeyInserted}",
@@ -271,9 +270,11 @@ namespace TatehamaInterlockingConsole.Handlers
         /// <param name="control"></param>
         private void HandleButtonImageMouseDown(UIControlSetting control)
         {
-            if (control.ImageIndex != 1)
+            int newIndex = control.ImageIndex;
+
+            if (newIndex != 1)
             {
-                control.ImageIndex = 1;
+                newIndex = 1;
 
                 // サーバーへリクエスト送信
                 if (control.ServerType != string.Empty)
@@ -281,10 +282,12 @@ namespace TatehamaInterlockingConsole.Handlers
                     // ボタン操作中(押し)判定
                     control.IsButtionRaised = true;
 
+                    control.ImageIndex = newIndex;
+
                     var destinationButtonData = new DatabaseOperational.DestinationButtonData
                     {
                         Name = control.ServerName,
-                        IsRaised = EnumData.ConvertToRaiseDrop(control.ImageIndex),
+                        IsRaised = EnumData.ConvertToRaiseDrop(newIndex),
                         OperatedAt = DateTime.Now
                     };
                     _ = _serverCommunication.SendButtonEventDataRequestToServerAsync(destinationButtonData);
@@ -297,6 +300,8 @@ namespace TatehamaInterlockingConsole.Handlers
                 // 接近ボタンの場合は接近警報停止処理
                 else if (control.UniqueName.Contains("接近"))
                 {
+                    control.ImageIndex = newIndex;
+
                     var StationName = control.StationName;
                     if (StationName.Contains("江ノ原検車区"))
                     {
@@ -321,9 +326,11 @@ namespace TatehamaInterlockingConsole.Handlers
         /// <param name="control"></param>
         private void HandleButtonImageMouseUp(UIControlSetting control)
         {
-            if (control.ImageIndex != 0)
+            int newIndex = control.ImageIndex;
+
+            if (newIndex != 0)
             {
-                control.ImageIndex = 0;
+                newIndex = 0;
 
                 // サーバーへリクエスト送信
                 if (control.ServerType != string.Empty)
@@ -331,10 +338,12 @@ namespace TatehamaInterlockingConsole.Handlers
                     // ボタン操作中(離し)判定
                     control.IsButtionDroped = true;
 
+                    control.ImageIndex = newIndex;
+
                     var destinationButtonData = new DatabaseOperational.DestinationButtonData
                     {
                         Name = control.ServerName,
-                        IsRaised = EnumData.ConvertToRaiseDrop(control.ImageIndex),
+                        IsRaised = EnumData.ConvertToRaiseDrop(newIndex),
                         OperatedAt = DateTime.Now
                     };
                     _ = _serverCommunication.SendButtonEventDataRequestToServerAsync(destinationButtonData);
@@ -347,6 +356,8 @@ namespace TatehamaInterlockingConsole.Handlers
                 // 接近ボタンの場合は音声再生
                 else if (control.UniqueName.Contains("接近"))
                 {
+                    control.ImageIndex = newIndex;
+
                     // 音声再生
                     string randomPullSoundIndex = _random.Next(1, 13).ToString("00");
                     Sound.Instance.SoundPlay($"pull_{randomPullSoundIndex}", false);

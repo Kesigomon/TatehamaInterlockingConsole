@@ -104,11 +104,13 @@ namespace TatehamaInterlockingConsole.Services
                         if ((DateTime.Now - direction.UpdateTime).TotalSeconds < 2.0d)
                         {
                             SetAlarmVolumeBasedOnType(stationSetting.DirectionAlarmType, stationSetting.DirectionAlarmName + "_loop", isPlay);
+                            direction.IsAlarmPlayed = true;
                         }
-                        // 2秒以上経過している場合は音声停止
-                        else
+                        // 再生中かつ2秒以上経過している場合は音声停止
+                        else if (direction.IsAlarmPlayed)
                         {
                             SetAlarmVolumeBasedOnType(stationSetting.DirectionAlarmType, stationSetting.DirectionAlarmName + "_loop", false);
+                            direction.IsAlarmPlayed = false;
                         }
                     }
                 }

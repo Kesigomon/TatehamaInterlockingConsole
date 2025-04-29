@@ -1,21 +1,21 @@
 Type	UniqueName	ParentName	ServerType	ServerName	PointNameA	PointValueA	PointNameB	PointValueB	DirectionName	DirectionValue	X	Y	Width	Height	Angle	AngleOriginX	AngleOriginY	Text	FontSize	BackColor	TextColor	ClickEventName	ImagePattern	ImageIndex	BaseImagePath	ImagePath	Remark								
 BackImage	表示盤										0	0														Image/BackImage/TH66_Enohara-Inspection-Indicater.png									
-Image	1RA_G		信号機表示灯	江ノ原検車区上り場内1RA							520	693											0,1	0		Image/Light/N.png,Image/Light/G.png	G,Y,R,PG,PYは灯色								
-Image	1RB_G		信号機表示灯	江ノ原検車区上り場内1RB							520	712											0,1	0		Image/Light/N.png,Image/Light/G.png									
-Image	1RC_G		信号機表示灯	江ノ原検車区上り場内1RC							528	730											0,1	0		Image/Light/N.png,Image/Light/G.png									
-Image	2R_G		信号機表示灯	江ノ原検車区上り出発2R							1164	662											0,1	0		Image/Light/N.png,Image/Light/G.png									
-Image	3L_G		信号機表示灯	江ノ原検車区下り出発3L							1273	602											0,1	0		Image/Light/N.png,Image/Light/G.png									
-Image	4L_G		信号機表示灯	江ノ原検車区下り出発4L							1273	702											0,1	0		Image/Light/N.png,Image/Light/G.png									
-Image	5LD_G		信号機表示灯	江ノ原検車区下り場内5LD							1273	820											0,1	0		Image/Light/N.png,Image/Light/G.png									
-Image	5LE_G		信号機表示灯	江ノ原検車区下り場内5LE							1265	838											0,1	0		Image/Light/N.png,Image/Light/G.png									
-Image	11R_Y		信号機表示灯								816	669											0,1	0		Image/Light/N.png,Image/Light/Y.png									
-Image	12L_Y		信号機表示灯								880	671											0,1	0		Image/Light/N.png,Image/Light/Y.png									
-Image	13R_Y		信号機表示灯	江ノ原入換13R							1146	661											0,1	0		Image/Light/N.png,Image/Light/Y.png									
-Image	14R_Y		信号機表示灯								1240	601											0,1	0		Image/Light/N.png,Image/Light/Y.png									
-Image	15L_Y		信号機表示灯	江ノ原入換15L							1291	603											0,1	0		Image/Light/N.png,Image/Light/Y.png									
-Image	15LZ_Y		信号機表示灯								1313	602											0,1	0		Image/Light/N.png,Image/Light/Y.png									
-Image	16L_Y		信号機表示灯	江ノ原入換16L							1291	703											0,1	0		Image/Light/N.png,Image/Light/Y.png									
-Image	16LZ_Y		信号機表示灯								1313	702											0,1	0		Image/Light/N.png,Image/Light/Y.png									
+Image	1RA_G		信号機表示灯	江ノ原検車区上り場内1RA							520	693											"0,1"	0		"Image/Light/N.png,Image/Light/G.png"	"G,Y,R,PG,PYは灯色"								
+Image	1RB_G		信号機表示灯	江ノ原検車区上り場内1RB							520	712											"0,1"	0		"Image/Light/N.png,Image/Light/G.png"									
+Image	1RC_G		信号機表示灯	江ノ原検車区上り場内1RC							528	730											"0,1"	0		"Image/Light/N.png,Image/Light/G.png"									
+Image	2R_G		信号機表示灯	江ノ原検車区上り出発2R							1164	662											"0,1"	0		"Image/Light/N.png,Image/Light/G.png"									
+Image	3L_G		信号機表示灯	江ノ原検車区下り出発3L							1273	602											"0,1"	0		"Image/Light/N.png,Image/Light/G.png"									
+Image	4L_G		信号機表示灯	江ノ原検車区下り出発4L							1273	702											"0,1"	0		"Image/Light/N.png,Image/Light/G.png"									
+Image	5LD_G		信号機表示灯	江ノ原検車区下り場内5LD							1273	820											"0,1"	0		"Image/Light/N.png,Image/Light/G.png"									
+Image	5LE_G		信号機表示灯	江ノ原検車区下り場内5LE							1265	838											"0,1"	0		"Image/Light/N.png,Image/Light/G.png"									
+Image	11R_Y		信号機表示灯								816	669											"0,1"	0		"Image/Light/N.png,Image/Light/Y.png"									
+Image	12L_Y		信号機表示灯								880	671											"0,1"	0		"Image/Light/N.png,Image/Light/Y.png"									
+Image	13R_Y		信号機表示灯	江ノ原入換13R							1146	661											"0,1"	0		"Image/Light/N.png,Image/Light/Y.png"									
+Image	14R_Y		信号機表示灯								1240	601											"0,1"	0		"Image/Light/N.png,Image/Light/Y.png"									
+Image	15L_Y		信号機表示灯	江ノ原入換15L							1291	603											"0,1"	0		"Image/Light/N.png,Image/Light/Y.png"									
+Image	15LZ_Y		信号機表示灯								1313	602											"0,1"	0		"Image/Light/N.png,Image/Light/Y.png"									
+Image	16L_Y		信号機表示灯	江ノ原入換16L							1291	703											"0,1"	0		"Image/Light/N.png,Image/Light/Y.png"									
+Image	16LZ_Y		信号機表示灯								1313	702											"0,1"	0		"Image/Light/N.png,Image/Light/Y.png"									
 	21R_Y																																		
 	22R_Y																																		
 	23R_Y																																		
@@ -41,160 +41,164 @@ Image	16LZ_Y		信号機表示灯								1313	702											0,1	0		Image/Light/N.png,Im
 	42LZ_Y																																		
 	43R_Y																																		
 	43RZ_Y																																		
-Image	TH67_1RT_1		軌道回路表示灯	TH67_1RT							52	747											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	0度※以下0度省略								
-Image	TH67_32T_W32N_1		軌道回路表示灯	TH67_32T	TH67_W32	N					77	747											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_32T_W32N_2		軌道回路表示灯	TH67_32T	TH67_W32	N					107	747											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_32T_W32R_1		軌道回路表示灯	TH67_32T	TH67_W32	R					77	747											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_32T_W32R_2		軌道回路表示灯	TH67_32T	TH67_W32	R					99	702											0,1,2	0		Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png	68度								
-Image	TH67_1RAT_1		軌道回路表示灯	TH67_1RAT							131	687											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_1RAT_2		軌道回路表示灯	TH67_1RAT							213	687											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_1RBT_1		軌道回路表示灯	TH67_1RBT							131	747											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_1RBT_2		軌道回路表示灯	TH67_1RBT							213	747											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_4LT_1		軌道回路表示灯	TH67_4LT							131	807											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_4LT_2		軌道回路表示灯	TH67_4LT							213	807											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_5LT_1		軌道回路表示灯	TH67_5LT							131	867											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_5LT_2		軌道回路表示灯	TH67_5LT							213	867											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_33イT_W33イN_1		軌道回路表示灯	TH67_33イT	TH67_W33	N					237	687											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_33イT_W33イN_2		軌道回路表示灯	TH67_33イT	TH67_W33	N					295	687											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_33イT_W33イR_1		軌道回路表示灯	TH67_33イT	TH67_W33	R					237	687											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_33イT_W33イR_2		軌道回路表示灯	TH67_33イT	TH67_W33	R					277	702											0,1,2	0		Image/Light/112N.png,Image/Light/112Y.png,Image/Light/112R.png	112度								
-Image	TH67_33ロT_W33ロN_1		軌道回路表示灯	TH67_33ロT	TH67_W33	N					237	747											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_33ロT_W33ロN_2		軌道回路表示灯	TH67_33ロT	TH67_W33	N					295	747											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_33ロT_W33ロR_1		軌道回路表示灯	TH67_33ロT	TH67_W33	R					287	727											0,1,2	0		Image/Light/112N.png,Image/Light/112Y.png,Image/Light/112R.png	112度								
-Image	TH67_33ロT_W33ロR_2		軌道回路表示灯	TH67_33ロT	TH67_W33	R					295	747											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_34T_W34N_1		軌道回路表示灯	TH67_34T	TH67_W34	N					237	807											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_34T_W34N_2		軌道回路表示灯	TH67_34T	TH67_W34	N					295	807											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_34T_W34R_1		軌道回路表示灯	TH67_34T	TH67_W34	R					237	867											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_34T_W34R_2		軌道回路表示灯	TH67_34T	TH67_W34	R					277	847											0,1,2	0		Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png	68度								
-Image	TH67_34T_W34R_3		軌道回路表示灯	TH67_34T	TH67_W34	R					295	807											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_35イT_W35イN_1		軌道回路表示灯	TH67_35イT	TH67_W35	N					315	807											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_35イT_W35イN_2		軌道回路表示灯	TH67_35イT	TH67_W35	N					345	807											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_35イT_W35イR_1		軌道回路表示灯	TH67_35イT	TH67_W35	R					315	807											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_35イT_W35イR_2		軌道回路表示灯	TH67_35イT	TH67_W35	R					327	787											0,1,2	0		Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png	68度								
-Image	TH67_35ロT_W35ロN_1		軌道回路表示灯	TH67_35ロT	TH67_W35	N					315	747											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_35ロT_W35ロN_2		軌道回路表示灯	TH67_35ロT	TH67_W35	N					345	747											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_35ロT_W35ロR_1		軌道回路表示灯	TH67_35ロT	TH67_W35	R					337	762											0,1,2	0		Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png	68度								
-Image	TH67_35ロT_W35ロR_2		軌道回路表示灯	TH67_35ロT	TH67_W35	R					345	747											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_36イT_1		軌道回路表示灯	TH67_36イT							370	747											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_SST_1		軌道回路表示灯	TH67_SST							400	747											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	136T_1		軌道回路表示灯	上り136T							430	747											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	142T_1		軌道回路表示灯	上り142T							460	747											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	146T_1		軌道回路表示灯	上り146T							490	747											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_1RT_1		軌道回路表示灯	TH66S_1RT							554	747											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_1RT_2		軌道回路表示灯	TH66S_1RT							652	747											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_1RT_3		軌道回路表示灯	TH66S_1RT							751	747											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_5LET_1		軌道回路表示灯	TH66S_5LET							583	807											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_5LET_2		軌道回路表示灯	TH66S_5LET							707	807											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_5LET_3		軌道回路表示灯	TH66S_5LET							831	807											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_5LDT_1		軌道回路表示灯	TH66S_5LDT							578	687											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_5LDT_2		軌道回路表示灯	TH66S_5LDT							786	687											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_51イT_W51イ_N_1		軌道回路表示灯	TH66S_51イT	TH66S_W51	N					814	687											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_51イT_W51イ_N_2		軌道回路表示灯	TH66S_51イT	TH66S_W51	N					880	687											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_51イT_W51イ_R_1		軌道回路表示灯	TH66S_51イT	TH66S_W51	R					814	687											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_51イT_W51イ_R_2		軌道回路表示灯	TH66S_51イT	TH66S_W51	R					838	705											0,1,2	0		Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png	135度								
-Image	TH66S_51ロT_W51ロ_N_1		軌道回路表示灯	TH66S_51ロT	TH66S_W51	N					814	747											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_51ロT_W51ロ_N_2		軌道回路表示灯	TH66S_51ロT	TH66S_W51	N					880	747											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_51ロT_W51ロ_R_1		軌道回路表示灯	TH66S_51ロT	TH66S_W51	R					858	725											0,1,2	0		Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png	135度								
-Image	TH66S_51ロT_W51ロ_R_2		軌道回路表示灯	TH66S_51ロT	TH66S_W51	R					880	747											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_13T_1		軌道回路表示灯	TH66S_13T							908	687											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_13T_2		軌道回路表示灯	TH66S_13T							1116	687											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_52T_W52イ_N_W53ロ_N_1		軌道回路表示灯	TH66S_52T	TH66S_W52	N	TH66S_W53	N			934	747											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_52T_W52イ_N_W53ロ_N_2		軌道回路表示灯	TH66S_52T	TH66S_W52	N	TH66S_W53	N			1012	747											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_52T_W52イ_N_W53ロ_N_3		軌道回路表示灯	TH66S_52T	TH66S_W52	N	TH66S_W53	N			1090	747											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_52T_W52イ_N_W53ロ_R_1		軌道回路表示灯	TH66S_52T	TH66S_W52	N	TH66S_W53	R			1027	761											0,1,2	0		Image/Light/45N.png,Image/Light/45Y.png,Image/Light/45R.png	45度								
-Image	TH66S_52T_W52イ_N_W53ロ_R_2		軌道回路表示灯	TH66S_52T	TH66S_W52	N	TH66S_W53	R			1090	747											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_52T_W52イ_R_W53ロ_N_1		軌道回路表示灯	TH66S_52T	TH66S_W52	R	TH66S_W53	N			934	747											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_52T_W52イ_R_W53ロ_N_2		軌道回路表示灯	TH66S_52T	TH66S_W52	R	TH66S_W53	N			999	761											0,1,2	0		Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png	135度								
-Image	TH66S_53T_W53イ_N_W52ロ_N_1		軌道回路表示灯	TH66S_53T	TH66S_W53	N	TH66S_W52	N			934	807											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_53T_W53イ_N_W52ロ_N_2		軌道回路表示灯	TH66S_53T	TH66S_W53	N	TH66S_W52	N			1012	807											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_53T_W53イ_N_W52ロ_N_3		軌道回路表示灯	TH66S_53T	TH66S_W53	N	TH66S_W52	N			1090	807											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_53T_W53イ_N_W52ロ_R_1		軌道回路表示灯	TH66S_53T	TH66S_W53	N	TH66S_W52	R			1027	789											0,1,2	0		Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png	135度								
-Image	TH66S_53T_W53イ_N_W52ロ_R_2		軌道回路表示灯	TH66S_53T	TH66S_W53	N	TH66S_W52	R			1090	807											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_53T_W53イ_R_W52ロ_N_1		軌道回路表示灯	TH66S_53T	TH66S_W53	R	TH66S_W52	N			934	807											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_53T_W53イ_R_W52ロ_N_2		軌道回路表示灯	TH66S_53T	TH66S_W53	R	TH66S_W52	N			999	789											0,1,2	0		Image/Light/45N.png,Image/Light/45Y.png,Image/Light/45R.png	45度								
-Image	TH66S_54T_W54イ_N_W55ロ_N_1		軌道回路表示灯	TH66S_54T	TH66S_W54	N	TH66S_W55	N			1144	687											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_54T_W54イ_N_W55ロ_N_2		軌道回路表示灯	TH66S_54T	TH66S_W54	N	TH66S_W55	N			1177	687											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_54T_W54イ_N_W55ロ_N_3		軌道回路表示灯	TH66S_54T	TH66S_W54	N	TH66S_W55	N			1210	687											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_54T_W54イ_N_W55ロ_R_1		軌道回路表示灯	TH66S_54T	TH66S_W54	N	TH66S_W55	R			1192	701											0,1,2	0		Image/Light/45N.png,Image/Light/45Y.png,Image/Light/45R.png	45度								
-Image	TH66S_54T_W54イ_N_W55ロ_R_2		軌道回路表示灯	TH66S_54T	TH66S_W54	N	TH66S_W55	R			1210	687											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_54T_W54イ_R_W55ロ_N_1		軌道回路表示灯	TH66S_54T	TH66S_W54	R	TH66S_W55	N			1144	687											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_54T_W54イ_R_W55ロ_N_2		軌道回路表示灯	TH66S_54T	TH66S_W54	R	TH66S_W55	N			1164	701											0,1,2	0		Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png	135度								
-Image	TH66S_55T_W55イ_N_W54ロ_N_1		軌道回路表示灯	TH66S_55T	TH66S_W55	N	TH66S_W54	N			1144	747											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_55T_W55イ_N_W54ロ_N_2		軌道回路表示灯	TH66S_55T	TH66S_W55	N	TH66S_W54	N			1177	747											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_55T_W55イ_N_W54ロ_N_3		軌道回路表示灯	TH66S_55T	TH66S_W55	N	TH66S_W54	N			1210	747											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_55T_W55イ_N_W54ロ_R_1		軌道回路表示灯	TH66S_55T	TH66S_W55	N	TH66S_W54	R			1192	729											0,1,2	0		Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png	135度								
-Image	TH66S_55T_W55イ_N_W54ロ_R_2		軌道回路表示灯	TH66S_55T	TH66S_W55	N	TH66S_W54	R			1210	747											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_55T_W55イ_R_W54ロ_N_1		軌道回路表示灯	TH66S_55T	TH66S_W55	R	TH66S_W54	N			1144	747											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_55T_W55イ_R_W54ロ_N_2		軌道回路表示灯	TH66S_55T	TH66S_W55	R	TH66S_W54	N			1164	729											0,1,2	0		Image/Light/45N.png,Image/Light/45Y.png,Image/Light/45R.png	45度								
-Image	TH66S_56T_W56イ_N_W57ロ_N_1		軌道回路表示灯	TH66S_56T	TH66S_W56	N	TH66S_W57	N			1238	627											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_56T_W56イ_N_W57ロ_N_2		軌道回路表示灯	TH66S_56T	TH66S_W56	N	TH66S_W57	N			1271	627											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_56T_W56イ_N_W57ロ_N_3		軌道回路表示灯	TH66S_56T	TH66S_W56	N	TH66S_W57	N			1304	627											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_56T_W56イ_N_W57ロ_R_1		軌道回路表示灯	TH66S_56T	TH66S_W56	N	TH66S_W57	R			1286	641											0,1,2	0		Image/Light/45N.png,Image/Light/45Y.png,Image/Light/45R.png	45度								
-Image	TH66S_56T_W56イ_N_W57ロ_R_2		軌道回路表示灯	TH66S_56T	TH66S_W56	N	TH66S_W57	R			1304	627											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_56T_W56イ_R_W57ロ_N_1		軌道回路表示灯	TH66S_56T	TH66S_W56	R	TH66S_W57	N			1238	627											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_56T_W56イ_R_W57ロ_N_2		軌道回路表示灯	TH66S_56T	TH66S_W56	R	TH66S_W57	N			1258	641											0,1,2	0		Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png	135度								
-Image	TH66S_57T_W57イ_N_W56ロ_N_1		軌道回路表示灯	TH66S_57T	TH66S_W57	N	TH66S_W56	N			1238	687											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_57T_W57イ_N_W56ロ_N_2		軌道回路表示灯	TH66S_57T	TH66S_W57	N	TH66S_W56	N			1271	687											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_57T_W57イ_N_W56ロ_N_3		軌道回路表示灯	TH66S_57T	TH66S_W57	N	TH66S_W56	N			1304	687											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_57T_W57イ_N_W56ロ_R_1		軌道回路表示灯	TH66S_57T	TH66S_W57	N	TH66S_W56	R			1286	669											0,1,2	0		Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png	135度								
-Image	TH66S_57T_W57イ_N_W56ロ_R_2		軌道回路表示灯	TH66S_57T	TH66S_W57	N	TH66S_W56	R			1304	687											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_57T_W57イ_R_W56ロ_N_1		軌道回路表示灯	TH66S_57T	TH66S_W57	R	TH66S_W56	N			1238	687											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_57T_W57イ_R_W56ロ_N_2		軌道回路表示灯	TH66S_57T	TH66S_W57	R	TH66S_W56	N			1258	669											0,1,2	0		Image/Light/45N.png,Image/Light/45Y.png,Image/Light/45R.png	45度								
-Image	TH66S_1RCT_1		軌道回路表示灯	TH66S_1RCT							1255	747											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_1RCT_2		軌道回路表示灯	TH66S_1RCT							1318	747											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_5LT_1		軌道回路表示灯	TH66S_5LT							1169	807											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_5LT_2		軌道回路表示灯	TH66S_5LT							1247	807											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_1RAT_1		軌道回路表示灯	TH66S_1RAT							1332	627											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_1RAT_2		軌道回路表示灯	TH66S_1RAT							1540	627											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_1RBT_1		軌道回路表示灯	TH66S_1RBT							1332	687											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_1RBT_2		軌道回路表示灯	TH66S_1RBT							1540	687											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH65_TST_1		軌道回路表示灯	TH65_TST							1321	807											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH65_TST_2		軌道回路表示灯	TH65_TST							1389	817											0,1,2	0		Image/Light/112N.png,Image/Light/112Y.png,Image/Light/112R.png	112度								
-Image	TH65_TST_3		軌道回路表示灯	TH65_TST							1424	867											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH65_42イT_W42イ_N_1		軌道回路表示灯	TH65_42イT	TH65_W42	N					1469	867											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH65_42イT_W42イ_N_2		軌道回路表示灯	TH65_42イT	TH65_W42	N					1530	867											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH65_42イT_W42イ_R_1		軌道回路表示灯	TH65_42イT	TH65_W42	R					1469	867											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH65_42イT_W42イ_R_2		軌道回路表示灯	TH65_42イT	TH65_W42	R					1481	847											0,1,2	0		Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png	68度								
-Image	TH65_42ロT_W42ロ_N_1		軌道回路表示灯	TH65_42ロT	TH65_W42	N					1469	807											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH65_42ロT_W42ロ_N_2		軌道回路表示灯	TH65_42ロT	TH65_W42	N					1530	807											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH65_42ロT_W42ロ_R_1		軌道回路表示灯	TH65_42ロT	TH65_W42	R					1491	822											0,1,2	0		Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png	68度								
-Image	TH65_42ロT_W42ロ_R_2		軌道回路表示灯	TH65_42ロT	TH65_W42	R					1530	807											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH65_11LT_1		軌道回路表示灯	TH65_11LT							1554	807											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH65_11LT_2		軌道回路表示灯	TH65_11LT							1636	807											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH65_12LT_1		軌道回路表示灯	TH65_12LT							1554	867											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH65_12LT_2		軌道回路表示灯	TH65_12LT							1636	867											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH65_44T_1		軌道回路表示灯	TH65_44T							1697	867											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH65_45T_1		軌道回路表示灯	TH65_45T							1697	807											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH65_47T_W47イ_N_W48ロ_N_1		軌道回路表示灯	TH65_47T	TH65_W47	N	TH65_W48	N			1722	807											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH65_47T_W47イ_N_W48ロ_N_2		軌道回路表示灯	TH65_47T	TH65_W47	N	TH65_W48	N			1752	807											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH65_47T_W47イ_N_W48ロ_R_1		軌道回路表示灯	TH65_47T	TH65_W47	N	TH65_W48	R			1744	822											0,1,2	0		Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png	68度								
-Image	TH65_47T_W47イ_N_W48ロ_R_2		軌道回路表示灯	TH65_47T	TH65_W47	N	TH65_W48	R			1752	807											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH65_47T_W47イ_R_W48ロ_N_1		軌道回路表示灯	TH65_47T	TH65_W47	R	TH65_W48	N			1722	807											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH65_47T_W47イ_R_W48ロ_N_2		軌道回路表示灯	TH65_47T	TH65_W47	R	TH65_W48	N			1734	822											0,1,2	0		Image/Light/112N.png,Image/Light/112Y.png,Image/Light/112R.png	112度								
-Image	TH65_48T_W48イ_N_W47ロ_N_1		軌道回路表示灯	TH65_48T	TH65_W48	N	TH65_W47	N			1722	867											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH65_48T_W48イ_N_W47ロ_N_2		軌道回路表示灯	TH65_48T	TH65_W48	N	TH65_W47	N			1752	867											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH65_48T_W48イ_N_W47ロ_R_1		軌道回路表示灯	TH65_48T	TH65_W48	N	TH65_W47	R			1744	847											0,1,2	0		Image/Light/112N.png,Image/Light/112Y.png,Image/Light/112R.png	112度								
-Image	TH65_48T_W48イ_N_W47ロ_R_2		軌道回路表示灯	TH65_48T	TH65_W48	N	TH65_W47	R			1752	867											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH65_48T_W48イ_R_W47ロ_N_1		軌道回路表示灯	TH65_48T	TH65_W48	R	TH65_W47	N			1722	867											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH65_48T_W48イ_R_W47ロ_N_2		軌道回路表示灯	TH65_48T	TH65_W48	R	TH65_W47	N			1734	847											0,1,2	0		Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png	68度								
-Image	TH65_49T_W49_N_1		軌道回路表示灯	TH65_49T	TH65_W49	N					1772	747											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH65_49T_W49_N_2		軌道回路表示灯	TH65_49T	TH65_W49	N					1802	747											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH65_49T_W49_R_1		軌道回路表示灯	TH65_49T	TH65_W49	R					1784	787											0,1,2	0		Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png	68度								
-Image	TH65_49T_W49_R_2		軌道回路表示灯	TH65_49T	TH65_W49	R					1802	747											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH65_50イT_1		軌道回路表示灯	TH65_50イT							1827	747											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH65_XT_1		軌道回路表示灯	TH65_XT							1857	747											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	停電_1_R		状態表示灯	TH66S_PWR-FAILURE							773	45											0,1	0		Image/Light/N.png,Image/Light/R.png	停電灯左上								
-Image	停電_2_R		状態表示灯	TH66S_PWR-FAILURE							783	45											0,1	0		Image/Light/N.png,Image/Light/R.png	停電灯右上								
-Image	停電_3_R		状態表示灯	TH66S_PWR-FAILURE							773	55											0,1	0		Image/Light/N.png,Image/Light/R.png	停電灯左下								
-Image	停電_4_R		状態表示灯	TH66S_PWR-FAILURE							783	55											0,1	0		Image/Light/N.png,Image/Light/R.png	停電灯右下								
-Image	CTC故障_1_R		状態表示灯	TH66S_CTC-FAILURE							821	45											0,1	0		Image/Light/N.png,Image/Light/R.png	CTC故障灯右上								
-Image	CTC故障_2_R		状態表示灯	TH66S_CTC-FAILURE							831	45											0,1	0		Image/Light/N.png,Image/Light/R.png	CTC故障灯左上								
-Image	CTC故障_3_R		状態表示灯	TH66S_CTC-FAILURE							821	55											0,1	0		Image/Light/N.png,Image/Light/R.png	CTC故障灯左下								
-Image	CTC故障_4_R		状態表示灯	TH66S_CTC-FAILURE							831	55											0,1	0		Image/Light/N.png,Image/Light/R.png	CTC故障灯右下								
-Image	鎖錠60秒_1_R		状態表示灯	TH66S_60TEK							1079	50											0,1	0		Image/Light/N.png,Image/Light/R.png									
-Image	鎖錠60秒_2_R		状態表示灯	TH66S_60TEK							1089	50											0,1	0		Image/Light/N.png,Image/Light/R.png									
-Image	鎖錠30秒_1_R		状態表示灯	TH66S_30TEK							1117	50											0,1	0		Image/Light/N.png,Image/Light/R.png									
-Image	鎖錠30秒_2_R		状態表示灯	TH66S_30TEK							1127	50											0,1	0		Image/Light/N.png,Image/Light/R.png									
+Image	TH67_1RT_1		軌道回路表示灯	TH67_1RT							52	747											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"	0度※以下0度省略								
+Image	TH67_32T_W32N_1		軌道回路表示灯	TH67_32T	TH67_W32	N					77	747											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_32T_W32N_2		軌道回路表示灯	TH67_32T	TH67_W32	N					107	747											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_32T_W32R_1		軌道回路表示灯	TH67_32T	TH67_W32	R					77	747											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_32T_W32R_2		軌道回路表示灯	TH67_32T	TH67_W32	R					99	702											"0,1,2"	0		"Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png"	68度								
+Image	TH67_1RAT_1		軌道回路表示灯	TH67_1RAT							131	687											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_1RAT_2		軌道回路表示灯	TH67_1RAT							213	687											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_1RBT_1		軌道回路表示灯	TH67_1RBT							131	747											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_1RBT_2		軌道回路表示灯	TH67_1RBT							213	747											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_4LT_1		軌道回路表示灯	TH67_4LT							131	807											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_4LT_2		軌道回路表示灯	TH67_4LT							213	807											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_5LT_1		軌道回路表示灯	TH67_5LT							131	867											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_5LT_2		軌道回路表示灯	TH67_5LT							213	867											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_33イT_W33イN_1		軌道回路表示灯	TH67_33イT	TH67_W33	N					237	687											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_33イT_W33イN_2		軌道回路表示灯	TH67_33イT	TH67_W33	N					295	687											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_33イT_W33イR_1		軌道回路表示灯	TH67_33イT	TH67_W33	R					237	687											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_33イT_W33イR_2		軌道回路表示灯	TH67_33イT	TH67_W33	R					277	702											"0,1,2"	0		"Image/Light/112N.png,Image/Light/112Y.png,Image/Light/112R.png"	112度								
+Image	TH67_33ロT_W33ロN_1		軌道回路表示灯	TH67_33ロT	TH67_W33	N					237	747											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_33ロT_W33ロN_2		軌道回路表示灯	TH67_33ロT	TH67_W33	N					295	747											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_33ロT_W33ロR_1		軌道回路表示灯	TH67_33ロT	TH67_W33	R					287	727											"0,1,2"	0		"Image/Light/112N.png,Image/Light/112Y.png,Image/Light/112R.png"	112度								
+Image	TH67_33ロT_W33ロR_2		軌道回路表示灯	TH67_33ロT	TH67_W33	R					295	747											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_34T_W34N_1		軌道回路表示灯	TH67_34T	TH67_W34	N					237	807											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_34T_W34N_2		軌道回路表示灯	TH67_34T	TH67_W34	N					295	807											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_34T_W34R_1		軌道回路表示灯	TH67_34T	TH67_W34	R					237	867											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_34T_W34R_2		軌道回路表示灯	TH67_34T	TH67_W34	R					277	847											"0,1,2"	0		"Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png"	68度								
+Image	TH67_34T_W34R_3		軌道回路表示灯	TH67_34T	TH67_W34	R					295	807											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_35イT_W35イN_1		軌道回路表示灯	TH67_35イT	TH67_W35	N					315	807											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_35イT_W35イN_2		軌道回路表示灯	TH67_35イT	TH67_W35	N					345	807											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_35イT_W35イR_1		軌道回路表示灯	TH67_35イT	TH67_W35	R					315	807											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_35イT_W35イR_2		軌道回路表示灯	TH67_35イT	TH67_W35	R					327	787											"0,1,2"	0		"Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png"	68度								
+Image	TH67_35ロT_W35ロN_1		軌道回路表示灯	TH67_35ロT	TH67_W35	N					315	747											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_35ロT_W35ロN_2		軌道回路表示灯	TH67_35ロT	TH67_W35	N					345	747											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_35ロT_W35ロR_1		軌道回路表示灯	TH67_35ロT	TH67_W35	R					337	762											"0,1,2"	0		"Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png"	68度								
+Image	TH67_35ロT_W35ロR_2		軌道回路表示灯	TH67_35ロT	TH67_W35	R					345	747											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_36イT_1		軌道回路表示灯	TH67_36イT							370	747											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_SST_1		軌道回路表示灯	TH67_SST							400	747											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	136T_1		軌道回路表示灯	上り136T							430	747											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	142T_1		軌道回路表示灯	上り142T							460	747											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	146T_1		軌道回路表示灯	上り146T							490	747											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_1RT_1		軌道回路表示灯	TH66S_1RT							554	747											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_1RT_2		軌道回路表示灯	TH66S_1RT							652	747											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_1RT_3		軌道回路表示灯	TH66S_1RT							751	747											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_5LET_1		軌道回路表示灯	TH66S_5LET							583	807											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_5LET_2		軌道回路表示灯	TH66S_5LET							707	807											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_5LET_3		軌道回路表示灯	TH66S_5LET							831	807											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_5LDT_1		軌道回路表示灯	TH66S_5LDT							578	687											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_5LDT_2		軌道回路表示灯	TH66S_5LDT							786	687											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_51イT_W51イ_N_1		軌道回路表示灯	TH66S_51イT	TH66S_W51	N					814	687											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_51イT_W51イ_N_2		軌道回路表示灯	TH66S_51イT	TH66S_W51	N					880	687											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_51イT_W51イ_R_1		軌道回路表示灯	TH66S_51イT	TH66S_W51	R					814	687											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_51イT_W51イ_R_2		軌道回路表示灯	TH66S_51イT	TH66S_W51	R					838	705											"0,1,2"	0		"Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png"	135度								
+Image	TH66S_51ロT_W51ロ_N_1		軌道回路表示灯	TH66S_51ロT	TH66S_W51	N					814	747											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_51ロT_W51ロ_N_2		軌道回路表示灯	TH66S_51ロT	TH66S_W51	N					880	747											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_51ロT_W51ロ_R_1		軌道回路表示灯	TH66S_51ロT	TH66S_W51	R					858	725											"0,1,2"	0		"Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png"	135度								
+Image	TH66S_51ロT_W51ロ_R_2		軌道回路表示灯	TH66S_51ロT	TH66S_W51	R					880	747											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_13T_1		軌道回路表示灯	TH66S_13T							908	687											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_13T_2		軌道回路表示灯	TH66S_13T							1116	687											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_52T_W52イ_N_W53ロ_N_1		軌道回路表示灯	TH66S_52T	TH66S_W52	N	TH66S_W53	N			934	747											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_52T_W52イ_N_W53ロ_N_2		軌道回路表示灯	TH66S_52T	TH66S_W52	N	TH66S_W53	N			1012	747											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_52T_W52イ_N_W53ロ_N_3		軌道回路表示灯	TH66S_52T	TH66S_W52	N	TH66S_W53	N			1090	747											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_52T_W52イ_N_W53ロ_R_1		軌道回路表示灯	TH66S_52T	TH66S_W52	N	TH66S_W53	R			1027	761											"0,1,2"	0		"Image/Light/45N.png,Image/Light/45Y.png,Image/Light/45R.png"	45度								
+Image	TH66S_52T_W52イ_N_W53ロ_R_2		軌道回路表示灯	TH66S_52T	TH66S_W52	N	TH66S_W53	R			1090	747											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_52T_W52イ_R_W53ロ_N_1		軌道回路表示灯	TH66S_52T	TH66S_W52	R	TH66S_W53	N			934	747											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_52T_W52イ_R_W53ロ_N_2		軌道回路表示灯	TH66S_52T	TH66S_W52	R	TH66S_W53	N			999	761											"0,1,2"	0		"Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png"	135度								
+Image	TH66S_53T_W53イ_N_W52ロ_N_1		軌道回路表示灯	TH66S_53T	TH66S_W53	N	TH66S_W52	N			934	807											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_53T_W53イ_N_W52ロ_N_2		軌道回路表示灯	TH66S_53T	TH66S_W53	N	TH66S_W52	N			1012	807											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_53T_W53イ_N_W52ロ_N_3		軌道回路表示灯	TH66S_53T	TH66S_W53	N	TH66S_W52	N			1090	807											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_53T_W53イ_N_W52ロ_R_1		軌道回路表示灯	TH66S_53T	TH66S_W53	N	TH66S_W52	R			1027	789											"0,1,2"	0		"Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png"	135度								
+Image	TH66S_53T_W53イ_N_W52ロ_R_2		軌道回路表示灯	TH66S_53T	TH66S_W53	N	TH66S_W52	R			1090	807											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_53T_W53イ_R_W52ロ_N_1		軌道回路表示灯	TH66S_53T	TH66S_W53	R	TH66S_W52	N			934	807											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_53T_W53イ_R_W52ロ_N_2		軌道回路表示灯	TH66S_53T	TH66S_W53	R	TH66S_W52	N			999	789											"0,1,2"	0		"Image/Light/45N.png,Image/Light/45Y.png,Image/Light/45R.png"	45度								
+Image	TH66S_54T_W54イ_N_W55ロ_N_1		軌道回路表示灯	TH66S_54T	TH66S_W54	N	TH66S_W55	N			1144	687											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_54T_W54イ_N_W55ロ_N_2		軌道回路表示灯	TH66S_54T	TH66S_W54	N	TH66S_W55	N			1177	687											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_54T_W54イ_N_W55ロ_N_3		軌道回路表示灯	TH66S_54T	TH66S_W54	N	TH66S_W55	N			1210	687											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_54T_W54イ_N_W55ロ_R_1		軌道回路表示灯	TH66S_54T	TH66S_W54	N	TH66S_W55	R			1192	701											"0,1,2"	0		"Image/Light/45N.png,Image/Light/45Y.png,Image/Light/45R.png"	45度								
+Image	TH66S_54T_W54イ_N_W55ロ_R_2		軌道回路表示灯	TH66S_54T	TH66S_W54	N	TH66S_W55	R			1210	687											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_54T_W54イ_R_W55ロ_N_1		軌道回路表示灯	TH66S_54T	TH66S_W54	R	TH66S_W55	N			1144	687											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_54T_W54イ_R_W55ロ_N_2		軌道回路表示灯	TH66S_54T	TH66S_W54	R	TH66S_W55	N			1164	701											"0,1,2"	0		"Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png"	135度								
+Image	TH66S_55T_W55イ_N_W54ロ_N_1		軌道回路表示灯	TH66S_55T	TH66S_W55	N	TH66S_W54	N			1144	747											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_55T_W55イ_N_W54ロ_N_2		軌道回路表示灯	TH66S_55T	TH66S_W55	N	TH66S_W54	N			1177	747											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_55T_W55イ_N_W54ロ_N_3		軌道回路表示灯	TH66S_55T	TH66S_W55	N	TH66S_W54	N			1210	747											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_55T_W55イ_N_W54ロ_R_1		軌道回路表示灯	TH66S_55T	TH66S_W55	N	TH66S_W54	R			1192	729											"0,1,2"	0		"Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png"	135度								
+Image	TH66S_55T_W55イ_N_W54ロ_R_2		軌道回路表示灯	TH66S_55T	TH66S_W55	N	TH66S_W54	R			1210	747											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_55T_W55イ_R_W54ロ_N_1		軌道回路表示灯	TH66S_55T	TH66S_W55	R	TH66S_W54	N			1144	747											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_55T_W55イ_R_W54ロ_N_2		軌道回路表示灯	TH66S_55T	TH66S_W55	R	TH66S_W54	N			1164	729											"0,1,2"	0		"Image/Light/45N.png,Image/Light/45Y.png,Image/Light/45R.png"	45度								
+Image	TH66S_56T_W56イ_N_W57ロ_N_1		軌道回路表示灯	TH66S_56T	TH66S_W56	N	TH66S_W57	N			1238	627											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_56T_W56イ_N_W57ロ_N_2		軌道回路表示灯	TH66S_56T	TH66S_W56	N	TH66S_W57	N			1271	627											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_56T_W56イ_N_W57ロ_N_3		軌道回路表示灯	TH66S_56T	TH66S_W56	N	TH66S_W57	N			1304	627											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_56T_W56イ_N_W57ロ_R_1		軌道回路表示灯	TH66S_56T	TH66S_W56	N	TH66S_W57	R			1286	641											"0,1,2"	0		"Image/Light/45N.png,Image/Light/45Y.png,Image/Light/45R.png"	45度								
+Image	TH66S_56T_W56イ_N_W57ロ_R_2		軌道回路表示灯	TH66S_56T	TH66S_W56	N	TH66S_W57	R			1304	627											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_56T_W56イ_R_W57ロ_N_1		軌道回路表示灯	TH66S_56T	TH66S_W56	R	TH66S_W57	N			1238	627											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_56T_W56イ_R_W57ロ_N_2		軌道回路表示灯	TH66S_56T	TH66S_W56	R	TH66S_W57	N			1258	641											"0,1,2"	0		"Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png"	135度								
+Image	TH66S_57T_W57イ_N_W56ロ_N_1		軌道回路表示灯	TH66S_57T	TH66S_W57	N	TH66S_W56	N			1238	687											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_57T_W57イ_N_W56ロ_N_2		軌道回路表示灯	TH66S_57T	TH66S_W57	N	TH66S_W56	N			1271	687											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_57T_W57イ_N_W56ロ_N_3		軌道回路表示灯	TH66S_57T	TH66S_W57	N	TH66S_W56	N			1304	687											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_57T_W57イ_N_W56ロ_R_1		軌道回路表示灯	TH66S_57T	TH66S_W57	N	TH66S_W56	R			1286	669											"0,1,2"	0		"Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png"	135度								
+Image	TH66S_57T_W57イ_N_W56ロ_R_2		軌道回路表示灯	TH66S_57T	TH66S_W57	N	TH66S_W56	R			1304	687											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_57T_W57イ_R_W56ロ_N_1		軌道回路表示灯	TH66S_57T	TH66S_W57	R	TH66S_W56	N			1238	687											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_57T_W57イ_R_W56ロ_N_2		軌道回路表示灯	TH66S_57T	TH66S_W57	R	TH66S_W56	N			1258	669											"0,1,2"	0		"Image/Light/45N.png,Image/Light/45Y.png,Image/Light/45R.png"	45度								
+Image	TH66S_1RCT_1		軌道回路表示灯	TH66S_1RCT							1255	747											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_1RCT_2		軌道回路表示灯	TH66S_1RCT							1318	747											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_5LT_1		軌道回路表示灯	TH66S_5LT							1169	807											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_5LT_2		軌道回路表示灯	TH66S_5LT							1247	807											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_1RAT_1		軌道回路表示灯	TH66S_1RAT							1332	627											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_1RAT_2		軌道回路表示灯	TH66S_1RAT							1540	627											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_1RBT_1		軌道回路表示灯	TH66S_1RBT							1332	687											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_1RBT_2		軌道回路表示灯	TH66S_1RBT							1540	687											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH65_TST_1		軌道回路表示灯	TH65_TST							1321	807											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH65_TST_2		軌道回路表示灯	TH65_TST							1389	817											"0,1,2"	0		"Image/Light/112N.png,Image/Light/112Y.png,Image/Light/112R.png"	112度								
+Image	TH65_TST_3		軌道回路表示灯	TH65_TST							1424	867											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH65_42イT_W42イ_N_1		軌道回路表示灯	TH65_42イT	TH65_W42	N					1469	867											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH65_42イT_W42イ_N_2		軌道回路表示灯	TH65_42イT	TH65_W42	N					1530	867											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH65_42イT_W42イ_R_1		軌道回路表示灯	TH65_42イT	TH65_W42	R					1469	867											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH65_42イT_W42イ_R_2		軌道回路表示灯	TH65_42イT	TH65_W42	R					1481	847											"0,1,2"	0		"Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png"	68度								
+Image	TH65_42ロT_W42ロ_N_1		軌道回路表示灯	TH65_42ロT	TH65_W42	N					1469	807											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH65_42ロT_W42ロ_N_2		軌道回路表示灯	TH65_42ロT	TH65_W42	N					1530	807											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH65_42ロT_W42ロ_R_1		軌道回路表示灯	TH65_42ロT	TH65_W42	R					1491	822											"0,1,2"	0		"Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png"	68度								
+Image	TH65_42ロT_W42ロ_R_2		軌道回路表示灯	TH65_42ロT	TH65_W42	R					1530	807											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH65_11LT_1		軌道回路表示灯	TH65_11LT							1554	807											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH65_11LT_2		軌道回路表示灯	TH65_11LT							1636	807											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH65_12LT_1		軌道回路表示灯	TH65_12LT							1554	867											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH65_12LT_2		軌道回路表示灯	TH65_12LT							1636	867											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH65_44T_1		軌道回路表示灯	TH65_44T							1697	867											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH65_45T_1		軌道回路表示灯	TH65_45T							1697	807											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH65_47T_W47イ_N_W48ロ_N_1		軌道回路表示灯	TH65_47T	TH65_W47	N	TH65_W48	N			1722	807											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH65_47T_W47イ_N_W48ロ_N_2		軌道回路表示灯	TH65_47T	TH65_W47	N	TH65_W48	N			1752	807											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH65_47T_W47イ_N_W48ロ_R_1		軌道回路表示灯	TH65_47T	TH65_W47	N	TH65_W48	R			1744	822											"0,1,2"	0		"Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png"	68度								
+Image	TH65_47T_W47イ_N_W48ロ_R_2		軌道回路表示灯	TH65_47T	TH65_W47	N	TH65_W48	R			1752	807											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH65_47T_W47イ_R_W48ロ_N_1		軌道回路表示灯	TH65_47T	TH65_W47	R	TH65_W48	N			1722	807											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH65_47T_W47イ_R_W48ロ_N_2		軌道回路表示灯	TH65_47T	TH65_W47	R	TH65_W48	N			1734	822											"0,1,2"	0		"Image/Light/112N.png,Image/Light/112Y.png,Image/Light/112R.png"	112度								
+Image	TH65_48T_W48イ_N_W47ロ_N_1		軌道回路表示灯	TH65_48T	TH65_W48	N	TH65_W47	N			1722	867											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH65_48T_W48イ_N_W47ロ_N_2		軌道回路表示灯	TH65_48T	TH65_W48	N	TH65_W47	N			1752	867											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH65_48T_W48イ_N_W47ロ_R_1		軌道回路表示灯	TH65_48T	TH65_W48	N	TH65_W47	R			1744	847											"0,1,2"	0		"Image/Light/112N.png,Image/Light/112Y.png,Image/Light/112R.png"	112度								
+Image	TH65_48T_W48イ_N_W47ロ_R_2		軌道回路表示灯	TH65_48T	TH65_W48	N	TH65_W47	R			1752	867											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH65_48T_W48イ_R_W47ロ_N_1		軌道回路表示灯	TH65_48T	TH65_W48	R	TH65_W47	N			1722	867											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH65_48T_W48イ_R_W47ロ_N_2		軌道回路表示灯	TH65_48T	TH65_W48	R	TH65_W47	N			1734	847											"0,1,2"	0		"Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png"	68度								
+Image	TH65_49T_W49_N_1		軌道回路表示灯	TH65_49T	TH65_W49	N					1772	747											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH65_49T_W49_N_2		軌道回路表示灯	TH65_49T	TH65_W49	N					1802	747											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH65_49T_W49_R_1		軌道回路表示灯	TH65_49T	TH65_W49	R					1784	787											"0,1,2"	0		"Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png"	68度								
+Image	TH65_49T_W49_R_2		軌道回路表示灯	TH65_49T	TH65_W49	R					1802	747											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH65_50イT_1		軌道回路表示灯	TH65_50イT							1827	747											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH65_XT_1		軌道回路表示灯	TH65_XT							1857	747											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	転てつ不良_1_R		状態表示灯	TH66S_W-FAILURE							705	45											"0,1"	0		"Image/Light/N.png,Image/Light/R.png"	転てつ不良灯左上								
+Image	転てつ不良_2_R		状態表示灯	TH66S_W-FAILURE							715	45											"0,1"	0		"Image/Light/N.png,Image/Light/R.png"	転てつ不良灯右上								
+Image	転てつ不良_3_R		状態表示灯	TH66S_W-FAILURE							705	55											"0,1"	0		"Image/Light/N.png,Image/Light/R.png"	転てつ不良灯左下								
+Image	転てつ不良_4_R		状態表示灯	TH66S_W-FAILURE							715	55											"0,1"	0		"Image/Light/N.png,Image/Light/R.png"	転てつ不良灯右下								
+Image	停電_1_R		状態表示灯	TH66S_PWR-FAILURE							763	45											"0,1"	0		"Image/Light/N.png,Image/Light/R.png"	停電灯左上								
+Image	停電_2_R		状態表示灯	TH66S_PWR-FAILURE							773	45											"0,1"	0		"Image/Light/N.png,Image/Light/R.png"	停電灯右上								
+Image	停電_3_R		状態表示灯	TH66S_PWR-FAILURE							763	55											"0,1"	0		"Image/Light/N.png,Image/Light/R.png"	停電灯左下								
+Image	停電_4_R		状態表示灯	TH66S_PWR-FAILURE							773	55											"0,1"	0		"Image/Light/N.png,Image/Light/R.png"	停電灯右下								
+Image	CTC故障_1_R		状態表示灯	TH66S_CTC-FAILURE							821	45											"0,1"	0		"Image/Light/N.png,Image/Light/R.png"	CTC故障灯右上								
+Image	CTC故障_2_R		状態表示灯	TH66S_CTC-FAILURE							831	45											"0,1"	0		"Image/Light/N.png,Image/Light/R.png"	CTC故障灯左上								
+Image	CTC故障_3_R		状態表示灯	TH66S_CTC-FAILURE							821	55											"0,1"	0		"Image/Light/N.png,Image/Light/R.png"	CTC故障灯左下								
+Image	CTC故障_4_R		状態表示灯	TH66S_CTC-FAILURE							831	55											"0,1"	0		"Image/Light/N.png,Image/Light/R.png"	CTC故障灯右下								
+Image	鎖錠60秒_1_R		状態表示灯	TH66S_60TEK							1079	50											"0,1"	0		"Image/Light/N.png,Image/Light/R.png"									
+Image	鎖錠60秒_2_R		状態表示灯	TH66S_60TEK							1089	50											"0,1"	0		"Image/Light/N.png,Image/Light/R.png"									
+Image	鎖錠30秒_1_R		状態表示灯	TH66S_30TEK							1117	50											"0,1"	0		"Image/Light/N.png,Image/Light/R.png"									
+Image	鎖錠30秒_2_R		状態表示灯	TH66S_30TEK							1127	50											"0,1"	0		"Image/Light/N.png,Image/Light/R.png"									
 Retsuban	列番新野崎1番線		列車番号	TH67_TTC_Track1							112	491														Image/Retsuban/Retsuban-Window.png									
 Retsuban	列番新野崎2番線		列車番号	TH67_TTC_Track2							112	537														Image/Retsuban/Retsuban-Window.png									
 Retsuban	列番新野崎3番線		列車番号	TH67_TTC_Track3							112	583														Image/Retsuban/Retsuban-Window.png									

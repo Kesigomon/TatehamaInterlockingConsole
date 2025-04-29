@@ -1,346 +1,351 @@
-Type	UniqueName	ParentName	ServerType	ServerName	PointNameA	PointValueA	PointNameB	PointValueB	DirectionName	DirectionValue	X	Y	Width	Height	Angle	AngleOriginX	AngleOriginY	Text	FontSize	BackColor	TextColor	ClickEventName	ImagePattern	ImageIndex	BaseImagePath	ImagePath	Remark
-BackImage	˜A“®”Õ										0	0														Image/BackImage/TH75_Komano.png	
-Image	Clock_Base										1400	78	79	110												Image/Clock/Clock_Border.png	
-ClockImage	Clock_Meter	Clock_Base									6	37	63	63											Image/Clock/Clock_Base.png	Image/Clock/Clock_HourHand.png,Image/Clock/Clock_MinuteHand.png,Image/Clock/Clock_SecondHand.png,Image/Clock/Clock_Cover.png	
-Image	Hook										1411	10														Image/Hook/Hook_Base.png	
-LeverImage	1R		•¨—‚Ä‚±	TH75_1							579	525										1R	0,1	0	Image/Lever/LeverBase_NR.png	Image/Lever/Lever_Red_N.png,Image/Lever/Lever_Red_R.png	0‘ãX=‚Ä‚±Ô(X)N(X)@—áF1R=‚Ä‚±ÔNR
-Image	1RD_G		M†‹@•\¦“”	‹î–ìã‚èê“à1RD							643	513											0,1	0		Image/Light/N.png,Image/Light/G.png	G,Y,R,PG,PY‚Í“”F
-Image	1RE_G		M†‹@•\¦“”	‹î–ìã‚èê“à1RE							651	531											0,1	0		Image/Light/N.png,Image/Light/G.png	
-TextBlock	1R_Label	1R									14	20	11	11				1	10	Transparent	#FFBCBCBC	1R					
-LeverImage	2L		•¨—‚Ä‚±	TH75_2							865	585										2L	-1,0	0	Image/Lever/LeverBase_LN.png	Image/Lever/Lever_Red_L.png,Image/Lever/Lever_Red_N.png	
-Image	2L_G		M†‹@•\¦“”	‹î–ì‰º‚è‘æ“ño”­2L							818	621											0,1	0		Image/Light/N.png,Image/Light/G.png	
-TextBlock	2L_Label	2L									14	20	11	11				2	10	Transparent	#FFBCBCBC	2L					
-LeverImage	3L		•¨—‚Ä‚±	TH75_3							1092	405										3L	-1,0	0	Image/Lever/LeverBase_LN.png	Image/Lever/Lever_Red_L.png,Image/Lever/Lever_Red_N.png	
-Image	3L_G		M†‹@•\¦“”	‹î–ì‰º‚èo”­3L							1048	459											0,1	0		Image/Light/N.png,Image/Light/G.png	
-TextBlock	3L_Label	3L									14	20	11	11				3	10	Transparent	#FFBCBCBC	3L					
-LeverImage	4L		•¨—‚Ä‚±	TH75_4							1092	465										4L	-1,0	0	Image/Lever/LeverBase_LN.png	Image/Lever/Lever_Red_L.png,Image/Lever/Lever_Red_N.png	
-Image	4L_G		M†‹@•\¦“”	‹î–ì‰º‚èo”­4L							1048	519											0,1	0		Image/Light/N.png,Image/Light/G.png	
-TextBlock	4L_Label	4L									14	20	11	11				4	10	Transparent	#FFBCBCBC	4L					
-LeverImage	5R		•¨—‚Ä‚±	TH75_5							1290	525										5R	0,1	0	Image/Lever/LeverBase_NR.png	Image/Lever/Lever_Red_N.png,Image/Lever/Lever_Red_R.png	
-Image	5RA_G		M†‹@•\¦“”	‹î–ìã‚èê“à5RA							1367	513											0,1	0		Image/Light/N.png,Image/Light/G.png	
-Image	5RB_G		M†‹@•\¦“”	‹î–ìã‚èê“à5RB							1375	531											0,1	0		Image/Light/N.png,Image/Light/G.png	
-TextBlock	5R_Label	5R									14	20	11	11				5	10	Transparent	#FFBCBCBC	5R					
-LeverImage	6L		•¨—‚Ä‚±	TH75_6							1611	585										6L	-1,0	0	Image/Lever/LeverBase_LN.png	Image/Lever/Lever_Red_L.png,Image/Lever/Lever_Red_N.png	
-Image	6L_G		M†‹@•\¦“”	‹î–ì‰º‚èo”­6L							1564	621											0,1	0		Image/Light/N.png,Image/Light/G.png	
-TextBlock	6L_Label	6L									14	20	11	11				6	10	Transparent	#FFBCBCBC	6L					
-LeverImage	7R		•¨—‚Ä‚±	TH75_7							1965	345										7R	0,1	0	Image/Lever/LeverBase_NR.png	Image/Lever/Lever_Red_N.png,Image/Lever/Lever_Red_R.png	
-Image	7R_G		M†‹@•\¦“”	‹î–ìã‚èo”­7R							2031	388											0,1	0		Image/Light/N.png,Image/Light/G.png	
-TextBlock	7R_Label	7R									14	20	11	11				7	10	Transparent	#FFBCBCBC	7R					
-LeverImage	8R		•¨—‚Ä‚±	TH75_8							1965	525										8R	0,1	0	Image/Lever/LeverBase_NR.png	Image/Lever/Lever_Red_N.png,Image/Lever/Lever_Red_R.png	
-Image	8R_G		M†‹@•\¦“”	‹î–ìã‚èo”­8R							2031	524											0,1	0		Image/Light/N.png,Image/Light/G.png	
-TextBlock	8R_Label	8R									14	20	11	11				8	10	Transparent	#FFBCBCBC	8R					
-LeverImage	9L		•¨—‚Ä‚±	TH75_9							2328	585										9L	-1,0	0	Image/Lever/LeverBase_LN.png	Image/Lever/Lever_Red_L.png,Image/Lever/Lever_Red_N.png	
-Image	9LB_G		M†‹@•\¦“”	‹î–ì‰º‚èê“à9LB							2294	621											0,1	0		Image/Light/N.png,Image/Light/G.png	
-Image	9LC_G		M†‹@•\¦“”	‹î–ì‰º‚èê“à9LC							2286	639											0,1	0		Image/Light/N.png,Image/Light/G.png	
-TextBlock	9L_Label	9L									14	20	11	11				9	10	Transparent	#FFBCBCBC	9L					
-LeverImage	11R		•¨—‚Ä‚±	TH75_11							713	585										11R	0,1	0	Image/Lever/LeverBase_NR.png	Image/Lever/Lever_Green_N.png,Image/Lever/Lever_Green_R.png	10‘ãX=‚Ä‚±—Î(X)N(X)@—áF11R=‚Ä‚±—ÎNR
-Image	11R_Y		M†‹@•\¦“”	‹î–ì“üŠ·11R							772	620											0,1	0		Image/Light/N.png,Image/Light/Y.png	
-TextBlock	11R_Label	11R									14	20	11	11				11	10	Transparent	#FFBCBCBC	11R					
-LeverImage	12L		•¨—‚Ä‚±	TH75_12							923	585										12L	-1,0	0	Image/Lever/LeverBase_LN.png	Image/Lever/Lever_Green_L.png,Image/Lever/Lever_Green_N.png	
-Image	12L_Y		M†‹@•\¦“”	‹î–ì“üŠ·12L							836	622											0,1	0		Image/Light/N.png,Image/Light/Y.png	
-TextBlock	12L_Label	12L									14	20	11	11				12	10	Transparent	#FFBCBCBC	12L					
-LeverImage	13R		•¨—‚Ä‚±	TH75_13							1232	525										13R	0,1	0	Image/Lever/LeverBase_NR.png	Image/Lever/Lever_Green_N.png,Image/Lever/Lever_Green_R.png	
-Image	13R_Y		M†‹@•\¦“”	‹î–ì“üŠ·13R							1357	530											0,1	0		Image/Light/N.png,Image/Light/Y.png	
-TextBlock	13R_Label	13R									14	20	11	11				13	10	Transparent	#FFBCBCBC	13R					
-LeverImage	14L		•¨—‚Ä‚±	TH75_14							1669	585										14L	-1,0	0	Image/Lever/LeverBase_LN.png	Image/Lever/Lever_Green_L.png,Image/Lever/Lever_Green_N.png	
-Image	14L_Y		M†‹@•\¦“”	‹î–ì“üŠ·14L							1582	622											0,1	0		Image/Light/N.png,Image/Light/Y.png	
-TextBlock	14L_Label	14L									14	20	11	11				14	10	Transparent	#FFBCBCBC	14L					
-LeverImage	15L		•¨—‚Ä‚±	TH75_15							1669	345										15L	-1,0	0	Image/Lever/LeverBase_LN.png	Image/Lever/Lever_Green_L.png,Image/Lever/Lever_Green_N.png	
-Image	15L_Y		M†‹@•\¦“”	‹î–ì“üŠ·15L							1640	344											0,1	0		Image/Light/N.png,Image/Light/Y.png	
-TextBlock	15L_Label	15L									14	20	11	11				15	10	Transparent	#FFBCBCBC	15L					
-LeverImage	24R		•¨—‚Ä‚±	TH75_24							1446	345										24R	0,1	0	Image/Lever/LeverBase_NR.png	Image/Lever/Lever_Green_N.png,Image/Lever/Lever_Green_R.png	
-Image	24R_Y		M†‹@•\¦“”	‹î–ì“üŠ·24R							1505	350											0,1	0		Image/Light/N.png,Image/Light/Y.png	
-TextBlock	24R_Label	24R									14	20	11	11				24	10	Transparent	#FFBCBCBC	24R					
-LeverImage	25R		•¨—‚Ä‚±	TH75_25							1446	405										25R	0,1	0	Image/Lever/LeverBase_NR.png	Image/Lever/Lever_Green_N.png,Image/Lever/Lever_Green_R.png	
-Image	25R_Y		M†‹@•\¦“”	‹î–ì“üŠ·25R							1505	403											0,1	0		Image/Light/N.png,Image/Light/Y.png	
-TextBlock	25R_Label	25R									14	20	11	11				25	10	Transparent	#FFBCBCBC	25R					
-LeverImage	26R		•¨—‚Ä‚±	TH75_26							1446	465										26R	0,1	0	Image/Lever/LeverBase_NR.png	Image/Lever/Lever_Green_N.png,Image/Lever/Lever_Green_R.png	
-Image	26R_Y		M†‹@•\¦“”	‹î–ì“üŠ·26R							1505	463											0,1	0		Image/Light/N.png,Image/Light/Y.png	
-TextBlock	26R_Label	26R									14	20	11	11				26	10	Transparent	#FFBCBCBC	26R					
-LeverImage	27R		•¨—‚Ä‚±	TH75_27							807	345										27R	0,1	0	Image/Lever/LeverBase_NR.png	Image/Lever/Lever_Green_N.png,Image/Lever/Lever_Green_R.png	
-Image	27R_Y		M†‹@•\¦“”	‹î–ì“üŠ·27R							866	350											0,1	0		Image/Light/N.png,Image/Light/Y.png	
-TextBlock	27R_Label	27R									14	20	11	11				27	10	Transparent	#FFBCBCBC	27R					
-LeverImage	28R		•¨—‚Ä‚±	TH75_28							807	405										28R	0,1	0	Image/Lever/LeverBase_NR.png	Image/Lever/Lever_Green_N.png,Image/Lever/Lever_Green_R.png	
-Image	28R_Y		M†‹@•\¦“”	‹î–ì“üŠ·28R							866	410											0,1	0		Image/Light/N.png,Image/Light/Y.png	
-TextBlock	28R_Label	28R									14	20	11	11				28	10	Transparent	#FFBCBCBC	28R					
-LeverImage	29R		•¨—‚Ä‚±	TH75_29							807	465										29R	0,1	0	Image/Lever/LeverBase_NR.png	Image/Lever/Lever_Green_N.png,Image/Lever/Lever_Green_R.png	
-Image	29R_Y		M†‹@•\¦“”	‹î–ì“üŠ·29R							866	470											0,1	0		Image/Light/N.png,Image/Light/Y.png	
-TextBlock	29R_Label	29R									14	20	11	11				29	10	Transparent	#FFBCBCBC	29R					
-LeverImage	34L		•¨—‚Ä‚±	TH75_34							1150	345										34L	-1,0	0	Image/Lever/LeverBase_LN.png	Image/Lever/Lever_Green_L.png,Image/Lever/Lever_Green_N.png	
-Image	34L_Y		M†‹@•\¦“”	‹î–ì“üŠ·34L							1055	352											0,1	0		Image/Light/N.png,Image/Light/Y.png	
-TextBlock	34L_Label	34L									14	20	11	11				34	10	Transparent	#FFBCBCBC	34L					
-LeverImage	35L		•¨—‚Ä‚±	TH75_35							1150	405										35L	-1,0	0	Image/Lever/LeverBase_LN.png	Image/Lever/Lever_Green_L.png,Image/Lever/Lever_Green_N.png	
-Image	35L_Y		M†‹@•\¦“”	‹î–ì“üŠ·35L							1055	442											0,1	0		Image/Light/N.png,Image/Light/Y.png	
-TextBlock	35L_Label	35L									14	20	11	11				35	10	Transparent	#FFBCBCBC	35L					
-LeverImage	36L		•¨—‚Ä‚±	TH75_36							1150	465										36L	-1,0	0	Image/Lever/LeverBase_LN.png	Image/Lever/Lever_Green_L.png,Image/Lever/Lever_Green_N.png	
-Image	36L_Y		M†‹@•\¦“”	‹î–ì“üŠ·36L							1055	502											0,1	0		Image/Light/N.png,Image/Light/Y.png	
-TextBlock	36L_Label	36L									14	20	11	11				36	10	Transparent	#FFBCBCBC	36L					
-ButtonImage	T		’…“_ƒ{ƒ^ƒ“	TH75_TP							510	598										T	0,1	0	Image/Button/ArrivalButton_Base.png	Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png	
-TextBlock	T_Label	T									5	23	15	12				T	10	Transparent	#FFBCBCBC	T					
-ButtonImage	E		’…“_ƒ{ƒ^ƒ“	TH75_EP							1135	538										E	0,1	0	Image/Button/ArrivalButton_Base.png	Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png	
-TextBlock	E_Label	E									5	23	15	12				E	10	Transparent	#FFBCBCBC	E					
-ButtonImage	F		’…“_ƒ{ƒ^ƒ“	TH75_FP							1216	598										F	0,1	0	Image/Button/ArrivalButton_Base.png	Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png	
-TextBlock	F_Label	F									5	23	15	12				F	10	Transparent	#FFBCBCBC	F					
-ButtonImage	A		’…“_ƒ{ƒ^ƒ“	TH75_AP							1921	358										A	0,1	0	Image/Button/ArrivalButton_Base.png	Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png	
-TextBlock	A_Label	A									5	23	15	12				A	10	Transparent	#FFBCBCBC	A					
-ButtonImage	B		’…“_ƒ{ƒ^ƒ“	TH75_BP							1921	538										B	0,1	0	Image/Button/ArrivalButton_Base.png	Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png	
-TextBlock	B_Label	B									5	23	15	12				B	10	Transparent	#FFBCBCBC	B					
-ButtonImage	C		’…“_ƒ{ƒ^ƒ“	TH75_CP							1921	598										C	0,1	0	Image/Button/ArrivalButton_Base.png	Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png	
-TextBlock	C_Label	C									5	23	15	12				C	10	Transparent	#FFBCBCBC	C					
-ButtonImage	S		’…“_ƒ{ƒ^ƒ“	TH75_SP							2291	538										S	0,1	0	Image/Button/ArrivalButton_Base.png	Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png	
-TextBlock	S_Label	S									5	23	15	12				S	10	Transparent	#FFBCBCBC	S					
-ButtonImage	7		’…“_ƒ{ƒ^ƒ“	TH75_7P							569	358										7	0,1	0	Image/Button/ArrivalButton_Base.png	Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png	
-TextBlock	7_Label	7									5	23	15	12				7	10	Transparent	#FFBCBCBC	7					
-ButtonImage	8		’…“_ƒ{ƒ^ƒ“	TH75_8P							569	418										8	0,1	0	Image/Button/ArrivalButton_Base.png	Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png	
-TextBlock	8_Label	8									5	23	15	12				8	10	Transparent	#FFBCBCBC	8					
-ButtonImage	9		’…“_ƒ{ƒ^ƒ“	TH75_9P							569	478										9	0,1	0	Image/Button/ArrivalButton_Base.png	Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png	
-TextBlock	9_Label	9									5	23	15	12				9	10	Transparent	#FFBCBCBC	9					
-ButtonImage	4		’…“_ƒ{ƒ^ƒ“	TH75_4P							1402	358										4	0,1	0	Image/Button/ArrivalButton_Base.png	Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png	
-TextBlock	4_Label	4									5	23	15	12				4	10	Transparent	#FFBCBCBC	4					
-ButtonImage	D5		’…“_ƒ{ƒ^ƒ“	TH75_D5P							1402	418										D5	0,1	0	Image/Button/ArrivalButton_Base.png	Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png	
-TextBlock	D5_Label	D5									5	23	15	12				D5	10	Transparent	#FFBCBCBC	D5					
-ButtonImage	D6		’…“_ƒ{ƒ^ƒ“	TH75_D6P							1402	478										D6	0,1	0	Image/Button/ArrivalButton_Base.png	Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png	
-TextBlock	D6_Label	D6									5	23	15	12				D6	10	Transparent	#FFBCBCBC	D6					
-ButtonImage	Œx•ñã‚èÚ‹ß										404	911										Œx•ñã‚èÚ‹ß	0,1	0	Image/Button/ApproachingButton_Base.png	Image/Button/ApproachingButton_Green_OFF.png,Image/Button/ApproachingButton_Green_ON.png	
-ButtonImage	Œx•ñ‰º‚èÚ‹ß										2131	911										Œx•ñ‰º‚èÚ‹ß	0,1	0	Image/Button/ApproachingButton_Base.png	Image/Button/ApproachingButton_Green_OFF.png,Image/Button/ApproachingButton_Green_ON.png	
-LeverImage	W41		•¨—‚Ä‚±	TH75_41							660	64										P41	-1,0,1	0	Image/Lever/LeverBase_NCR.png	Image/Lever/Lever_Black_L.png,Image/Lever/Lever_Black_N.png,Image/Lever/Lever_Black_R.png	“]‚Ä‚ÂŠí’P“Æ‚Ä‚±‚ÍNCR
-Image	W41_PG		“]‚Ä‚ÂŠí•\¦“”		TH75_W41	N					658	45											0,1	0		Image/Light/N.png,Image/Light/PG.png	
-Image	W41_PY		“]‚Ä‚ÂŠí•\¦“”		TH75_W41	R					692	45											0,1	0		Image/Light/N.png,Image/Light/PY.png	
-TextBlock	W41_Label	W41									14	20	11	11				41	10	Transparent	#FFBCBCBC	P41					
-LeverImage	W42		•¨—‚Ä‚±	TH75_42							728	64										P42	-1,0,1	0	Image/Lever/LeverBase_NCR.png	Image/Lever/Lever_Black_L.png,Image/Lever/Lever_Black_N.png,Image/Lever/Lever_Black_R.png	
-Image	W42_PG		“]‚Ä‚ÂŠí•\¦“”		TH75_W42	N					726	45											0,1	0		Image/Light/N.png,Image/Light/PG.png	
-Image	W42_PY		“]‚Ä‚ÂŠí•\¦“”		TH75_W42	R					760	45											0,1	0		Image/Light/N.png,Image/Light/PY.png	
-TextBlock	W42_Label	W42									14	20	11	11				42	10	Transparent	#FFBCBCBC	P42					
-LeverImage	W43		•¨—‚Ä‚±	TH75_43							796	64										P43	-1,0,1	0	Image/Lever/LeverBase_NCR.png	Image/Lever/Lever_Black_L.png,Image/Lever/Lever_Black_N.png,Image/Lever/Lever_Black_R.png	
-Image	W43_PG		“]‚Ä‚ÂŠí•\¦“”		TH75_W43	N					794	45											0,1	0		Image/Light/N.png,Image/Light/PG.png	
-Image	W43_PY		“]‚Ä‚ÂŠí•\¦“”		TH75_W43	R					828	45											0,1	0		Image/Light/N.png,Image/Light/PY.png	
-TextBlock	W43_Label	W43									14	20	11	11				43	10	Transparent	#FFBCBCBC	P43					
-LeverImage	W44		•¨—‚Ä‚±	TH75_44							864	64										P44	-1,0,1	0	Image/Lever/LeverBase_NCR.png	Image/Lever/Lever_Black_L.png,Image/Lever/Lever_Black_N.png,Image/Lever/Lever_Black_R.png	
-Image	W44_PG		“]‚Ä‚ÂŠí•\¦“”		TH75_W44	N					862	45											0,1	0		Image/Light/N.png,Image/Light/PG.png	
-Image	W44_PY		“]‚Ä‚ÂŠí•\¦“”		TH75_W44	R					896	45											0,1	0		Image/Light/N.png,Image/Light/PY.png	
-TextBlock	W44_Label	W44									14	20	11	11				44	10	Transparent	#FFBCBCBC	P44					
-LeverImage	W45		•¨—‚Ä‚±	TH75_45							932	64										P45	-1,0,1	0	Image/Lever/LeverBase_NCR.png	Image/Lever/Lever_Black_L.png,Image/Lever/Lever_Black_N.png,Image/Lever/Lever_Black_R.png	
-Image	W45_PG		“]‚Ä‚ÂŠí•\¦“”		TH75_W45	N					930	45											0,1	0		Image/Light/N.png,Image/Light/PG.png	
-Image	W45_PY		“]‚Ä‚ÂŠí•\¦“”		TH75_W45	R					964	45											0,1	0		Image/Light/N.png,Image/Light/PY.png	
-TextBlock	W45_Label	W45									14	20	11	11				45	10	Transparent	#FFBCBCBC	P45					
-LeverImage	W46		•¨—‚Ä‚±	TH75_46							1000	64										P46	-1,0,1	0	Image/Lever/LeverBase_NCR.png	Image/Lever/Lever_Black_L.png,Image/Lever/Lever_Black_N.png,Image/Lever/Lever_Black_R.png	
-Image	W46_PG		“]‚Ä‚ÂŠí•\¦“”		TH75_W46	N					998	45											0,1	0		Image/Light/N.png,Image/Light/PG.png	
-Image	W46_PY		“]‚Ä‚ÂŠí•\¦“”		TH75_W46	R					1032	45											0,1	0		Image/Light/N.png,Image/Light/PY.png	
-TextBlock	W46_Label	W46									14	20	11	11				46	10	Transparent	#FFBCBCBC	P46					
-LeverImage	W47		•¨—‚Ä‚±	TH75_47							1068	64										P47	-1,0,1	0	Image/Lever/LeverBase_NCR.png	Image/Lever/Lever_Black_L.png,Image/Lever/Lever_Black_N.png,Image/Lever/Lever_Black_R.png	
-Image	W47_PG		“]‚Ä‚ÂŠí•\¦“”		TH75_W47	N					1066	45											0,1	0		Image/Light/N.png,Image/Light/PG.png	
-Image	W47_PY		“]‚Ä‚ÂŠí•\¦“”		TH75_W47	R					1100	45											0,1	0		Image/Light/N.png,Image/Light/PY.png	
-TextBlock	W47_Label	W47									14	20	11	11				47	10	Transparent	#FFBCBCBC	P47					
-LeverImage	W48		•¨—‚Ä‚±	TH75_48							1136	64										P48	-1,0,1	0	Image/Lever/LeverBase_NCR.png	Image/Lever/Lever_Black_L.png,Image/Lever/Lever_Black_N.png,Image/Lever/Lever_Black_R.png	
-Image	W48_PG		“]‚Ä‚ÂŠí•\¦“”		TH75_W48	N					1134	45											0,1	0		Image/Light/N.png,Image/Light/PG.png	
-Image	W48_PY		“]‚Ä‚ÂŠí•\¦“”		TH75_W48	R					1168	45											0,1	0		Image/Light/N.png,Image/Light/PY.png	
-TextBlock	W48_Label	W48									14	20	11	11				48	10	Transparent	#FFBCBCBC	P48					
-LeverImage	W49		•¨—‚Ä‚±	TH75_49							2115	64										P49	-1,0,1	0	Image/Lever/LeverBase_NCR.png	Image/Lever/Lever_Black_L.png,Image/Lever/Lever_Black_N.png,Image/Lever/Lever_Black_R.png	
-Image	W49_PG		“]‚Ä‚ÂŠí•\¦“”		TH75_W49	N					2113	45											0,1	0		Image/Light/N.png,Image/Light/PG.png	
-Image	W49_PY		“]‚Ä‚ÂŠí•\¦“”		TH75_W49	R					2147	45											0,1	0		Image/Light/N.png,Image/Light/PY.png	
-TextBlock	W49_Label	W49									14	20	11	11				49	10	Transparent	#FFBCBCBC	P49					
-LeverImage	W50		•¨—‚Ä‚±	TH75_50							2183	64										P50	-1,0,1	0	Image/Lever/LeverBase_NCR.png	Image/Lever/Lever_Black_L.png,Image/Lever/Lever_Black_N.png,Image/Lever/Lever_Black_R.png	
-Image	W50_PG		“]‚Ä‚ÂŠí•\¦“”		TH75_W50	N					2181	45											0,1	0		Image/Light/N.png,Image/Light/PG.png	
-Image	W50_PY		“]‚Ä‚ÂŠí•\¦“”		TH75_W50	R					2215	45											0,1	0		Image/Light/N.png,Image/Light/PY.png	
-TextBlock	W50_Label	W50									14	20	11	11				50	10	Transparent	#FFBCBCBC	P50					
-KeyImage	‰wˆµØŠ·		•¨—Œ®‚Ä‚±	TH75_81							2367	64										‰wˆµØŠ·	-1,1,-11,11	1	Image/Lever/LeverBase_LR.png	Image/Lever/KeyLever_KeyOFF_L.png,Image/Lever/KeyLever_KeyOFF_R.png,Image/Lever/KeyLever_KeyON_L.png,Image/Lever/KeyLever_KeyON_R.png	‰wˆµØŠ·‚ÍLR
-Image	‰wˆµØŠ·_PY		‰wˆµØŠ·•\¦“”	TH75_81							2365	45											0,1	0		Image/Light/N.png,Image/Light/PY.png	
-Image	‰wˆµØŠ·_PG		‰wˆµØŠ·•\¦“”	TH75_81							2399	45											0,1	0		Image/Light/N.png,Image/Light/PG.png	
-Image	TH76_5LAT_1		‹O“¹‰ñ˜H•\¦“”	TH76_5LAT							126	548											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	0“x¦ˆÈ‰º0“xÈ—ª
-Image	TH76_5LAT_2		‹O“¹‰ñ˜H•\¦“”	TH76_5LAT							208	548											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH76_5LBT_1		‹O“¹‰ñ˜H•\¦“”	TH76_5LBT							126	668											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH76_5LBT_2		‹O“¹‰ñ˜H•\¦“”	TH76_5LBT							208	668											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH76_5LCT_1		‹O“¹‰ñ˜H•\¦“”	TH76_5LCT							100	728											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH76_5LCT_2		‹O“¹‰ñ˜H•\¦“”	TH76_5LCT							182	728											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH76_5LDT_1		‹O“¹‰ñ˜H•\¦“”	TH76_5LDT							100	788											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH76_5LDT_2		‹O“¹‰ñ˜H•\¦“”	TH76_5LDT							182	788											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH76_21ƒCT_W21ƒCN_1		‹O“¹‰ñ˜H•\¦“”	TH76_21ƒCT	TH76_W21	N					210	728											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH76_21ƒCT_W21ƒCN_2		‹O“¹‰ñ˜H•\¦“”	TH76_21ƒCT	TH76_W21	N					249	728											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH76_21ƒCT_W21ƒCN_3		‹O“¹‰ñ˜H•\¦“”	TH76_21ƒCT	TH76_W21	N					274	703											0,1,2	0		Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png	68
-Image	TH76_21ƒCT_W21ƒCR_1		‹O“¹‰ñ˜H•\¦“”	TH76_21ƒCT	TH76_W21	R					210	728											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH76_21ƒCT_W21ƒCR_2		‹O“¹‰ñ˜H•\¦“”	TH76_21ƒCT	TH76_W21	R					232	743											0,1,2	0		Image/Light/112N.png,Image/Light/112Y.png,Image/Light/112R.png	112
-Image	TH76_21ƒT_W21ƒN_1		‹O“¹‰ñ˜H•\¦“”	TH76_21ƒT	TH76_W21	N					210	788											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH76_21ƒT_W21ƒN_2		‹O“¹‰ñ˜H•\¦“”	TH76_21ƒT	TH76_W21	N					290	788											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH76_21ƒT_W21ƒN_3		‹O“¹‰ñ˜H•\¦“”	TH76_21ƒT	TH76_W21	N					330	724											0,1,2	0		Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png	68
-Image	TH76_21ƒT_W21ƒR_1		‹O“¹‰ñ˜H•\¦“”	TH76_21ƒT	TH76_W21	R					242	768											0,1,2	0		Image/Light/112N.png,Image/Light/112Y.png,Image/Light/112R.png	112
-Image	TH76_21ƒT_W21ƒR_2		‹O“¹‰ñ˜H•\¦“”	TH76_21ƒT	TH76_W21	R					290	788											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH76_21ƒT_W21ƒR_3		‹O“¹‰ñ˜H•\¦“”	TH76_21ƒT	TH76_W21	R					330	724											0,1,2	0		Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png	68
-Image	TH76_22T_W22N_1		‹O“¹‰ñ˜H•\¦“”	TH76_22T	TH76_W22	N					232	548											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH76_22T_W22N_2		‹O“¹‰ñ˜H•\¦“”	TH76_22T	TH76_W22	N					276	548											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH76_22T_W22N_3		‹O“¹‰ñ˜H•\¦“”	TH76_22T	TH76_W22	N					321	548											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH76_22T_W22R_1		‹O“¹‰ñ˜H•\¦“”	TH76_22T	TH76_W22	R					232	548											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH76_22T_W22R_2		‹O“¹‰ñ˜H•\¦“”	TH76_22T	TH76_W22	R					261	588											0,1,2	0		Image/Light/112N.png,Image/Light/112Y.png,Image/Light/112R.png	112
-Image	TH76_23T_W23N_W24ƒN_1		‹O“¹‰ñ˜H•\¦“”	TH76_23T	TH76_W23	N	TH76_W24	N			282	683											0,1,2	0		Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png	68
-Image	TH76_23T_W23N_W24ƒN_2		‹O“¹‰ñ˜H•\¦“”	TH76_23T	TH76_W23	N	TH76_W24	N			294	653											0,1,2	0		Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png	68
-Image	TH76_23T_W23R_W24ƒN_1		‹O“¹‰ñ˜H•\¦“”	TH76_23T	TH76_W23	R	TH76_W24	N			236	668											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH76_23T_W23R_W24ƒN_2		‹O“¹‰ñ˜H•\¦“”	TH76_23T	TH76_W23	R	TH76_W24	N			267	668											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH76_23T_W23R_W24ƒN_3		‹O“¹‰ñ˜H•\¦“”	TH76_23T	TH76_W23	R	TH76_W24	N			294	653											0,1,2	0		Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png	68
-Image	TH76_23T_W24ƒR_1		‹O“¹‰ñ˜H•\¦“”	TH76_23T	TH76_W24	R					294	653											0,1,2	0		Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png	68
-Image	TH76_23T_W24ƒR_2		‹O“¹‰ñ˜H•\¦“”	TH76_23T	TH76_W24	R					306	670											0,1,2	0		Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png	135
-Image	TH76_24T_W24ƒCN_1		‹O“¹‰ñ˜H•\¦“”	TH76_24T	TH76_W24	N					338	704											0,1,2	0		Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png	68
-Image	TH76_24T_W24ƒCN_2		‹O“¹‰ñ˜H•\¦“”	TH76_24T	TH76_W24	N					361	668											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH76_24T_W24ƒCN_3		‹O“¹‰ñ˜H•\¦“”	TH76_24T	TH76_W24	N					395	643											0,1,2	0		Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png	68
-Image	TH76_24T_W24ƒCR_1		‹O“¹‰ñ˜H•\¦“”	TH76_24T	TH76_W24	R					324	688											0,1,2	0		Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png	135
-Image	TH76_24T_W24ƒCR_2		‹O“¹‰ñ˜H•\¦“”	TH76_24T	TH76_W24	R					338	704											0,1,2	0		Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png	68
-Image	TH76_25T_W25N_1		‹O“¹‰ñ˜H•\¦“”	TH76_25T	TH75_W25	N					302	633											0,1,2	0		Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png	68
-Image	TH76_25T_W25N_2		‹O“¹‰ñ˜H•\¦“”	TH76_25T	TH75_W25	N					321	608											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH76_25T_W25R_1		‹O“¹‰ñ˜H•\¦“”	TH76_25T	TH75_W25	R					289	608											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH76_25T_W25R_2		‹O“¹‰ñ˜H•\¦“”	TH76_25T	TH75_W25	R					321	608											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH76_26ƒCT_W26ƒCN_1		‹O“¹‰ñ˜H•\¦“”	TH76_26T	TH75_W26	N					341	608											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH76_26ƒCT_W26ƒCN_2		‹O“¹‰ñ˜H•\¦“”	TH76_26T	TH75_W26	N					366	608											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH76_26ƒCT_W26ƒCR_1		‹O“¹‰ñ˜H•\¦“”	TH76_26T	TH75_W26	R					341	608											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH76_26ƒCT_W26ƒCR_2		‹O“¹‰ñ˜H•\¦“”	TH76_26T	TH75_W26	R					353	588											0,1,2	0		Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png	68
-Image	TH76_26ƒT_W26ƒN_1		‹O“¹‰ñ˜H•\¦“”	TH76_26T	TH75_W26	N					341	548											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH76_26ƒT_W26ƒN_2		‹O“¹‰ñ˜H•\¦“”	TH76_26T	TH75_W26	N					403	548											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH76_26ƒT_W26ƒR_1		‹O“¹‰ñ˜H•\¦“”	TH76_26T	TH75_W26	R					363	563											0,1,2	0		Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png	68
-Image	TH76_26ƒT_W26ƒR_2		‹O“¹‰ñ˜H•\¦“”	TH76_26T	TH75_W26	R					403	548											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	6T_1		‹O“¹‰ñ˜H•\¦“”	ã‚è6T							428	548											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	8T_1		‹O“¹‰ñ˜H•\¦“”	ã‚è8T							482	548											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	8T_2		‹O“¹‰ñ˜H•\¦“”	ã‚è8T							558	548											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_1RT_1		‹O“¹‰ñ˜H•\¦“”	TH75_1RT							656	548											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_1RT_2		‹O“¹‰ñ˜H•\¦“”	TH75_1RT							722	548											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_TST_1		‹O“¹‰ñ˜H•\¦“”	TH75_TST							543	608											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_TST_2		‹O“¹‰ñ˜H•\¦“”	TH75_TST							701	608											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_7T_1		‹O“¹‰ñ˜H•\¦“”	TH75_7T							551	368											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_7T_2		‹O“¹‰ñ˜H•\¦“”	TH75_7T							795	368											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_8T_1		‹O“¹‰ñ˜H•\¦“”	TH75_8T							551	428											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_8T_2		‹O“¹‰ñ˜H•\¦“”	TH75_8T							795	428											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_9T_1		‹O“¹‰ñ˜H•\¦“”	TH75_9T							551	488											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_9T_2		‹O“¹‰ñ˜H•\¦“”	TH75_9T							795	488											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_41ƒCT_W41ƒCN_1		‹O“¹‰ñ˜H•\¦“”	TH75_41ƒCT	TH75_W41	N					770	608											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_41ƒCT_W41ƒCN_2		‹O“¹‰ñ˜H•\¦“”	TH75_41ƒCT	TH75_W41	N					836	608											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_41ƒCT_W41ƒCR_1		‹O“¹‰ñ˜H•\¦“”	TH75_41ƒCT	TH75_W41	R					770	608											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_41ƒCT_W41ƒCR_2		‹O“¹‰ñ˜H•\¦“”	TH75_41ƒCT	TH75_W41	R					794	586											0,1,2	0		Image/Light/45N.png,Image/Light/45Y.png,Image/Light/45R.png	45
-Image	TH75_41ƒT_W41ƒN_1		‹O“¹‰ñ˜H•\¦“”	TH75_41ƒT	TH75_W41	N					770	548											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_41ƒT_W41ƒN_2		‹O“¹‰ñ˜H•\¦“”	TH75_41ƒT	TH75_W41	N					836	548											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_41ƒT_W41ƒR_1		‹O“¹‰ñ˜H•\¦“”	TH75_41ƒT	TH75_W41	R					814	566											0,1,2	0		Image/Light/45N.png,Image/Light/45Y.png,Image/Light/45R.png	45
-Image	TH75_41ƒT_W41ƒR_2		‹O“¹‰ñ˜H•\¦“”	TH75_41ƒT	TH75_W41	R					836	548											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_42ƒCT_W42ƒCN_1		‹O“¹‰ñ˜H•\¦“”	TH75_42ƒCT	TH75_W42	N					864	368											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_42ƒCT_W42ƒCN_2		‹O“¹‰ñ˜H•\¦“”	TH75_42ƒCT	TH75_W42	N					930	368											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_42ƒCT_W42ƒCR_1		‹O“¹‰ñ˜H•\¦“”	TH75_42ƒCT	TH75_W42	R					864	368											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_42ƒCT_W42ƒCR_2		‹O“¹‰ñ˜H•\¦“”	TH75_42ƒCT	TH75_W42	R					888	386											0,1,2	0		Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png	135
-Image	TH75_42ƒT_W42ƒN_1		‹O“¹‰ñ˜H•\¦“”	TH75_42ƒT	TH75_W42	N					864	428											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_42ƒT_W42ƒN_2		‹O“¹‰ñ˜H•\¦“”	TH75_42ƒT	TH75_W42	N					930	428											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_42ƒT_W42ƒR_1		‹O“¹‰ñ˜H•\¦“”	TH75_42ƒT	TH75_W42	R					908	406											0,1,2	0		Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png	135
-Image	TH75_42ƒT_W42ƒR_2		‹O“¹‰ñ˜H•\¦“”	TH75_42ƒT	TH75_W42	R					930	428											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_43ƒCT_W43ƒCN_1		‹O“¹‰ñ˜H•\¦“”	TH75_43ƒCT	TH75_W43	N					864	548											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_43ƒCT_W43ƒCN_2		‹O“¹‰ñ˜H•\¦“”	TH75_43ƒCT	TH75_W43	N					930	548											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_43ƒCT_W43ƒCR_1		‹O“¹‰ñ˜H•\¦“”	TH75_43ƒCT	TH75_W43	R					864	548											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_43ƒCT_W43ƒCR_2		‹O“¹‰ñ˜H•\¦“”	TH75_43ƒCT	TH75_W43	R					888	526											0,1,2	0		Image/Light/45N.png,Image/Light/45Y.png,Image/Light/45R.png	45
-Image	TH75_43ƒT_W43ƒN_1		‹O“¹‰ñ˜H•\¦“”	TH75_43ƒT	TH75_W43	N					864	488											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_43ƒT_W43ƒN_2		‹O“¹‰ñ˜H•\¦“”	TH75_43ƒT	TH75_W43	N					930	488											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_43ƒT_W43ƒR_1		‹O“¹‰ñ˜H•\¦“”	TH75_43ƒT	TH75_W43	R					908	506											0,1,2	0		Image/Light/45N.png,Image/Light/45Y.png,Image/Light/45R.png	45
-Image	TH75_43ƒT_W43ƒR_2		‹O“¹‰ñ˜H•\¦“”	TH75_43ƒT	TH75_W43	R					930	488											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_44T_W44ƒCN_W45ƒN_1		‹O“¹‰ñ˜H•\¦“”	TH75_44T	TH75_W44	N	TH75_W45	N			958	428											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_44T_W44ƒCN_W45ƒN_2		‹O“¹‰ñ˜H•\¦“”	TH75_44T	TH75_W44	N	TH75_W45	N			991	428											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_44T_W44ƒCN_W45ƒN_3		‹O“¹‰ñ˜H•\¦“”	TH75_44T	TH75_W44	N	TH75_W45	N			1024	428											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_44T_W44ƒCN_W45ƒN_4		‹O“¹‰ñ˜H•\¦“”	TH75_44T	TH75_W44	N	TH75_W45	N			1055	428											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_44T_W44ƒCN_W45ƒR_1		‹O“¹‰ñ˜H•\¦“”	TH75_44T	TH75_W44	N	TH75_W45	R			1006	442											0,1,2	0		Image/Light/45N.png,Image/Light/45Y.png,Image/Light/45R.png	45
-Image	TH75_44T_W44ƒCN_W45ƒR_2		‹O“¹‰ñ˜H•\¦“”	TH75_44T	TH75_W44	N	TH75_W45	R			1024	428											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_44T_W44ƒCN_W45ƒR_3		‹O“¹‰ñ˜H•\¦“”	TH75_44T	TH75_W44	N	TH75_W45	R			1055	428											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_44T_W44ƒCR_W45ƒN_1		‹O“¹‰ñ˜H•\¦“”	TH75_44T	TH75_W44	R	TH75_W45	N			930	428											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_44T_W44ƒCR_W45ƒN_2		‹O“¹‰ñ˜H•\¦“”	TH75_44T	TH75_W44	R	TH75_W45	N			978	442											0,1,2	0		Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png	135
-Image	TH75_45T_W45ƒCN_W44ƒN_1		‹O“¹‰ñ˜H•\¦“”	TH75_45T	TH75_W45	N	TH75_W44	N			958	488											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_45T_W45ƒCN_W44ƒN_2		‹O“¹‰ñ˜H•\¦“”	TH75_45T	TH75_W45	N	TH75_W44	N			991	488											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_45T_W45ƒCN_W44ƒN_3		‹O“¹‰ñ˜H•\¦“”	TH75_45T	TH75_W45	N	TH75_W44	N			1024	488											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_45T_W45ƒCN_W44ƒN_4		‹O“¹‰ñ˜H•\¦“”	TH75_45T	TH75_W45	N	TH75_W44	N			1055	488											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_45T_W45ƒCN_W44ƒR_1		‹O“¹‰ñ˜H•\¦“”	TH75_45T	TH75_W45	N	TH75_W44	R			1006	470											0,1,2	0		Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png	135
-Image	TH75_45T_W45ƒCN_W44ƒR_2		‹O“¹‰ñ˜H•\¦“”	TH75_45T	TH75_W45	N	TH75_W44	R			1024	488											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_45T_W45ƒCN_W44ƒR_3		‹O“¹‰ñ˜H•\¦“”	TH75_45T	TH75_W45	N	TH75_W44	R			1055	488											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_45T_W45ƒCR_W44ƒN_1		‹O“¹‰ñ˜H•\¦“”	TH75_45T	TH75_W45	R	TH75_W44	N			958	488											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_45T_W45ƒCR_W44ƒN_2		‹O“¹‰ñ˜H•\¦“”	TH75_45T	TH75_W45	R	TH75_W44	N			978	470											0,1,2	0		Image/Light/45N.png,Image/Light/45Y.png,Image/Light/45R.png	45
-Image	TH75_34LT_1		‹O“¹‰ñ˜H•\¦“”	TH75_34LT							958	368											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_34LT_2		‹O“¹‰ñ˜H•\¦“”	TH75_34LT							1055	368											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_4T_1		‹O“¹‰ñ˜H•\¦“”	TH75_4T							1190	368											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_4T_2		‹O“¹‰ñ˜H•\¦“”	TH75_4T							1434	368											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_5T_1		‹O“¹‰ñ˜H•\¦“”	TH75_5T							1190	428											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_5T_2		‹O“¹‰ñ˜H•\¦“”	TH75_5T							1434	428											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_6T_1		‹O“¹‰ñ˜H•\¦“”	TH75_6T							1190	488											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_6T_2		‹O“¹‰ñ˜H•\¦“”	TH75_6T							1434	488											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_1RET_1		‹O“¹‰ñ˜H•\¦“”	TH75_1RET							994	548											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_1RET_2		‹O“¹‰ñ˜H•\¦“”	TH75_1RET							1093	548											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_1RET_3		‹O“¹‰ñ˜H•\¦“”	TH75_1RET							1192	548											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_6LT_1		‹O“¹‰ñ˜H•\¦“”	TH75_6LT							1041	608											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_6LT_2		‹O“¹‰ñ˜H•\¦“”	TH75_6LT							1161	608											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_6LT_3		‹O“¹‰ñ˜H•\¦“”	TH75_6LT							1285	608											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_6LT_4		‹O“¹‰ñ˜H•\¦“”	TH75_6LT							1409	608											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_6LT_5		‹O“¹‰ñ˜H•\¦“”	TH75_6LT							1533	608											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_46ƒCT_W46ƒCN_1		‹O“¹‰ñ˜H•\¦“”	TH75_46ƒCT	TH75_W46	N					1355	548											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_46ƒCT_W46ƒCN_2		‹O“¹‰ñ˜H•\¦“”	TH75_46ƒCT	TH75_W46	N					1450	548											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_46ƒCT_W46ƒCN_3		‹O“¹‰ñ˜H•\¦“”	TH75_46ƒCT	TH75_W46	N					1545	548											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_46ƒCT_W46ƒCN_4		‹O“¹‰ñ˜H•\¦“”	TH75_46ƒCT	TH75_W46	N					1640	548											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_46ƒCT_W46ƒCR_1		‹O“¹‰ñ˜H•\¦“”	TH75_46ƒCT	TH75_W46	R					1355	548											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_46ƒCT_W46ƒCR_2		‹O“¹‰ñ˜H•\¦“”	TH75_46ƒCT	TH75_W46	R					1450	548											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_46ƒCT_W46ƒCR_3		‹O“¹‰ñ˜H•\¦“”	TH75_46ƒCT	TH75_W46	R					1545	548											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_46ƒCT_W46ƒCR_4		‹O“¹‰ñ˜H•\¦“”	TH75_46ƒCT	TH75_W46	R					1569	528											0,1,2	0		Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png	68
-Image	TH75_46ƒCT_W46ƒCR_5		‹O“¹‰ñ˜H•\¦“”	TH75_46ƒCT	TH75_W46	R					1593	468											0,1,2	0		Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png	68
-Image	TH75_46ƒT_W46ƒN_1		‹O“¹‰ñ˜H•\¦“”	TH75_46ƒT	TH75_W46	N					1604	368											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_46ƒT_W46ƒN_2		‹O“¹‰ñ˜H•\¦“”	TH75_46ƒT	TH75_W46	N					1640	368											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_46ƒT_W46ƒR_1		‹O“¹‰ñ˜H•\¦“”	TH75_46ƒT	TH75_W46	R					1603	443											0,1,2	0		Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png	68
-Image	TH75_46ƒT_W46ƒR_2		‹O“¹‰ñ˜H•\¦“”	TH75_46ƒT	TH75_W46	R					1627	383											0,1,2	0		Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png	68
-Image	TH75_46ƒT_W46ƒR_3		‹O“¹‰ñ˜H•\¦“”	TH75_46ƒT	TH75_W46	R					1640	368											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_48T_W47N_W48R_1		‹O“¹‰ñ˜H•\¦“”	TH75_48T	TH75_W47	N	TH75_W48	R			1503	428											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_48T_W47N_W48R_2		‹O“¹‰ñ˜H•\¦“”	TH75_48T	TH75_W47	N	TH75_W48	R			1551	413											0,1,2	0		Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png	68
-Image	TH75_48T_W47N_W48R_3		‹O“¹‰ñ˜H•\¦“”	TH75_48T	TH75_W47	N	TH75_W48	R			1576	368											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_48T_W47R_W48R_1		‹O“¹‰ñ˜H•\¦“”	TH75_48T	TH75_W47	R	TH75_W48	R			1503	488											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_48T_W47R_W48R_2		‹O“¹‰ñ˜H•\¦“”	TH75_48T	TH75_W47	R	TH75_W48	R			1551	413											0,1,2	0		Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png	68
-Image	TH75_48T_W47R_W48R_3		‹O“¹‰ñ˜H•\¦“”	TH75_48T	TH75_W47	R	TH75_W48	R			1576	368											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_48T_W48N_1		‹O“¹‰ñ˜H•\¦“”	TH75_48T	TH75_W48	N					1503	368											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_48T_W48N_2		‹O“¹‰ñ˜H•\¦“”	TH75_48T	TH75_W48	N					1576	368											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_5RAT_1		‹O“¹‰ñ˜H•\¦“”	TH75_5RAT							1709	368											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_5RAT_2		‹O“¹‰ñ˜H•\¦“”	TH75_5RAT							1953	368											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_5RBT_1		‹O“¹‰ñ˜H•\¦“”	TH75_5RBT							1709	548											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_5RBT_2		‹O“¹‰ñ˜H•\¦“”	TH75_5RBT							1953	548											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_9LCT_1		‹O“¹‰ñ˜H•\¦“”	TH75_9LCT							1709	608											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_9LCT_2		‹O“¹‰ñ˜H•\¦“”	TH75_9LCT							1953	608											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_9LCT_3		‹O“¹‰ñ˜H•\¦“”	TH75_9LCT							2085	608											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_49ƒCT_W49ƒCN_1		‹O“¹‰ñ˜H•\¦“”	TH75_49ƒCT	TH75_W49	N					2022	368											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_49ƒCT_W49ƒCN_2		‹O“¹‰ñ˜H•\¦“”	TH75_49ƒCT	TH75_W49	N					2074	403											0,1,2	0		Image/Light/112N.png,Image/Light/112Y.png,Image/Light/112R.png	112
-Image	TH75_49ƒCT_W49ƒCN_3		‹O“¹‰ñ˜H•\¦“”	TH75_49ƒCT	TH75_W49	N					2102	473											0,1,2	0		Image/Light/112N.png,Image/Light/112Y.png,Image/Light/112R.png	112
-Image	49EM_R		‹O“¹‰ñ˜H•\¦“”								2141	486											0,1	0		Image/Light/N.png,Image/Light/R.png	
-Image	TH75_49ƒCT_W49ƒCR_1		‹O“¹‰ñ˜H•\¦“”	TH75_49ƒCT	TH75_W49	R					2022	368											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_49ƒCT_W49ƒCR_2		‹O“¹‰ñ˜H•\¦“”	TH75_49ƒCT	TH75_W49	R					2074	403											0,1,2	0		Image/Light/112N.png,Image/Light/112Y.png,Image/Light/112R.png	112
-Image	TH75_49ƒCT_W49ƒCR_3		‹O“¹‰ñ˜H•\¦“”	TH75_49ƒCT	TH75_W49	R					2102	473											0,1,2	0		Image/Light/112N.png,Image/Light/112Y.png,Image/Light/112R.png	112
-Image	TH75_49ƒCT_W49ƒCR_4		‹O“¹‰ñ˜H•\¦“”	TH75_49ƒCT	TH75_W49	R					2114	503											0,1,2	0		Image/Light/112N.png,Image/Light/112Y.png,Image/Light/112R.png	112
-Image	TH75_49ƒT_W49ƒN_1		‹O“¹‰ñ˜H•\¦“”	TH75_49ƒT	TH75_W49	N					2022	548											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_49ƒT_W49ƒN_2		‹O“¹‰ñ˜H•\¦“”	TH75_49ƒT	TH75_W49	N					2079	548											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_49ƒT_W49ƒN_3		‹O“¹‰ñ˜H•\¦“”	TH75_49ƒT	TH75_W49	N					2137	548											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_49ƒT_W49ƒR_1		‹O“¹‰ñ˜H•\¦“”	TH75_49ƒT	TH75_W49	R					2124	528											0,1,2	0		Image/Light/112N.png,Image/Light/112Y.png,Image/Light/112R.png	112
-Image	TH75_49ƒT_W49ƒR_2		‹O“¹‰ñ˜H•\¦“”	TH75_49ƒT	TH75_W49	R					2137	548											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_50ƒCT_W50ƒCN_1		‹O“¹‰ñ˜H•\¦“”	TH75_50ƒCT	TH75_W50	N					2165	548											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_50ƒCT_W50ƒCN_2		‹O“¹‰ñ˜H•\¦“”	TH75_50ƒCT	TH75_W50	N					2231	548											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_50ƒCT_W50ƒCR_1		‹O“¹‰ñ˜H•\¦“”	TH75_50ƒCT	TH75_W50	R					2165	548											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_50ƒCT_W50ƒCR_2		‹O“¹‰ñ˜H•\¦“”	TH75_50ƒCT	TH75_W50	R					2189	566											0,1,2	0		Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png	135
-Image	TH75_50ƒT_W50ƒN_1		‹O“¹‰ñ˜H•\¦“”	TH75_50ƒT	TH75_W50	N					2165	608											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_50ƒT_W50ƒN_2		‹O“¹‰ñ˜H•\¦“”	TH75_50ƒT	TH75_W50	N					2231	608											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_50ƒT_W50ƒR_1		‹O“¹‰ñ˜H•\¦“”	TH75_50ƒT	TH75_W50	R					2209	586											0,1,2	0		Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png	135
-Image	TH75_50ƒT_W50ƒR_2		‹O“¹‰ñ˜H•\¦“”	TH75_50ƒT	TH75_W50	R					2231	608											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_SST_1		‹O“¹‰ñ˜H•\¦“”	TH75_SST							2272	548											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_SST_2		‹O“¹‰ñ˜H•\¦“”	TH75_SST							2325	548											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_9LT_1		‹O“¹‰ñ˜H•\¦“”	TH75_9LT							2262	608											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	TH75_9LT_2		‹O“¹‰ñ˜H•\¦“”	TH75_9LT							2296	608											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	27T_1		‹O“¹‰ñ˜H•\¦“”	‰º‚è27T							2377	608											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	35T_1		‹O“¹‰ñ˜H•\¦“”	‰º‚è35T							2407	608											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	41T_1		‹O“¹‰ñ˜H•\¦“”	‰º‚è41T							2437	608											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	45T_1		‹O“¹‰ñ˜H•\¦“”	‰º‚è45T							2467	608											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	49T_1		‹O“¹‰ñ˜H•\¦“”	‰º‚è49T							2497	608											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	
-Image	’â“d_R		ó‘Ô•\¦“”	TH75_PWR-FAILURE							154	45											0,1	0		Image/Light/N.png,Image/Light/R.png	
-Image	CTCŒÌá_R		ó‘Ô•\¦“”	TH75_CTC-FAILURE							202	45											0,1	0		Image/Light/N.png,Image/Light/R.png	
-Image	½ù60•b_R		ó‘Ô•\¦“”	TH75_60TEK							1294	927											0,1	0		Image/Light/N.png,Image/Light/R.png	
-Image	½ù30•b_R		ó‘Ô•\¦“”	TH75_30TEK							1256	927											0,1	0		Image/Light/N.png,Image/Light/R.png	
-Retsuban	—ñ”ÔŠÙ•l1”Ôü		—ñÔ”Ô†	TH76_TTC_Track1							107	312														Image/Retsuban/Retsuban-Window.png	
-Retsuban	—ñ”ÔŠÙ•l2”Ôü		—ñÔ”Ô†	TH76_TTC_Track2							107	358														Image/Retsuban/Retsuban-Window.png	
-Retsuban	—ñ”ÔŠÙ•l3”Ôü		—ñÔ”Ô†	TH76_TTC_Track3							107	404														Image/Retsuban/Retsuban-Window.png	
-Retsuban	—ñ”ÔŠÙ•l4”Ôü		—ñÔ”Ô†	TH76_TTC_Track4							107	450														Image/Retsuban/Retsuban-Window.png	
-Retsuban	—ñ”Ô‹î–ìã‚è‘æ2Ú‹ß		—ñÔ”Ô†	TH75_TTC_Up2							257	312														Image/Retsuban/Retsuban-Window.png	
-Retsuban	—ñ”Ô‹î–ìã‚è‘æ1Ú‹ß		—ñÔ”Ô†	TH75_TTC_Up1							407	312														Image/Retsuban/Retsuban-Window.png	
-Retsuban	—ñ”Ô‹î–ìã‚èê“à		—ñÔ”Ô†	TH75_TTC_UpArr1							1096	507														Image/Retsuban/Retsuban-Window.png	
-Retsuban	—ñ”Ô‹î–ìTST		—ñÔ”Ô†	TH75_TTC_TrackT							562	597														Image/Retsuban/Retsuban-Window.png	
-Retsuban	—ñ”Ô‹î–ì‰º‚èo”­		—ñÔ”Ô†	TH75_TTC_DownDep1							1096	644														Image/Retsuban/Retsuban-Window.png	
-Retsuban	—ñ”Ô‹î–ì5”Ôü		—ñÔ”Ô†	TH75_TTC_Track5							1252	417														Image/Retsuban/Retsuban-Window.png	
-Retsuban	—ñ”Ô‹î–ì6”Ôü		—ñÔ”Ô†	TH75_TTC_Track6							1252	477														Image/Retsuban/Retsuban-Window.png	
-Retsuban	—ñ”Ô‹î–ì1”Ôü		—ñÔ”Ô†	TH75_TTC_Track1							1771	357														Image/Retsuban/Retsuban-Window.png	
-Retsuban	—ñ”Ô‹î–ì2”Ôü		—ñÔ”Ô†	TH75_TTC_Track2							1771	537														Image/Retsuban/Retsuban-Window.png	
-Retsuban	—ñ”Ô‹î–ì3”Ôü		—ñÔ”Ô†	TH75_TTC_Track3							1771	597														Image/Retsuban/Retsuban-Window.png	
-Retsuban	—ñ”Ô‹î–ì‰º‚è‘æ1Ú‹ß		—ñÔ”Ô†	TH75_TTC_Down1							2255	684														Image/Retsuban/Retsuban-Window.png	
-Retsuban	—ñ”Ô‹î–ì‰º‚è‘æ2Ú‹ß		—ñÔ”Ô†	TH75_TTC_Down2							2405	684														Image/Retsuban/Retsuban-Window.png	
+Type	UniqueName	ParentName	ServerType	ServerName	PointNameA	PointValueA	PointNameB	PointValueB	DirectionName	DirectionValue	X	Y	Width	Height	Angle	AngleOriginX	AngleOriginY	Text	FontSize	BackColor	TextColor	ClickEventName	ImagePattern	ImageIndex	BaseImagePath	ImagePath	Remark								
+BackImage	˜A“®”Õ										0	0														Image/BackImage/TH75_Komano.png									
+Image	Clock_Base										1400	78	79	110												Image/Clock/Clock_Border.png									
+ClockImage	Clock_Meter	Clock_Base									6	37	63	63											Image/Clock/Clock_Base.png	"Image/Clock/Clock_HourHand.png,Image/Clock/Clock_MinuteHand.png,Image/Clock/Clock_SecondHand.png,Image/Clock/Clock_Cover.png"									
+Image	Hook										1411	10														Image/Hook/Hook_Base.png									
+LeverImage	1R		•¨—‚Ä‚±	TH75_1							579	525										1R	"0,1"	0	Image/Lever/LeverBase_NR.png	"Image/Lever/Lever_Red_N.png,Image/Lever/Lever_Red_R.png"	0‘ãX=‚Ä‚±Ô(X)N(X)@—áF1R=‚Ä‚±ÔNR								
+Image	1RD_G		M†‹@•\¦“”	‹î–ìã‚èê“à1RD							643	513											"0,1"	0		"Image/Light/N.png,Image/Light/G.png"	"G,Y,R,PG,PY‚Í“”F"								
+Image	1RE_G		M†‹@•\¦“”	‹î–ìã‚èê“à1RE							651	531											"0,1"	0		"Image/Light/N.png,Image/Light/G.png"									
+TextBlock	1R_Label	1R									14	20	11	11				1	10	Transparent	#FFBCBCBC	1R													
+LeverImage	2L		•¨—‚Ä‚±	TH75_2							865	585										2L	"-1,0"	0	Image/Lever/LeverBase_LN.png	"Image/Lever/Lever_Red_L.png,Image/Lever/Lever_Red_N.png"									
+Image	2L_G		M†‹@•\¦“”	‹î–ì‰º‚è‘æ“ño”­2L							818	621											"0,1"	0		"Image/Light/N.png,Image/Light/G.png"									
+TextBlock	2L_Label	2L									14	20	11	11				2	10	Transparent	#FFBCBCBC	2L													
+LeverImage	3L		•¨—‚Ä‚±	TH75_3							1092	405										3L	"-1,0"	0	Image/Lever/LeverBase_LN.png	"Image/Lever/Lever_Red_L.png,Image/Lever/Lever_Red_N.png"									
+Image	3L_G		M†‹@•\¦“”	‹î–ì‰º‚èo”­3L							1048	459											"0,1"	0		"Image/Light/N.png,Image/Light/G.png"									
+TextBlock	3L_Label	3L									14	20	11	11				3	10	Transparent	#FFBCBCBC	3L													
+LeverImage	4L		•¨—‚Ä‚±	TH75_4							1092	465										4L	"-1,0"	0	Image/Lever/LeverBase_LN.png	"Image/Lever/Lever_Red_L.png,Image/Lever/Lever_Red_N.png"									
+Image	4L_G		M†‹@•\¦“”	‹î–ì‰º‚èo”­4L							1048	519											"0,1"	0		"Image/Light/N.png,Image/Light/G.png"									
+TextBlock	4L_Label	4L									14	20	11	11				4	10	Transparent	#FFBCBCBC	4L													
+LeverImage	5R		•¨—‚Ä‚±	TH75_5							1290	525										5R	"0,1"	0	Image/Lever/LeverBase_NR.png	"Image/Lever/Lever_Red_N.png,Image/Lever/Lever_Red_R.png"									
+Image	5RA_G		M†‹@•\¦“”	‹î–ìã‚èê“à5RA							1367	513											"0,1"	0		"Image/Light/N.png,Image/Light/G.png"									
+Image	5RB_G		M†‹@•\¦“”	‹î–ìã‚èê“à5RB							1375	531											"0,1"	0		"Image/Light/N.png,Image/Light/G.png"									
+TextBlock	5R_Label	5R									14	20	11	11				5	10	Transparent	#FFBCBCBC	5R													
+LeverImage	6L		•¨—‚Ä‚±	TH75_6							1611	585										6L	"-1,0"	0	Image/Lever/LeverBase_LN.png	"Image/Lever/Lever_Red_L.png,Image/Lever/Lever_Red_N.png"									
+Image	6L_G		M†‹@•\¦“”	‹î–ì‰º‚èo”­6L							1564	621											"0,1"	0		"Image/Light/N.png,Image/Light/G.png"									
+TextBlock	6L_Label	6L									14	20	11	11				6	10	Transparent	#FFBCBCBC	6L													
+LeverImage	7R		•¨—‚Ä‚±	TH75_7							1965	345										7R	"0,1"	0	Image/Lever/LeverBase_NR.png	"Image/Lever/Lever_Red_N.png,Image/Lever/Lever_Red_R.png"									
+Image	7R_G		M†‹@•\¦“”	‹î–ìã‚èo”­7R							2031	388											"0,1"	0		"Image/Light/N.png,Image/Light/G.png"									
+TextBlock	7R_Label	7R									14	20	11	11				7	10	Transparent	#FFBCBCBC	7R													
+LeverImage	8R		•¨—‚Ä‚±	TH75_8							1965	525										8R	"0,1"	0	Image/Lever/LeverBase_NR.png	"Image/Lever/Lever_Red_N.png,Image/Lever/Lever_Red_R.png"									
+Image	8R_G		M†‹@•\¦“”	‹î–ìã‚èo”­8R							2031	524											"0,1"	0		"Image/Light/N.png,Image/Light/G.png"									
+TextBlock	8R_Label	8R									14	20	11	11				8	10	Transparent	#FFBCBCBC	8R													
+LeverImage	9L		•¨—‚Ä‚±	TH75_9							2328	585										9L	"-1,0"	0	Image/Lever/LeverBase_LN.png	"Image/Lever/Lever_Red_L.png,Image/Lever/Lever_Red_N.png"									
+Image	9LB_G		M†‹@•\¦“”	‹î–ì‰º‚èê“à9LB							2294	621											"0,1"	0		"Image/Light/N.png,Image/Light/G.png"									
+Image	9LC_G		M†‹@•\¦“”	‹î–ì‰º‚èê“à9LC							2286	639											"0,1"	0		"Image/Light/N.png,Image/Light/G.png"									
+TextBlock	9L_Label	9L									14	20	11	11				9	10	Transparent	#FFBCBCBC	9L													
+LeverImage	11R		•¨—‚Ä‚±	TH75_11							713	585										11R	"0,1"	0	Image/Lever/LeverBase_NR.png	"Image/Lever/Lever_Green_N.png,Image/Lever/Lever_Green_R.png"	10‘ãX=‚Ä‚±—Î(X)N(X)@—áF11R=‚Ä‚±—ÎNR								
+Image	11R_Y		M†‹@•\¦“”	‹î–ì“üŠ·11R							772	620											"0,1"	0		"Image/Light/N.png,Image/Light/Y.png"									
+TextBlock	11R_Label	11R									14	20	11	11				11	10	Transparent	#FFBCBCBC	11R													
+LeverImage	12L		•¨—‚Ä‚±	TH75_12							923	585										12L	"-1,0"	0	Image/Lever/LeverBase_LN.png	"Image/Lever/Lever_Green_L.png,Image/Lever/Lever_Green_N.png"									
+Image	12L_Y		M†‹@•\¦“”	‹î–ì“üŠ·12L							836	622											"0,1"	0		"Image/Light/N.png,Image/Light/Y.png"									
+TextBlock	12L_Label	12L									14	20	11	11				12	10	Transparent	#FFBCBCBC	12L													
+LeverImage	13R		•¨—‚Ä‚±	TH75_13							1232	525										13R	"0,1"	0	Image/Lever/LeverBase_NR.png	"Image/Lever/Lever_Green_N.png,Image/Lever/Lever_Green_R.png"									
+Image	13R_Y		M†‹@•\¦“”	‹î–ì“üŠ·13R							1357	530											"0,1"	0		"Image/Light/N.png,Image/Light/Y.png"									
+TextBlock	13R_Label	13R									14	20	11	11				13	10	Transparent	#FFBCBCBC	13R													
+LeverImage	14L		•¨—‚Ä‚±	TH75_14							1669	585										14L	"-1,0"	0	Image/Lever/LeverBase_LN.png	"Image/Lever/Lever_Green_L.png,Image/Lever/Lever_Green_N.png"									
+Image	14L_Y		M†‹@•\¦“”	‹î–ì“üŠ·14L							1582	622											"0,1"	0		"Image/Light/N.png,Image/Light/Y.png"									
+TextBlock	14L_Label	14L									14	20	11	11				14	10	Transparent	#FFBCBCBC	14L													
+LeverImage	15L		•¨—‚Ä‚±	TH75_15							1669	345										15L	"-1,0"	0	Image/Lever/LeverBase_LN.png	"Image/Lever/Lever_Green_L.png,Image/Lever/Lever_Green_N.png"									
+Image	15L_Y		M†‹@•\¦“”	‹î–ì“üŠ·15L							1640	344											"0,1"	0		"Image/Light/N.png,Image/Light/Y.png"									
+TextBlock	15L_Label	15L									14	20	11	11				15	10	Transparent	#FFBCBCBC	15L													
+LeverImage	24R		•¨—‚Ä‚±	TH75_24							1446	345										24R	"0,1"	0	Image/Lever/LeverBase_NR.png	"Image/Lever/Lever_Green_N.png,Image/Lever/Lever_Green_R.png"									
+Image	24R_Y		M†‹@•\¦“”	‹î–ì“üŠ·24R							1505	350											"0,1"	0		"Image/Light/N.png,Image/Light/Y.png"									
+TextBlock	24R_Label	24R									14	20	11	11				24	10	Transparent	#FFBCBCBC	24R													
+LeverImage	25R		•¨—‚Ä‚±	TH75_25							1446	405										25R	"0,1"	0	Image/Lever/LeverBase_NR.png	"Image/Lever/Lever_Green_N.png,Image/Lever/Lever_Green_R.png"									
+Image	25R_Y		M†‹@•\¦“”	‹î–ì“üŠ·25R							1505	403											"0,1"	0		"Image/Light/N.png,Image/Light/Y.png"									
+TextBlock	25R_Label	25R									14	20	11	11				25	10	Transparent	#FFBCBCBC	25R													
+LeverImage	26R		•¨—‚Ä‚±	TH75_26							1446	465										26R	"0,1"	0	Image/Lever/LeverBase_NR.png	"Image/Lever/Lever_Green_N.png,Image/Lever/Lever_Green_R.png"									
+Image	26R_Y		M†‹@•\¦“”	‹î–ì“üŠ·26R							1505	463											"0,1"	0		"Image/Light/N.png,Image/Light/Y.png"									
+TextBlock	26R_Label	26R									14	20	11	11				26	10	Transparent	#FFBCBCBC	26R													
+LeverImage	27R		•¨—‚Ä‚±	TH75_27							807	345										27R	"0,1"	0	Image/Lever/LeverBase_NR.png	"Image/Lever/Lever_Green_N.png,Image/Lever/Lever_Green_R.png"									
+Image	27R_Y		M†‹@•\¦“”	‹î–ì“üŠ·27R							866	350											"0,1"	0		"Image/Light/N.png,Image/Light/Y.png"									
+TextBlock	27R_Label	27R									14	20	11	11				27	10	Transparent	#FFBCBCBC	27R													
+LeverImage	28R		•¨—‚Ä‚±	TH75_28							807	405										28R	"0,1"	0	Image/Lever/LeverBase_NR.png	"Image/Lever/Lever_Green_N.png,Image/Lever/Lever_Green_R.png"									
+Image	28R_Y		M†‹@•\¦“”	‹î–ì“üŠ·28R							866	410											"0,1"	0		"Image/Light/N.png,Image/Light/Y.png"									
+TextBlock	28R_Label	28R									14	20	11	11				28	10	Transparent	#FFBCBCBC	28R													
+LeverImage	29R		•¨—‚Ä‚±	TH75_29							807	465										29R	"0,1"	0	Image/Lever/LeverBase_NR.png	"Image/Lever/Lever_Green_N.png,Image/Lever/Lever_Green_R.png"									
+Image	29R_Y		M†‹@•\¦“”	‹î–ì“üŠ·29R							866	470											"0,1"	0		"Image/Light/N.png,Image/Light/Y.png"									
+TextBlock	29R_Label	29R									14	20	11	11				29	10	Transparent	#FFBCBCBC	29R													
+LeverImage	34L		•¨—‚Ä‚±	TH75_34							1150	345										34L	"-1,0"	0	Image/Lever/LeverBase_LN.png	"Image/Lever/Lever_Green_L.png,Image/Lever/Lever_Green_N.png"									
+Image	34L_Y		M†‹@•\¦“”	‹î–ì“üŠ·34L							1055	352											"0,1"	0		"Image/Light/N.png,Image/Light/Y.png"									
+TextBlock	34L_Label	34L									14	20	11	11				34	10	Transparent	#FFBCBCBC	34L													
+LeverImage	35L		•¨—‚Ä‚±	TH75_35							1150	405										35L	"-1,0"	0	Image/Lever/LeverBase_LN.png	"Image/Lever/Lever_Green_L.png,Image/Lever/Lever_Green_N.png"									
+Image	35L_Y		M†‹@•\¦“”	‹î–ì“üŠ·35L							1055	442											"0,1"	0		"Image/Light/N.png,Image/Light/Y.png"									
+TextBlock	35L_Label	35L									14	20	11	11				35	10	Transparent	#FFBCBCBC	35L													
+LeverImage	36L		•¨—‚Ä‚±	TH75_36							1150	465										36L	"-1,0"	0	Image/Lever/LeverBase_LN.png	"Image/Lever/Lever_Green_L.png,Image/Lever/Lever_Green_N.png"									
+Image	36L_Y		M†‹@•\¦“”	‹î–ì“üŠ·36L							1055	502											"0,1"	0		"Image/Light/N.png,Image/Light/Y.png"									
+TextBlock	36L_Label	36L									14	20	11	11				36	10	Transparent	#FFBCBCBC	36L													
+ButtonImage	T		’…“_ƒ{ƒ^ƒ“	TH75_TP							510	598										T	"0,1"	0	Image/Button/ArrivalButton_Base.png	"Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png"									
+TextBlock	T_Label	T									5	23	15	12				T	10	Transparent	#FFBCBCBC	T													
+ButtonImage	E		’…“_ƒ{ƒ^ƒ“	TH75_EP							1135	538										E	"0,1"	0	Image/Button/ArrivalButton_Base.png	"Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png"									
+TextBlock	E_Label	E									5	23	15	12				E	10	Transparent	#FFBCBCBC	E													
+ButtonImage	F		’…“_ƒ{ƒ^ƒ“	TH75_FP							1216	598										F	"0,1"	0	Image/Button/ArrivalButton_Base.png	"Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png"									
+TextBlock	F_Label	F									5	23	15	12				F	10	Transparent	#FFBCBCBC	F													
+ButtonImage	A		’…“_ƒ{ƒ^ƒ“	TH75_AP							1921	358										A	"0,1"	0	Image/Button/ArrivalButton_Base.png	"Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png"									
+TextBlock	A_Label	A									5	23	15	12				A	10	Transparent	#FFBCBCBC	A													
+ButtonImage	B		’…“_ƒ{ƒ^ƒ“	TH75_BP							1921	538										B	"0,1"	0	Image/Button/ArrivalButton_Base.png	"Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png"									
+TextBlock	B_Label	B									5	23	15	12				B	10	Transparent	#FFBCBCBC	B													
+ButtonImage	C		’…“_ƒ{ƒ^ƒ“	TH75_CP							1921	598										C	"0,1"	0	Image/Button/ArrivalButton_Base.png	"Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png"									
+TextBlock	C_Label	C									5	23	15	12				C	10	Transparent	#FFBCBCBC	C													
+ButtonImage	S		’…“_ƒ{ƒ^ƒ“	TH75_SP							2291	538										S	"0,1"	0	Image/Button/ArrivalButton_Base.png	"Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png"									
+TextBlock	S_Label	S									5	23	15	12				S	10	Transparent	#FFBCBCBC	S													
+ButtonImage	7		’…“_ƒ{ƒ^ƒ“	TH75_7P							569	358										7	"0,1"	0	Image/Button/ArrivalButton_Base.png	"Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png"									
+TextBlock	7_Label	7									5	23	15	12				7	10	Transparent	#FFBCBCBC	7													
+ButtonImage	8		’…“_ƒ{ƒ^ƒ“	TH75_8P							569	418										8	"0,1"	0	Image/Button/ArrivalButton_Base.png	"Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png"									
+TextBlock	8_Label	8									5	23	15	12				8	10	Transparent	#FFBCBCBC	8													
+ButtonImage	9		’…“_ƒ{ƒ^ƒ“	TH75_9P							569	478										9	"0,1"	0	Image/Button/ArrivalButton_Base.png	"Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png"									
+TextBlock	9_Label	9									5	23	15	12				9	10	Transparent	#FFBCBCBC	9													
+ButtonImage	4		’…“_ƒ{ƒ^ƒ“	TH75_4P							1402	358										4	"0,1"	0	Image/Button/ArrivalButton_Base.png	"Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png"									
+TextBlock	4_Label	4									5	23	15	12				4	10	Transparent	#FFBCBCBC	4													
+ButtonImage	D5		’…“_ƒ{ƒ^ƒ“	TH75_D5P							1402	418										D5	"0,1"	0	Image/Button/ArrivalButton_Base.png	"Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png"									
+TextBlock	D5_Label	D5									5	23	15	12				D5	10	Transparent	#FFBCBCBC	D5													
+ButtonImage	D6		’…“_ƒ{ƒ^ƒ“	TH75_D6P							1402	478										D6	"0,1"	0	Image/Button/ArrivalButton_Base.png	"Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png"									
+TextBlock	D6_Label	D6									5	23	15	12				D6	10	Transparent	#FFBCBCBC	D6													
+ButtonImage	Œx•ñã‚èÚ‹ß										404	911										Œx•ñã‚èÚ‹ß	"0,1"	0	Image/Button/ApproachingButton_Base.png	"Image/Button/ApproachingButton_Green_OFF.png,Image/Button/ApproachingButton_Green_ON.png"									
+ButtonImage	Œx•ñ‰º‚èÚ‹ß										2131	911										Œx•ñ‰º‚èÚ‹ß	"0,1"	0	Image/Button/ApproachingButton_Base.png	"Image/Button/ApproachingButton_Green_OFF.png,Image/Button/ApproachingButton_Green_ON.png"									
+LeverImage	W41		•¨—‚Ä‚±	TH75_41							660	64										P41	"-1,0,1"	0	Image/Lever/LeverBase_NCR.png	"Image/Lever/Lever_Black_L.png,Image/Lever/Lever_Black_N.png,Image/Lever/Lever_Black_R.png"	“]‚Ä‚ÂŠí’P“Æ‚Ä‚±‚ÍNCR								
+Image	W41_PG		“]‚Ä‚ÂŠí•\¦“”		TH75_W41	N					658	45											"0,1"	0		"Image/Light/N.png,Image/Light/PG.png"									
+Image	W41_PY		“]‚Ä‚ÂŠí•\¦“”		TH75_W41	R					692	45											"0,1"	0		"Image/Light/N.png,Image/Light/PY.png"									
+TextBlock	W41_Label	W41									14	20	11	11				41	10	Transparent	#FFBCBCBC	P41													
+LeverImage	W42		•¨—‚Ä‚±	TH75_42							728	64										P42	"-1,0,1"	0	Image/Lever/LeverBase_NCR.png	"Image/Lever/Lever_Black_L.png,Image/Lever/Lever_Black_N.png,Image/Lever/Lever_Black_R.png"									
+Image	W42_PG		“]‚Ä‚ÂŠí•\¦“”		TH75_W42	N					726	45											"0,1"	0		"Image/Light/N.png,Image/Light/PG.png"									
+Image	W42_PY		“]‚Ä‚ÂŠí•\¦“”		TH75_W42	R					760	45											"0,1"	0		"Image/Light/N.png,Image/Light/PY.png"									
+TextBlock	W42_Label	W42									14	20	11	11				42	10	Transparent	#FFBCBCBC	P42													
+LeverImage	W43		•¨—‚Ä‚±	TH75_43							796	64										P43	"-1,0,1"	0	Image/Lever/LeverBase_NCR.png	"Image/Lever/Lever_Black_L.png,Image/Lever/Lever_Black_N.png,Image/Lever/Lever_Black_R.png"									
+Image	W43_PG		“]‚Ä‚ÂŠí•\¦“”		TH75_W43	N					794	45											"0,1"	0		"Image/Light/N.png,Image/Light/PG.png"									
+Image	W43_PY		“]‚Ä‚ÂŠí•\¦“”		TH75_W43	R					828	45											"0,1"	0		"Image/Light/N.png,Image/Light/PY.png"									
+TextBlock	W43_Label	W43									14	20	11	11				43	10	Transparent	#FFBCBCBC	P43													
+LeverImage	W44		•¨—‚Ä‚±	TH75_44							864	64										P44	"-1,0,1"	0	Image/Lever/LeverBase_NCR.png	"Image/Lever/Lever_Black_L.png,Image/Lever/Lever_Black_N.png,Image/Lever/Lever_Black_R.png"									
+Image	W44_PG		“]‚Ä‚ÂŠí•\¦“”		TH75_W44	N					862	45											"0,1"	0		"Image/Light/N.png,Image/Light/PG.png"									
+Image	W44_PY		“]‚Ä‚ÂŠí•\¦“”		TH75_W44	R					896	45											"0,1"	0		"Image/Light/N.png,Image/Light/PY.png"									
+TextBlock	W44_Label	W44									14	20	11	11				44	10	Transparent	#FFBCBCBC	P44													
+LeverImage	W45		•¨—‚Ä‚±	TH75_45							932	64										P45	"-1,0,1"	0	Image/Lever/LeverBase_NCR.png	"Image/Lever/Lever_Black_L.png,Image/Lever/Lever_Black_N.png,Image/Lever/Lever_Black_R.png"									
+Image	W45_PG		“]‚Ä‚ÂŠí•\¦“”		TH75_W45	N					930	45											"0,1"	0		"Image/Light/N.png,Image/Light/PG.png"									
+Image	W45_PY		“]‚Ä‚ÂŠí•\¦“”		TH75_W45	R					964	45											"0,1"	0		"Image/Light/N.png,Image/Light/PY.png"									
+TextBlock	W45_Label	W45									14	20	11	11				45	10	Transparent	#FFBCBCBC	P45													
+LeverImage	W46		•¨—‚Ä‚±	TH75_46							1000	64										P46	"-1,0,1"	0	Image/Lever/LeverBase_NCR.png	"Image/Lever/Lever_Black_L.png,Image/Lever/Lever_Black_N.png,Image/Lever/Lever_Black_R.png"									
+Image	W46_PG		“]‚Ä‚ÂŠí•\¦“”		TH75_W46	N					998	45											"0,1"	0		"Image/Light/N.png,Image/Light/PG.png"									
+Image	W46_PY		“]‚Ä‚ÂŠí•\¦“”		TH75_W46	R					1032	45											"0,1"	0		"Image/Light/N.png,Image/Light/PY.png"									
+TextBlock	W46_Label	W46									14	20	11	11				46	10	Transparent	#FFBCBCBC	P46													
+LeverImage	W47		•¨—‚Ä‚±	TH75_47							1068	64										P47	"-1,0,1"	0	Image/Lever/LeverBase_NCR.png	"Image/Lever/Lever_Black_L.png,Image/Lever/Lever_Black_N.png,Image/Lever/Lever_Black_R.png"									
+Image	W47_PG		“]‚Ä‚ÂŠí•\¦“”		TH75_W47	N					1066	45											"0,1"	0		"Image/Light/N.png,Image/Light/PG.png"									
+Image	W47_PY		“]‚Ä‚ÂŠí•\¦“”		TH75_W47	R					1100	45											"0,1"	0		"Image/Light/N.png,Image/Light/PY.png"									
+TextBlock	W47_Label	W47									14	20	11	11				47	10	Transparent	#FFBCBCBC	P47													
+LeverImage	W48		•¨—‚Ä‚±	TH75_48							1136	64										P48	"-1,0,1"	0	Image/Lever/LeverBase_NCR.png	"Image/Lever/Lever_Black_L.png,Image/Lever/Lever_Black_N.png,Image/Lever/Lever_Black_R.png"									
+Image	W48_PG		“]‚Ä‚ÂŠí•\¦“”		TH75_W48	N					1134	45											"0,1"	0		"Image/Light/N.png,Image/Light/PG.png"									
+Image	W48_PY		“]‚Ä‚ÂŠí•\¦“”		TH75_W48	R					1168	45											"0,1"	0		"Image/Light/N.png,Image/Light/PY.png"									
+TextBlock	W48_Label	W48									14	20	11	11				48	10	Transparent	#FFBCBCBC	P48													
+LeverImage	W49		•¨—‚Ä‚±	TH75_49							2115	64										P49	"-1,0,1"	0	Image/Lever/LeverBase_NCR.png	"Image/Lever/Lever_Black_L.png,Image/Lever/Lever_Black_N.png,Image/Lever/Lever_Black_R.png"									
+Image	W49_PG		“]‚Ä‚ÂŠí•\¦“”		TH75_W49	N					2113	45											"0,1"	0		"Image/Light/N.png,Image/Light/PG.png"									
+Image	W49_PY		“]‚Ä‚ÂŠí•\¦“”		TH75_W49	R					2147	45											"0,1"	0		"Image/Light/N.png,Image/Light/PY.png"									
+TextBlock	W49_Label	W49									14	20	11	11				49	10	Transparent	#FFBCBCBC	P49													
+LeverImage	W50		•¨—‚Ä‚±	TH75_50							2183	64										P50	"-1,0,1"	0	Image/Lever/LeverBase_NCR.png	"Image/Lever/Lever_Black_L.png,Image/Lever/Lever_Black_N.png,Image/Lever/Lever_Black_R.png"									
+Image	W50_PG		“]‚Ä‚ÂŠí•\¦“”		TH75_W50	N					2181	45											"0,1"	0		"Image/Light/N.png,Image/Light/PG.png"									
+Image	W50_PY		“]‚Ä‚ÂŠí•\¦“”		TH75_W50	R					2215	45											"0,1"	0		"Image/Light/N.png,Image/Light/PY.png"									
+TextBlock	W50_Label	W50									14	20	11	11				50	10	Transparent	#FFBCBCBC	P50													
+KeyImage	‰wˆµØŠ·		•¨—Œ®‚Ä‚±	TH75_81							2367	64										‰wˆµØŠ·	"-1,1,-11,11"	1	Image/Lever/LeverBase_LR.png	"Image/Lever/KeyLever_KeyOFF_L.png,Image/Lever/KeyLever_KeyOFF_R.png,Image/Lever/KeyLever_KeyON_L.png,Image/Lever/KeyLever_KeyON_R.png"	‰wˆµØŠ·‚ÍLR								
+Image	‰wˆµØŠ·_PY		‰wˆµØŠ·•\¦“”	TH75_81							2365	45											"0,1"	0		"Image/Light/N.png,Image/Light/PY.png"									
+Image	‰wˆµØŠ·_PG		‰wˆµØŠ·•\¦“”	TH75_81							2399	45											"0,1"	0		"Image/Light/N.png,Image/Light/PG.png"									
+Image	TH76_5LAT_1		‹O“¹‰ñ˜H•\¦“”	TH76_5LAT							126	548											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"	0“x¦ˆÈ‰º0“xÈ—ª								
+Image	TH76_5LAT_2		‹O“¹‰ñ˜H•\¦“”	TH76_5LAT							208	548											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH76_5LBT_1		‹O“¹‰ñ˜H•\¦“”	TH76_5LBT							126	668											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH76_5LBT_2		‹O“¹‰ñ˜H•\¦“”	TH76_5LBT							208	668											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH76_5LCT_1		‹O“¹‰ñ˜H•\¦“”	TH76_5LCT							100	728											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH76_5LCT_2		‹O“¹‰ñ˜H•\¦“”	TH76_5LCT							182	728											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH76_5LDT_1		‹O“¹‰ñ˜H•\¦“”	TH76_5LDT							100	788											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH76_5LDT_2		‹O“¹‰ñ˜H•\¦“”	TH76_5LDT							182	788											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH76_21ƒCT_W21ƒCN_1		‹O“¹‰ñ˜H•\¦“”	TH76_21ƒCT	TH76_W21	N					210	728											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH76_21ƒCT_W21ƒCN_2		‹O“¹‰ñ˜H•\¦“”	TH76_21ƒCT	TH76_W21	N					249	728											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH76_21ƒCT_W21ƒCN_3		‹O“¹‰ñ˜H•\¦“”	TH76_21ƒCT	TH76_W21	N					274	703											"0,1,2"	0		"Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png"	68								
+Image	TH76_21ƒCT_W21ƒCR_1		‹O“¹‰ñ˜H•\¦“”	TH76_21ƒCT	TH76_W21	R					210	728											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH76_21ƒCT_W21ƒCR_2		‹O“¹‰ñ˜H•\¦“”	TH76_21ƒCT	TH76_W21	R					232	743											"0,1,2"	0		"Image/Light/112N.png,Image/Light/112Y.png,Image/Light/112R.png"	112								
+Image	TH76_21ƒT_W21ƒN_1		‹O“¹‰ñ˜H•\¦“”	TH76_21ƒT	TH76_W21	N					210	788											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH76_21ƒT_W21ƒN_2		‹O“¹‰ñ˜H•\¦“”	TH76_21ƒT	TH76_W21	N					290	788											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH76_21ƒT_W21ƒN_3		‹O“¹‰ñ˜H•\¦“”	TH76_21ƒT	TH76_W21	N					330	724											"0,1,2"	0		"Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png"	68								
+Image	TH76_21ƒT_W21ƒR_1		‹O“¹‰ñ˜H•\¦“”	TH76_21ƒT	TH76_W21	R					242	768											"0,1,2"	0		"Image/Light/112N.png,Image/Light/112Y.png,Image/Light/112R.png"	112								
+Image	TH76_21ƒT_W21ƒR_2		‹O“¹‰ñ˜H•\¦“”	TH76_21ƒT	TH76_W21	R					290	788											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH76_21ƒT_W21ƒR_3		‹O“¹‰ñ˜H•\¦“”	TH76_21ƒT	TH76_W21	R					330	724											"0,1,2"	0		"Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png"	68								
+Image	TH76_22T_W22N_1		‹O“¹‰ñ˜H•\¦“”	TH76_22T	TH76_W22	N					232	548											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH76_22T_W22N_2		‹O“¹‰ñ˜H•\¦“”	TH76_22T	TH76_W22	N					276	548											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH76_22T_W22N_3		‹O“¹‰ñ˜H•\¦“”	TH76_22T	TH76_W22	N					321	548											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH76_22T_W22R_1		‹O“¹‰ñ˜H•\¦“”	TH76_22T	TH76_W22	R					232	548											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH76_22T_W22R_2		‹O“¹‰ñ˜H•\¦“”	TH76_22T	TH76_W22	R					261	588											"0,1,2"	0		"Image/Light/112N.png,Image/Light/112Y.png,Image/Light/112R.png"	112								
+Image	TH76_23T_W23N_W24ƒN_1		‹O“¹‰ñ˜H•\¦“”	TH76_23T	TH76_W23	N	TH76_W24	N			282	683											"0,1,2"	0		"Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png"	68								
+Image	TH76_23T_W23N_W24ƒN_2		‹O“¹‰ñ˜H•\¦“”	TH76_23T	TH76_W23	N	TH76_W24	N			294	653											"0,1,2"	0		"Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png"	68								
+Image	TH76_23T_W23R_W24ƒN_1		‹O“¹‰ñ˜H•\¦“”	TH76_23T	TH76_W23	R	TH76_W24	N			236	668											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH76_23T_W23R_W24ƒN_2		‹O“¹‰ñ˜H•\¦“”	TH76_23T	TH76_W23	R	TH76_W24	N			267	668											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH76_23T_W23R_W24ƒN_3		‹O“¹‰ñ˜H•\¦“”	TH76_23T	TH76_W23	R	TH76_W24	N			294	653											"0,1,2"	0		"Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png"	68								
+Image	TH76_23T_W24ƒR_1		‹O“¹‰ñ˜H•\¦“”	TH76_23T	TH76_W24	R					294	653											"0,1,2"	0		"Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png"	68								
+Image	TH76_23T_W24ƒR_2		‹O“¹‰ñ˜H•\¦“”	TH76_23T	TH76_W24	R					306	670											"0,1,2"	0		"Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png"	135								
+Image	TH76_24T_W24ƒCN_1		‹O“¹‰ñ˜H•\¦“”	TH76_24T	TH76_W24	N					338	704											"0,1,2"	0		"Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png"	68								
+Image	TH76_24T_W24ƒCN_2		‹O“¹‰ñ˜H•\¦“”	TH76_24T	TH76_W24	N					361	668											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH76_24T_W24ƒCN_3		‹O“¹‰ñ˜H•\¦“”	TH76_24T	TH76_W24	N					395	643											"0,1,2"	0		"Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png"	68								
+Image	TH76_24T_W24ƒCR_1		‹O“¹‰ñ˜H•\¦“”	TH76_24T	TH76_W24	R					324	688											"0,1,2"	0		"Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png"	135								
+Image	TH76_24T_W24ƒCR_2		‹O“¹‰ñ˜H•\¦“”	TH76_24T	TH76_W24	R					338	704											"0,1,2"	0		"Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png"	68								
+Image	TH76_25T_W25N_1		‹O“¹‰ñ˜H•\¦“”	TH76_25T	TH75_W25	N					302	633											"0,1,2"	0		"Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png"	68								
+Image	TH76_25T_W25N_2		‹O“¹‰ñ˜H•\¦“”	TH76_25T	TH75_W25	N					321	608											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH76_25T_W25R_1		‹O“¹‰ñ˜H•\¦“”	TH76_25T	TH75_W25	R					289	608											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH76_25T_W25R_2		‹O“¹‰ñ˜H•\¦“”	TH76_25T	TH75_W25	R					321	608											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH76_26ƒCT_W26ƒCN_1		‹O“¹‰ñ˜H•\¦“”	TH76_26T	TH75_W26	N					341	608											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH76_26ƒCT_W26ƒCN_2		‹O“¹‰ñ˜H•\¦“”	TH76_26T	TH75_W26	N					366	608											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH76_26ƒCT_W26ƒCR_1		‹O“¹‰ñ˜H•\¦“”	TH76_26T	TH75_W26	R					341	608											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH76_26ƒCT_W26ƒCR_2		‹O“¹‰ñ˜H•\¦“”	TH76_26T	TH75_W26	R					353	588											"0,1,2"	0		"Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png"	68								
+Image	TH76_26ƒT_W26ƒN_1		‹O“¹‰ñ˜H•\¦“”	TH76_26T	TH75_W26	N					341	548											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH76_26ƒT_W26ƒN_2		‹O“¹‰ñ˜H•\¦“”	TH76_26T	TH75_W26	N					403	548											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH76_26ƒT_W26ƒR_1		‹O“¹‰ñ˜H•\¦“”	TH76_26T	TH75_W26	R					363	563											"0,1,2"	0		"Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png"	68								
+Image	TH76_26ƒT_W26ƒR_2		‹O“¹‰ñ˜H•\¦“”	TH76_26T	TH75_W26	R					403	548											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	6T_1		‹O“¹‰ñ˜H•\¦“”	ã‚è6T							428	548											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	8T_1		‹O“¹‰ñ˜H•\¦“”	ã‚è8T							482	548											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	8T_2		‹O“¹‰ñ˜H•\¦“”	ã‚è8T							558	548											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_1RT_1		‹O“¹‰ñ˜H•\¦“”	TH75_1RT							656	548											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_1RT_2		‹O“¹‰ñ˜H•\¦“”	TH75_1RT							722	548											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_TST_1		‹O“¹‰ñ˜H•\¦“”	TH75_TST							543	608											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_TST_2		‹O“¹‰ñ˜H•\¦“”	TH75_TST							701	608											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_7T_1		‹O“¹‰ñ˜H•\¦“”	TH75_7T							551	368											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_7T_2		‹O“¹‰ñ˜H•\¦“”	TH75_7T							795	368											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_8T_1		‹O“¹‰ñ˜H•\¦“”	TH75_8T							551	428											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_8T_2		‹O“¹‰ñ˜H•\¦“”	TH75_8T							795	428											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_9T_1		‹O“¹‰ñ˜H•\¦“”	TH75_9T							551	488											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_9T_2		‹O“¹‰ñ˜H•\¦“”	TH75_9T							795	488											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_41ƒCT_W41ƒCN_1		‹O“¹‰ñ˜H•\¦“”	TH75_41ƒCT	TH75_W41	N					770	608											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_41ƒCT_W41ƒCN_2		‹O“¹‰ñ˜H•\¦“”	TH75_41ƒCT	TH75_W41	N					836	608											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_41ƒCT_W41ƒCR_1		‹O“¹‰ñ˜H•\¦“”	TH75_41ƒCT	TH75_W41	R					770	608											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_41ƒCT_W41ƒCR_2		‹O“¹‰ñ˜H•\¦“”	TH75_41ƒCT	TH75_W41	R					794	586											"0,1,2"	0		"Image/Light/45N.png,Image/Light/45Y.png,Image/Light/45R.png"	45								
+Image	TH75_41ƒT_W41ƒN_1		‹O“¹‰ñ˜H•\¦“”	TH75_41ƒT	TH75_W41	N					770	548											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_41ƒT_W41ƒN_2		‹O“¹‰ñ˜H•\¦“”	TH75_41ƒT	TH75_W41	N					836	548											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_41ƒT_W41ƒR_1		‹O“¹‰ñ˜H•\¦“”	TH75_41ƒT	TH75_W41	R					814	566											"0,1,2"	0		"Image/Light/45N.png,Image/Light/45Y.png,Image/Light/45R.png"	45								
+Image	TH75_41ƒT_W41ƒR_2		‹O“¹‰ñ˜H•\¦“”	TH75_41ƒT	TH75_W41	R					836	548											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_42ƒCT_W42ƒCN_1		‹O“¹‰ñ˜H•\¦“”	TH75_42ƒCT	TH75_W42	N					864	368											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_42ƒCT_W42ƒCN_2		‹O“¹‰ñ˜H•\¦“”	TH75_42ƒCT	TH75_W42	N					930	368											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_42ƒCT_W42ƒCR_1		‹O“¹‰ñ˜H•\¦“”	TH75_42ƒCT	TH75_W42	R					864	368											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_42ƒCT_W42ƒCR_2		‹O“¹‰ñ˜H•\¦“”	TH75_42ƒCT	TH75_W42	R					888	386											"0,1,2"	0		"Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png"	135								
+Image	TH75_42ƒT_W42ƒN_1		‹O“¹‰ñ˜H•\¦“”	TH75_42ƒT	TH75_W42	N					864	428											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_42ƒT_W42ƒN_2		‹O“¹‰ñ˜H•\¦“”	TH75_42ƒT	TH75_W42	N					930	428											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_42ƒT_W42ƒR_1		‹O“¹‰ñ˜H•\¦“”	TH75_42ƒT	TH75_W42	R					908	406											"0,1,2"	0		"Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png"	135								
+Image	TH75_42ƒT_W42ƒR_2		‹O“¹‰ñ˜H•\¦“”	TH75_42ƒT	TH75_W42	R					930	428											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_43ƒCT_W43ƒCN_1		‹O“¹‰ñ˜H•\¦“”	TH75_43ƒCT	TH75_W43	N					864	548											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_43ƒCT_W43ƒCN_2		‹O“¹‰ñ˜H•\¦“”	TH75_43ƒCT	TH75_W43	N					930	548											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_43ƒCT_W43ƒCR_1		‹O“¹‰ñ˜H•\¦“”	TH75_43ƒCT	TH75_W43	R					864	548											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_43ƒCT_W43ƒCR_2		‹O“¹‰ñ˜H•\¦“”	TH75_43ƒCT	TH75_W43	R					888	526											"0,1,2"	0		"Image/Light/45N.png,Image/Light/45Y.png,Image/Light/45R.png"	45								
+Image	TH75_43ƒT_W43ƒN_1		‹O“¹‰ñ˜H•\¦“”	TH75_43ƒT	TH75_W43	N					864	488											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_43ƒT_W43ƒN_2		‹O“¹‰ñ˜H•\¦“”	TH75_43ƒT	TH75_W43	N					930	488											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_43ƒT_W43ƒR_1		‹O“¹‰ñ˜H•\¦“”	TH75_43ƒT	TH75_W43	R					908	506											"0,1,2"	0		"Image/Light/45N.png,Image/Light/45Y.png,Image/Light/45R.png"	45								
+Image	TH75_43ƒT_W43ƒR_2		‹O“¹‰ñ˜H•\¦“”	TH75_43ƒT	TH75_W43	R					930	488											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_44T_W44ƒCN_W45ƒN_1		‹O“¹‰ñ˜H•\¦“”	TH75_44T	TH75_W44	N	TH75_W45	N			958	428											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_44T_W44ƒCN_W45ƒN_2		‹O“¹‰ñ˜H•\¦“”	TH75_44T	TH75_W44	N	TH75_W45	N			991	428											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_44T_W44ƒCN_W45ƒN_3		‹O“¹‰ñ˜H•\¦“”	TH75_44T	TH75_W44	N	TH75_W45	N			1024	428											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_44T_W44ƒCN_W45ƒN_4		‹O“¹‰ñ˜H•\¦“”	TH75_44T	TH75_W44	N	TH75_W45	N			1055	428											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_44T_W44ƒCN_W45ƒR_1		‹O“¹‰ñ˜H•\¦“”	TH75_44T	TH75_W44	N	TH75_W45	R			1006	442											"0,1,2"	0		"Image/Light/45N.png,Image/Light/45Y.png,Image/Light/45R.png"	45								
+Image	TH75_44T_W44ƒCN_W45ƒR_2		‹O“¹‰ñ˜H•\¦“”	TH75_44T	TH75_W44	N	TH75_W45	R			1024	428											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_44T_W44ƒCN_W45ƒR_3		‹O“¹‰ñ˜H•\¦“”	TH75_44T	TH75_W44	N	TH75_W45	R			1055	428											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_44T_W44ƒCR_W45ƒN_1		‹O“¹‰ñ˜H•\¦“”	TH75_44T	TH75_W44	R	TH75_W45	N			930	428											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_44T_W44ƒCR_W45ƒN_2		‹O“¹‰ñ˜H•\¦“”	TH75_44T	TH75_W44	R	TH75_W45	N			978	442											"0,1,2"	0		"Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png"	135								
+Image	TH75_45T_W45ƒCN_W44ƒN_1		‹O“¹‰ñ˜H•\¦“”	TH75_45T	TH75_W45	N	TH75_W44	N			958	488											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_45T_W45ƒCN_W44ƒN_2		‹O“¹‰ñ˜H•\¦“”	TH75_45T	TH75_W45	N	TH75_W44	N			991	488											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_45T_W45ƒCN_W44ƒN_3		‹O“¹‰ñ˜H•\¦“”	TH75_45T	TH75_W45	N	TH75_W44	N			1024	488											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_45T_W45ƒCN_W44ƒN_4		‹O“¹‰ñ˜H•\¦“”	TH75_45T	TH75_W45	N	TH75_W44	N			1055	488											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_45T_W45ƒCN_W44ƒR_1		‹O“¹‰ñ˜H•\¦“”	TH75_45T	TH75_W45	N	TH75_W44	R			1006	470											"0,1,2"	0		"Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png"	135								
+Image	TH75_45T_W45ƒCN_W44ƒR_2		‹O“¹‰ñ˜H•\¦“”	TH75_45T	TH75_W45	N	TH75_W44	R			1024	488											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_45T_W45ƒCN_W44ƒR_3		‹O“¹‰ñ˜H•\¦“”	TH75_45T	TH75_W45	N	TH75_W44	R			1055	488											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_45T_W45ƒCR_W44ƒN_1		‹O“¹‰ñ˜H•\¦“”	TH75_45T	TH75_W45	R	TH75_W44	N			958	488											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_45T_W45ƒCR_W44ƒN_2		‹O“¹‰ñ˜H•\¦“”	TH75_45T	TH75_W45	R	TH75_W44	N			978	470											"0,1,2"	0		"Image/Light/45N.png,Image/Light/45Y.png,Image/Light/45R.png"	45								
+Image	TH75_34LT_1		‹O“¹‰ñ˜H•\¦“”	TH75_34LT							958	368											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_34LT_2		‹O“¹‰ñ˜H•\¦“”	TH75_34LT							1055	368											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_4T_1		‹O“¹‰ñ˜H•\¦“”	TH75_4T							1190	368											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_4T_2		‹O“¹‰ñ˜H•\¦“”	TH75_4T							1434	368											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_5T_1		‹O“¹‰ñ˜H•\¦“”	TH75_5T							1190	428											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_5T_2		‹O“¹‰ñ˜H•\¦“”	TH75_5T							1434	428											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_6T_1		‹O“¹‰ñ˜H•\¦“”	TH75_6T							1190	488											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_6T_2		‹O“¹‰ñ˜H•\¦“”	TH75_6T							1434	488											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_1RET_1		‹O“¹‰ñ˜H•\¦“”	TH75_1RET							994	548											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_1RET_2		‹O“¹‰ñ˜H•\¦“”	TH75_1RET							1093	548											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_1RET_3		‹O“¹‰ñ˜H•\¦“”	TH75_1RET							1192	548											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_6LT_1		‹O“¹‰ñ˜H•\¦“”	TH75_6LT							1041	608											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_6LT_2		‹O“¹‰ñ˜H•\¦“”	TH75_6LT							1161	608											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_6LT_3		‹O“¹‰ñ˜H•\¦“”	TH75_6LT							1285	608											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_6LT_4		‹O“¹‰ñ˜H•\¦“”	TH75_6LT							1409	608											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_6LT_5		‹O“¹‰ñ˜H•\¦“”	TH75_6LT							1533	608											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_46ƒCT_W46ƒCN_1		‹O“¹‰ñ˜H•\¦“”	TH75_46ƒCT	TH75_W46	N					1355	548											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_46ƒCT_W46ƒCN_2		‹O“¹‰ñ˜H•\¦“”	TH75_46ƒCT	TH75_W46	N					1450	548											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_46ƒCT_W46ƒCN_3		‹O“¹‰ñ˜H•\¦“”	TH75_46ƒCT	TH75_W46	N					1545	548											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_46ƒCT_W46ƒCN_4		‹O“¹‰ñ˜H•\¦“”	TH75_46ƒCT	TH75_W46	N					1640	548											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_46ƒCT_W46ƒCR_1		‹O“¹‰ñ˜H•\¦“”	TH75_46ƒCT	TH75_W46	R					1355	548											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_46ƒCT_W46ƒCR_2		‹O“¹‰ñ˜H•\¦“”	TH75_46ƒCT	TH75_W46	R					1450	548											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_46ƒCT_W46ƒCR_3		‹O“¹‰ñ˜H•\¦“”	TH75_46ƒCT	TH75_W46	R					1545	548											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_46ƒCT_W46ƒCR_4		‹O“¹‰ñ˜H•\¦“”	TH75_46ƒCT	TH75_W46	R					1569	528											"0,1,2"	0		"Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png"	68								
+Image	TH75_46ƒCT_W46ƒCR_5		‹O“¹‰ñ˜H•\¦“”	TH75_46ƒCT	TH75_W46	R					1593	468											"0,1,2"	0		"Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png"	68								
+Image	TH75_46ƒT_W46ƒN_1		‹O“¹‰ñ˜H•\¦“”	TH75_46ƒT	TH75_W46	N					1604	368											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_46ƒT_W46ƒN_2		‹O“¹‰ñ˜H•\¦“”	TH75_46ƒT	TH75_W46	N					1640	368											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_46ƒT_W46ƒR_1		‹O“¹‰ñ˜H•\¦“”	TH75_46ƒT	TH75_W46	R					1603	443											"0,1,2"	0		"Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png"	68								
+Image	TH75_46ƒT_W46ƒR_2		‹O“¹‰ñ˜H•\¦“”	TH75_46ƒT	TH75_W46	R					1627	383											"0,1,2"	0		"Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png"	68								
+Image	TH75_46ƒT_W46ƒR_3		‹O“¹‰ñ˜H•\¦“”	TH75_46ƒT	TH75_W46	R					1640	368											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_48T_W47N_W48R_1		‹O“¹‰ñ˜H•\¦“”	TH75_48T	TH75_W47	N	TH75_W48	R			1503	428											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_48T_W47N_W48R_2		‹O“¹‰ñ˜H•\¦“”	TH75_48T	TH75_W47	N	TH75_W48	R			1551	413											"0,1,2"	0		"Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png"	68								
+Image	TH75_48T_W47N_W48R_3		‹O“¹‰ñ˜H•\¦“”	TH75_48T	TH75_W47	N	TH75_W48	R			1576	368											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_48T_W47R_W48R_1		‹O“¹‰ñ˜H•\¦“”	TH75_48T	TH75_W47	R	TH75_W48	R			1503	488											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_48T_W47R_W48R_2		‹O“¹‰ñ˜H•\¦“”	TH75_48T	TH75_W47	R	TH75_W48	R			1551	413											"0,1,2"	0		"Image/Light/68N.png,Image/Light/68Y.png,Image/Light/68R.png"	68								
+Image	TH75_48T_W47R_W48R_3		‹O“¹‰ñ˜H•\¦“”	TH75_48T	TH75_W47	R	TH75_W48	R			1576	368											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_48T_W48N_1		‹O“¹‰ñ˜H•\¦“”	TH75_48T	TH75_W48	N					1503	368											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_48T_W48N_2		‹O“¹‰ñ˜H•\¦“”	TH75_48T	TH75_W48	N					1576	368											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_5RAT_1		‹O“¹‰ñ˜H•\¦“”	TH75_5RAT							1709	368											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_5RAT_2		‹O“¹‰ñ˜H•\¦“”	TH75_5RAT							1953	368											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_5RBT_1		‹O“¹‰ñ˜H•\¦“”	TH75_5RBT							1709	548											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_5RBT_2		‹O“¹‰ñ˜H•\¦“”	TH75_5RBT							1953	548											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_9LCT_1		‹O“¹‰ñ˜H•\¦“”	TH75_9LCT							1709	608											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_9LCT_2		‹O“¹‰ñ˜H•\¦“”	TH75_9LCT							1953	608											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_9LCT_3		‹O“¹‰ñ˜H•\¦“”	TH75_9LCT							2085	608											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_49ƒCT_W49ƒCN_1		‹O“¹‰ñ˜H•\¦“”	TH75_49ƒCT	TH75_W49	N					2022	368											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_49ƒCT_W49ƒCN_2		‹O“¹‰ñ˜H•\¦“”	TH75_49ƒCT	TH75_W49	N					2074	403											"0,1,2"	0		"Image/Light/112N.png,Image/Light/112Y.png,Image/Light/112R.png"	112								
+Image	TH75_49ƒCT_W49ƒCN_3		‹O“¹‰ñ˜H•\¦“”	TH75_49ƒCT	TH75_W49	N					2102	473											"0,1,2"	0		"Image/Light/112N.png,Image/Light/112Y.png,Image/Light/112R.png"	112								
+Image	49EM_R		‹O“¹‰ñ˜H•\¦“”								2141	486											"0,1"	0		"Image/Light/N.png,Image/Light/R.png"									
+Image	TH75_49ƒCT_W49ƒCR_1		‹O“¹‰ñ˜H•\¦“”	TH75_49ƒCT	TH75_W49	R					2022	368											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_49ƒCT_W49ƒCR_2		‹O“¹‰ñ˜H•\¦“”	TH75_49ƒCT	TH75_W49	R					2074	403											"0,1,2"	0		"Image/Light/112N.png,Image/Light/112Y.png,Image/Light/112R.png"	112								
+Image	TH75_49ƒCT_W49ƒCR_3		‹O“¹‰ñ˜H•\¦“”	TH75_49ƒCT	TH75_W49	R					2102	473											"0,1,2"	0		"Image/Light/112N.png,Image/Light/112Y.png,Image/Light/112R.png"	112								
+Image	TH75_49ƒCT_W49ƒCR_4		‹O“¹‰ñ˜H•\¦“”	TH75_49ƒCT	TH75_W49	R					2114	503											"0,1,2"	0		"Image/Light/112N.png,Image/Light/112Y.png,Image/Light/112R.png"	112								
+Image	TH75_49ƒT_W49ƒN_1		‹O“¹‰ñ˜H•\¦“”	TH75_49ƒT	TH75_W49	N					2022	548											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_49ƒT_W49ƒN_2		‹O“¹‰ñ˜H•\¦“”	TH75_49ƒT	TH75_W49	N					2079	548											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_49ƒT_W49ƒN_3		‹O“¹‰ñ˜H•\¦“”	TH75_49ƒT	TH75_W49	N					2137	548											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_49ƒT_W49ƒR_1		‹O“¹‰ñ˜H•\¦“”	TH75_49ƒT	TH75_W49	R					2124	528											"0,1,2"	0		"Image/Light/112N.png,Image/Light/112Y.png,Image/Light/112R.png"	112								
+Image	TH75_49ƒT_W49ƒR_2		‹O“¹‰ñ˜H•\¦“”	TH75_49ƒT	TH75_W49	R					2137	548											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_50ƒCT_W50ƒCN_1		‹O“¹‰ñ˜H•\¦“”	TH75_50ƒCT	TH75_W50	N					2165	548											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_50ƒCT_W50ƒCN_2		‹O“¹‰ñ˜H•\¦“”	TH75_50ƒCT	TH75_W50	N					2231	548											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_50ƒCT_W50ƒCR_1		‹O“¹‰ñ˜H•\¦“”	TH75_50ƒCT	TH75_W50	R					2165	548											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_50ƒCT_W50ƒCR_2		‹O“¹‰ñ˜H•\¦“”	TH75_50ƒCT	TH75_W50	R					2189	566											"0,1,2"	0		"Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png"	135								
+Image	TH75_50ƒT_W50ƒN_1		‹O“¹‰ñ˜H•\¦“”	TH75_50ƒT	TH75_W50	N					2165	608											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_50ƒT_W50ƒN_2		‹O“¹‰ñ˜H•\¦“”	TH75_50ƒT	TH75_W50	N					2231	608											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_50ƒT_W50ƒR_1		‹O“¹‰ñ˜H•\¦“”	TH75_50ƒT	TH75_W50	R					2209	586											"0,1,2"	0		"Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png"	135								
+Image	TH75_50ƒT_W50ƒR_2		‹O“¹‰ñ˜H•\¦“”	TH75_50ƒT	TH75_W50	R					2231	608											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_SST_1		‹O“¹‰ñ˜H•\¦“”	TH75_SST							2272	548											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_SST_2		‹O“¹‰ñ˜H•\¦“”	TH75_SST							2325	548											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_9LT_1		‹O“¹‰ñ˜H•\¦“”	TH75_9LT							2262	608											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH75_9LT_2		‹O“¹‰ñ˜H•\¦“”	TH75_9LT							2296	608											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	27T_1		‹O“¹‰ñ˜H•\¦“”	‰º‚è27T							2377	608											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	35T_1		‹O“¹‰ñ˜H•\¦“”	‰º‚è35T							2407	608											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	41T_1		‹O“¹‰ñ˜H•\¦“”	‰º‚è41T							2437	608											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	45T_1		‹O“¹‰ñ˜H•\¦“”	‰º‚è45T							2467	608											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	49T_1		‹O“¹‰ñ˜H•\¦“”	‰º‚è49T							2497	608											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	“]‚Ä‚Â•s—Ç_R		ó‘Ô•\¦“”	TH75_W_FAILURE							164	45											"0,1"	0		"Image/Light/N.png,Image/Light/R.png"									
+Image	’â“d_R		ó‘Ô•\¦“”	TH75_PWR-FAILURE							222	45											"0,1"	0		"Image/Light/N.png,Image/Light/R.png"									
+Image	CTCŒÌá_R		ó‘Ô•\¦“”	TH75_CTC-FAILURE							280	45											"0,1"	0		"Image/Light/N.png,Image/Light/R.png"									
+Image	½ù60•b_R		ó‘Ô•\¦“”	TH75_60TEK							1256	927											"0,1"	0		"Image/Light/N.png,Image/Light/R.png"									
+Image	½ù30•b_R		ó‘Ô•\¦“”	TH75_30TEK							1294	927											"0,1"	0		"Image/Light/N.png,Image/Light/R.png"									
+Retsuban	—ñ”ÔŠÙ•l1”Ôü		—ñÔ”Ô†	TH76_TTC_Track1							107	312														Image/Retsuban/Retsuban-Window.png									
+Retsuban	—ñ”ÔŠÙ•l2”Ôü		—ñÔ”Ô†	TH76_TTC_Track2							107	358														Image/Retsuban/Retsuban-Window.png									
+Retsuban	—ñ”ÔŠÙ•l3”Ôü		—ñÔ”Ô†	TH76_TTC_Track3							107	404														Image/Retsuban/Retsuban-Window.png									
+Retsuban	—ñ”ÔŠÙ•l4”Ôü		—ñÔ”Ô†	TH76_TTC_Track4							107	450														Image/Retsuban/Retsuban-Window.png									
+Retsuban	—ñ”Ô‹î–ìã‚è‘æ2Ú‹ß		—ñÔ”Ô†	TH75_TTC_Up2							257	312														Image/Retsuban/Retsuban-Window.png									
+Retsuban	—ñ”Ô‹î–ìã‚è‘æ1Ú‹ß		—ñÔ”Ô†	TH75_TTC_Up1							407	312														Image/Retsuban/Retsuban-Window.png									
+Retsuban	—ñ”Ô‹î–ìã‚èê“à		—ñÔ”Ô†	TH75_TTC_UpArr1							1096	507														Image/Retsuban/Retsuban-Window.png									
+Retsuban	—ñ”Ô‹î–ìTST		—ñÔ”Ô†	TH75_TTC_TrackT							562	597														Image/Retsuban/Retsuban-Window.png									
+Retsuban	—ñ”Ô‹î–ì‰º‚èo”­		—ñÔ”Ô†	TH75_TTC_DownDep1							1096	644														Image/Retsuban/Retsuban-Window.png									
+Retsuban	—ñ”Ô‹î–ì5”Ôü		—ñÔ”Ô†	TH75_TTC_Track5							1252	417														Image/Retsuban/Retsuban-Window.png									
+Retsuban	—ñ”Ô‹î–ì6”Ôü		—ñÔ”Ô†	TH75_TTC_Track6							1252	477														Image/Retsuban/Retsuban-Window.png									
+Retsuban	—ñ”Ô‹î–ì1”Ôü		—ñÔ”Ô†	TH75_TTC_Track1							1771	357														Image/Retsuban/Retsuban-Window.png									
+Retsuban	—ñ”Ô‹î–ì2”Ôü		—ñÔ”Ô†	TH75_TTC_Track2							1771	537														Image/Retsuban/Retsuban-Window.png									
+Retsuban	—ñ”Ô‹î–ì3”Ôü		—ñÔ”Ô†	TH75_TTC_Track3							1771	597														Image/Retsuban/Retsuban-Window.png									
+Retsuban	—ñ”Ô‹î–ì‰º‚è‘æ1Ú‹ß		—ñÔ”Ô†	TH75_TTC_Down1							2255	684														Image/Retsuban/Retsuban-Window.png									
+Retsuban	—ñ”Ô‹î–ì‰º‚è‘æ2Ú‹ß		—ñÔ”Ô†	TH75_TTC_Down2							2405	684														Image/Retsuban/Retsuban-Window.png									
+																																			
+																																			
+																																			
+																																			

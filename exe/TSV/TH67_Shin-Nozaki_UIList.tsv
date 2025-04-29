@@ -1,185 +1,186 @@
 Type	UniqueName	ParentName	ServerType	ServerName	PointNameA	PointValueA	PointNameB	PointValueB	DirectionName	DirectionValue	X	Y	Width	Height	Angle	AngleOriginX	AngleOriginY	Text	FontSize	BackColor	TextColor	ClickEventName	ImagePattern	ImageIndex	BaseImagePath	ImagePath	Remark								
 BackImage	連動盤										0	0														Image/BackImage/TH67_Shin-Nozaki.png									
 Image	Clock_Base										1650	78	79	110												Image/Clock/Clock_Border.png									
-ClockImage	Clock_Meter	Clock_Base									6	37	63	63											Image/Clock/Clock_Base.png	Image/Clock/Clock_HourHand.png,Image/Clock/Clock_MinuteHand.png,Image/Clock/Clock_SecondHand.png,Image/Clock/Clock_Cover.png									
+ClockImage	Clock_Meter	Clock_Base									6	37	63	63											Image/Clock/Clock_Base.png	"Image/Clock/Clock_HourHand.png,Image/Clock/Clock_MinuteHand.png,Image/Clock/Clock_SecondHand.png,Image/Clock/Clock_Cover.png"									
 Image	Hook										1661	10														Image/Hook/Hook_Base.png									
-LeverImage	1R		物理てこ	TH67_1							250	266										1R	0,1	0	Image/Lever/LeverBase_NR.png	Image/Lever/Lever_Red_N.png,Image/Lever/Lever_Red_R.png	0代X=てこ赤(X)N(X)　例：1R=てこ赤NR								
-Image	1RA_G		信号機表示灯	新野崎上り場内1RA							308	254											0,1	0		Image/Light/N.png,Image/Light/G.png	G,Y,R,PG,PYは灯色								
-Image	1RB_G		信号機表示灯	新野崎上り場内1RB							316	272											0,1	0		Image/Light/N.png,Image/Light/G.png									
+LeverImage	1R		物理てこ	TH67_1							250	266										1R	"0,1"	0	Image/Lever/LeverBase_NR.png	"Image/Lever/Lever_Red_N.png,Image/Lever/Lever_Red_R.png"	0代X=てこ赤(X)N(X)　例：1R=てこ赤NR								
+Image	1RA_G		信号機表示灯	新野崎上り場内1RA							308	254											"0,1"	0		"Image/Light/N.png,Image/Light/G.png"	"G,Y,R,PG,PYは灯色"								
+Image	1RB_G		信号機表示灯	新野崎上り場内1RB							316	272											"0,1"	0		"Image/Light/N.png,Image/Light/G.png"									
 TextBlock	1R_Label	1R									14	20	11	11				1	10	Transparent	#FFBCBCBC	1R													
-LeverImage	2L		物理てこ	TH67_2							562	326										2L	-1,0	0	Image/Lever/LeverBase_LN.png	Image/Lever/Lever_Red_L.png,Image/Lever/Lever_Red_N.png									
-Image	2L_G		信号機表示灯	新野崎下り出発2L							526	362											0,1	0		Image/Light/N.png,Image/Light/G.png									
+LeverImage	2L		物理てこ	TH67_2							562	326										2L	"-1,0"	0	Image/Lever/LeverBase_LN.png	"Image/Lever/Lever_Red_L.png,Image/Lever/Lever_Red_N.png"									
+Image	2L_G		信号機表示灯	新野崎下り出発2L							526	362											"0,1"	0		"Image/Light/N.png,Image/Light/G.png"									
 TextBlock	2L_Label	2L									14	20	11	11				2	10	Transparent	#FFBCBCBC	2L													
-LeverImage	3L		物理てこ	TH67_3							562	440										3L	-1,0	0	Image/Lever/LeverBase_LN.png	Image/Lever/Lever_Red_L.png,Image/Lever/Lever_Red_N.png									
-Image	3L_G		信号機表示灯	新野崎下り出発3L							526	446											0,1	0		Image/Light/N.png,Image/Light/G.png									
+LeverImage	3L		物理てこ	TH67_3							562	440										3L	"-1,0"	0	Image/Lever/LeverBase_LN.png	"Image/Lever/Lever_Red_L.png,Image/Lever/Lever_Red_N.png"									
+Image	3L_G		信号機表示灯	新野崎下り出発3L							526	446											"0,1"	0		"Image/Light/N.png,Image/Light/G.png"									
 TextBlock	3L_Label	3L									14	20	11	11				3	10	Transparent	#FFBCBCBC	3L													
-LeverImage	4L		物理てこ	TH67_4							974	326										4L	-1,0	0	Image/Lever/LeverBase_LN.png	Image/Lever/Lever_Red_L.png,Image/Lever/Lever_Red_N.png									
-Image	4L_G		信号機表示灯	新野崎下り場内4L							898	369											0,1	0		Image/Light/N.png,Image/Light/G.png									
+LeverImage	4L		物理てこ	TH67_4							974	326										4L	"-1,0"	0	Image/Lever/LeverBase_LN.png	"Image/Lever/Lever_Red_L.png,Image/Lever/Lever_Red_N.png"									
+Image	4L_G		信号機表示灯	新野崎下り場内4L							898	369											"0,1"	0		"Image/Light/N.png,Image/Light/G.png"									
 TextBlock	4L_Label	4L									14	20	11	11				4	10	Transparent	#FFBCBCBC	4L													
-LeverImage	4LZ		物理てこ								1032	326										4LZ	-1,0	0	Image/Lever/LeverBase_LN.png	Image/Lever/Lever_Pink_L.png,Image/Lever/Lever_Pink_N.png	0代XZ=てこ桃(X)N(X)Z　例：4LZ=てこ桃LN								
-Image	4LZ_Y		信号機表示灯								1047	315											0,1	0		Image/Light/N.png,Image/Light/Y.png									
+LeverImage	4LZ		物理てこ								1032	326										4LZ	"-1,0"	0	Image/Lever/LeverBase_LN.png	"Image/Lever/Lever_Pink_L.png,Image/Lever/Lever_Pink_N.png"	0代XZ=てこ桃(X)N(X)Z　例：4LZ=てこ桃LN								
+Image	4LZ_Y		信号機表示灯								1047	315											"0,1"	0		"Image/Light/N.png,Image/Light/Y.png"									
 TextBlock	4LZ_Label	4LZ									14	20	11	11				4Z	10	Transparent	#FFBCBCBC	4LZ													
-LeverImage	5L		物理てこ	TH67_5							974	440										5L	-1,0	0	Image/Lever/LeverBase_LN.png	Image/Lever/Lever_Red_L.png,Image/Lever/Lever_Red_N.png									
-Image	5L_G		信号機表示灯	新野崎下り場内5L							898	414											0,1	0		Image/Light/N.png,Image/Light/G.png									
+LeverImage	5L		物理てこ	TH67_5							974	440										5L	"-1,0"	0	Image/Lever/LeverBase_LN.png	"Image/Lever/Lever_Red_L.png,Image/Lever/Lever_Red_N.png"									
+Image	5L_G		信号機表示灯	新野崎下り場内5L							898	414											"0,1"	0		"Image/Light/N.png,Image/Light/G.png"									
 TextBlock	5L_Label	5L									14	20	11	11				5	10	Transparent	#FFBCBCBC	5L													
-LeverImage	5LZ		物理てこ								1032	440										5LZ	-1,0	0	Image/Lever/LeverBase_LN.png	Image/Lever/Lever_Pink_L.png,Image/Lever/Lever_Pink_N.png									
-Image	5LZ_Y		信号機表示灯								1047	429											0,1	0		Image/Light/N.png,Image/Light/Y.png									
+LeverImage	5LZ		物理てこ								1032	440										5LZ	"-1,0"	0	Image/Lever/LeverBase_LN.png	"Image/Lever/Lever_Pink_L.png,Image/Lever/Lever_Pink_N.png"									
+Image	5LZ_Y		信号機表示灯								1047	429											"0,1"	0		"Image/Light/N.png,Image/Light/Y.png"									
 TextBlock	5LZ_Label	5LZ									14	20	11	11				5Z	10	Transparent	#FFBCBCBC	5LZ													
-LeverImage	6R		物理てこ	TH67_6							858	326										6R	0,1	0	Image/Lever/LeverBase_NR.png	Image/Lever/Lever_Red_N.png,Image/Lever/Lever_Red_R.png									
-Image	6R_G		信号機表示灯	新野崎上り出発6R							953	380											0,1	0		Image/Light/N.png,Image/Light/G.png									
+LeverImage	6R		物理てこ	TH67_6							858	326										6R	"0,1"	0	Image/Lever/LeverBase_NR.png	"Image/Lever/Lever_Red_N.png,Image/Lever/Lever_Red_R.png"									
+Image	6R_G		信号機表示灯	新野崎上り出発6R							953	380											"0,1"	0		"Image/Light/N.png,Image/Light/G.png"									
 TextBlock	6R_Label	6R									14	20	11	11				6	10	Transparent	#FFBCBCBC	6R													
-LeverImage	7R		物理てこ	TH67_7							858	440										7R	0,1	0	Image/Lever/LeverBase_NR.png	Image/Lever/Lever_Red_N.png,Image/Lever/Lever_Red_R.png									
-Image	7R_G		信号機表示灯	新野崎上り出発7R							953	425											0,1	0		Image/Light/N.png,Image/Light/G.png									
+LeverImage	7R		物理てこ	TH67_7							858	440										7R	"0,1"	0	Image/Lever/LeverBase_NR.png	"Image/Lever/Lever_Red_N.png,Image/Lever/Lever_Red_R.png"									
+Image	7R_G		信号機表示灯	新野崎上り出発7R							953	425											"0,1"	0		"Image/Light/N.png,Image/Light/G.png"									
 TextBlock	7R_Label	7R									14	20	11	11				7	10	Transparent	#FFBCBCBC	7R													
-LeverImage	8R		物理てこ	TH67_8							1025	152										8R	0,1	0	Image/Lever/LeverBase_NR.png	Image/Lever/Lever_Red_N.png,Image/Lever/Lever_Red_R.png									
-Image	8R_G		信号機表示灯	新野崎上り出発8R							1102	188											0,1	0		Image/Light/N.png,Image/Light/G.png									
+LeverImage	8R		物理てこ	TH67_8							1025	152										8R	"0,1"	0	Image/Lever/LeverBase_NR.png	"Image/Lever/Lever_Red_N.png,Image/Lever/Lever_Red_R.png"									
+Image	8R_G		信号機表示灯	新野崎上り出発8R							1102	188											"0,1"	0		"Image/Light/N.png,Image/Light/G.png"									
 TextBlock	8R_Label	8R									14	20	11	11				8	10	Transparent	#FFBCBCBC	8R													
-LeverImage	9R		物理てこ	TH67_9							1025	266										9R	0,1	0	Image/Lever/LeverBase_NR.png	Image/Lever/Lever_Red_N.png,Image/Lever/Lever_Red_R.png									
-Image	9R_G		信号機表示灯	新野崎上り出発9R							1102	272											0,1	0		Image/Light/N.png,Image/Light/G.png									
+LeverImage	9R		物理てこ	TH67_9							1025	266										9R	"0,1"	0	Image/Lever/LeverBase_NR.png	"Image/Lever/Lever_Red_N.png,Image/Lever/Lever_Red_R.png"									
+Image	9R_G		信号機表示灯	新野崎上り出発9R							1102	272											"0,1"	0		"Image/Light/N.png,Image/Light/G.png"									
 TextBlock	9R_Label	9R									14	20	11	11				9	10	Transparent	#FFBCBCBC	9R													
-LeverImage	10L		物理てこ	TH67_10							1541	326										10L	-1,0	0	Image/Lever/LeverBase_LN.png	Image/Lever/Lever_Red_L.png,Image/Lever/Lever_Red_N.png									
-Image	10LC_G		信号機表示灯	新野崎下り場内10LC							1505	362											0,1	0		Image/Light/N.png,Image/Light/G.png									
-Image	10LD_G		信号機表示灯	新野崎下り場内10LD							1513	380											0,1	0		Image/Light/N.png,Image/Light/G.png									
+LeverImage	10L		物理てこ	TH67_10							1541	326										10L	"-1,0"	0	Image/Lever/LeverBase_LN.png	"Image/Lever/Lever_Red_L.png,Image/Lever/Lever_Red_N.png"									
+Image	10LC_G		信号機表示灯	新野崎下り場内10LC							1505	362											"0,1"	0		"Image/Light/N.png,Image/Light/G.png"									
+Image	10LD_G		信号機表示灯	新野崎下り場内10LD							1513	380											"0,1"	0		"Image/Light/N.png,Image/Light/G.png"									
 TextBlock	10L_Label	10L									14	20	11	11				10	10	Transparent	#FFBCBCBC	10L													
-Image	21L_Y		信号機表示灯	新野崎入換21L							916	370											0,1	0		Image/Light/N.png,Image/Light/Y.png									
-Image	22L_Y		信号機表示灯	新野崎入換22L							916	415											0,1	0		Image/Light/N.png,Image/Light/Y.png									
-LeverImage	23R		物理てこ	TH67_23							967	152										23R	0,1	0	Image/Lever/LeverBase_NR.png	Image/Lever/Lever_Green_N.png,Image/Lever/Lever_Green_R.png									
-Image	23R_Y		信号機表示灯	新野崎入換23R							1084	187											0,1	0		Image/Light/N.png,Image/Light/Y.png									
+Image	21L_Y		信号機表示灯	新野崎入換21L							916	370											"0,1"	0		"Image/Light/N.png,Image/Light/Y.png"									
+Image	22L_Y		信号機表示灯	新野崎入換22L							916	415											"0,1"	0		"Image/Light/N.png,Image/Light/Y.png"									
+LeverImage	23R		物理てこ	TH67_23							967	152										23R	"0,1"	0	Image/Lever/LeverBase_NR.png	"Image/Lever/Lever_Green_N.png,Image/Lever/Lever_Green_R.png"									
+Image	23R_Y		信号機表示灯	新野崎入換23R							1084	187											"0,1"	0		"Image/Light/N.png,Image/Light/Y.png"									
 TextBlock	23R_Label	23R									14	20	11	11				23	10	Transparent	#FFBCBCBC	23R													
-LeverImage	24R		物理てこ	TH67_24							967	266										24R	0,1	0	Image/Lever/LeverBase_NR.png	Image/Lever/Lever_Green_N.png,Image/Lever/Lever_Green_R.png									
-Image	24R_Y		信号機表示灯	新野崎入換24R							1084	271											0,1	0		Image/Light/N.png,Image/Light/Y.png									
+LeverImage	24R		物理てこ	TH67_24							967	266										24R	"0,1"	0	Image/Lever/LeverBase_NR.png	"Image/Lever/Lever_Green_N.png,Image/Lever/Lever_Green_R.png"									
+Image	24R_Y		信号機表示灯	新野崎入換24R							1084	271											"0,1"	0		"Image/Light/N.png,Image/Light/Y.png"									
 TextBlock	24R_Label	24R									14	20	11	11				24	10	Transparent	#FFBCBCBC	24R													
-LeverImage	25L		物理てこ	TH67_25							1470	206										25L	-1,0	0	Image/Lever/LeverBase_LN.png	Image/Lever/Lever_Green_L.png,Image/Lever/Lever_Green_N.png									
-Image	25L_Y		信号機表示灯	新野崎入換25L							1441	213											0,1	0		Image/Light/N.png,Image/Light/Y.png									
+LeverImage	25L		物理てこ	TH67_25							1470	206										25L	"-1,0"	0	Image/Lever/LeverBase_LN.png	"Image/Lever/Lever_Green_L.png,Image/Lever/Lever_Green_N.png"									
+Image	25L_Y		信号機表示灯	新野崎入換25L							1441	213											"0,1"	0		"Image/Light/N.png,Image/Light/Y.png"									
 TextBlock	25L_Label	25L									14	20	11	11				25	10	Transparent	#FFBCBCBC	25L													
-ButtonImage	T		着点ボタン	TH67_TP							282	339										T	0,1	0	Image/Button/ArrivalButton_Base.png	Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png									
+ButtonImage	T		着点ボタン	TH67_TP							282	339										T	"0,1"	0	Image/Button/ArrivalButton_Base.png	"Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png"									
 TextBlock	T_Label	T									5	23	15	12				T	10	Transparent	#FFBCBCBC	T													
-ButtonImage	A		着点ボタン	TH67_AP							923	165										A	0,1	0	Image/Button/ArrivalButton_Base.png	Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png									
+ButtonImage	A		着点ボタン	TH67_AP							923	165										A	"0,1"	0	Image/Button/ArrivalButton_Base.png	"Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png"									
 TextBlock	A_Label	A									5	23	15	12				A	10	Transparent	#FFBCBCBC	A													
-ButtonImage	B		着点ボタン	TH67_BP							923	279										B	0,1	0	Image/Button/ArrivalButton_Base.png	Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png									
+ButtonImage	B		着点ボタン	TH67_BP							923	279										B	"0,1"	0	Image/Button/ArrivalButton_Base.png	"Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png"									
 TextBlock	B_Label	B									5	23	15	12				B	10	Transparent	#FFBCBCBC	B													
-ButtonImage	C		着点ボタン	TH67_CP							814	339										C	0,1	0	Image/Button/ArrivalButton_Base.png	Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png									
+ButtonImage	C		着点ボタン	TH67_CP							814	339										C	"0,1"	0	Image/Button/ArrivalButton_Base.png	"Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png"									
 TextBlock	C_Label	C									5	23	15	12				C	10	Transparent	#FFBCBCBC	C													
-ButtonImage	D		着点ボタン	TH67_DP							814	453										D	0,1	0	Image/Button/ArrivalButton_Base.png	Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png									
+ButtonImage	D		着点ボタン	TH67_DP							814	453										D	"0,1"	0	Image/Button/ArrivalButton_Base.png	"Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png"									
 TextBlock	D_Label	D									5	23	15	12				D	10	Transparent	#FFBCBCBC	D													
-ButtonImage	E		着点ボタン	TH67_EP							1722	219										E	0,1	0	Image/Button/ArrivalButton_Base.png	Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png									
+ButtonImage	E		着点ボタン	TH67_EP							1722	219										E	"0,1"	0	Image/Button/ArrivalButton_Base.png	"Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png"									
 TextBlock	E_Label	E									5	23	15	12				E	10	Transparent	#FFBCBCBC	E													
-ButtonImage	SC		着点ボタン	TH67_SCP							1090	339										SC	0,1	0	Image/Button/ArrivalButton_Base.png	Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png									
+ButtonImage	SC		着点ボタン	TH67_SCP							1090	339										SC	"0,1"	0	Image/Button/ArrivalButton_Base.png	"Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png"									
 TextBlock	SC_Label	SC									5	23	15	12				SC	10	Transparent	#FFBCBCBC	SC													
-ButtonImage	SD		着点ボタン	TH67_SDP							1090	453										SD	0,1	0	Image/Button/ArrivalButton_Base.png	Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png									
+ButtonImage	SD		着点ボタン	TH67_SDP							1090	453										SD	"0,1"	0	Image/Button/ArrivalButton_Base.png	"Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png"									
 TextBlock	SD_Label	SD									5	23	15	12				SD	10	Transparent	#FFBCBCBC	SD													
-ButtonImage	S		着点ボタン	TH67_SP							1525	279										S	0,1	0	Image/Button/ArrivalButton_Base.png	Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png									
+ButtonImage	S		着点ボタン	TH67_SP							1525	279										S	"0,1"	0	Image/Button/ArrivalButton_Base.png	"Image/Button/ArrivalButton_White_OFF.png,Image/Button/ArrivalButton_White_ON.png"									
 TextBlock	S_Label	S									5	23	15	12				S	10	Transparent	#FFBCBCBC	S													
-ButtonImage	警報上り接近										304	551										警報上り接近	0,1	0	Image/Button/ApproachingButton_Base.png	Image/Button/ApproachingButton_Green_OFF.png,Image/Button/ApproachingButton_Green_ON.png									
-ButtonImage	警報下り接近										1591	551										警報下り接近	0,1	0	Image/Button/ApproachingButton_Base.png	Image/Button/ApproachingButton_Green_OFF.png,Image/Button/ApproachingButton_Green_ON.png									
-LeverImage	W31		物理てこ	TH67_31							385	64										P31	-1,0,1	0	Image/Lever/LeverBase_NCR.png	Image/Lever/Lever_Black_L.png,Image/Lever/Lever_Black_N.png,Image/Lever/Lever_Black_R.png	転てつ器単独てこはNCR								
-Image	W31_PG		転てつ器表示灯		TH67_W31	N					383	45											0,1	0		Image/Light/N.png,Image/Light/PG.png									
-Image	W31_PY		転てつ器表示灯		TH67_W31	R					417	45											0,1	0		Image/Light/N.png,Image/Light/PY.png									
+ButtonImage	警報上り接近										304	551										警報上り接近	"0,1"	0	Image/Button/ApproachingButton_Base.png	"Image/Button/ApproachingButton_Green_OFF.png,Image/Button/ApproachingButton_Green_ON.png"									
+ButtonImage	警報下り接近										1591	551										警報下り接近	"0,1"	0	Image/Button/ApproachingButton_Base.png	"Image/Button/ApproachingButton_Green_OFF.png,Image/Button/ApproachingButton_Green_ON.png"									
+LeverImage	W31		物理てこ	TH67_31							385	64										P31	"-1,0,1"	0	Image/Lever/LeverBase_NCR.png	"Image/Lever/Lever_Black_L.png,Image/Lever/Lever_Black_N.png,Image/Lever/Lever_Black_R.png"	転てつ器単独てこはNCR								
+Image	W31_PG		転てつ器表示灯		TH67_W31	N					383	45											"0,1"	0		"Image/Light/N.png,Image/Light/PG.png"									
+Image	W31_PY		転てつ器表示灯		TH67_W31	R					417	45											"0,1"	0		"Image/Light/N.png,Image/Light/PY.png"									
 TextBlock	W31_Label	W31									14	20	11	11				31	10	Transparent	#FFBCBCBC	P31													
-LeverImage	W32		物理てこ	TH67_32							453	64										P32	-1,0,1	0	Image/Lever/LeverBase_NCR.png	Image/Lever/Lever_Black_L.png,Image/Lever/Lever_Black_N.png,Image/Lever/Lever_Black_R.png									
-Image	W32_PG		転てつ器表示灯		TH67_W32	N					451	45											0,1	0		Image/Light/N.png,Image/Light/PG.png									
-Image	W32_PY		転てつ器表示灯		TH67_W32	R					485	45											0,1	0		Image/Light/N.png,Image/Light/PY.png									
+LeverImage	W32		物理てこ	TH67_32							453	64										P32	"-1,0,1"	0	Image/Lever/LeverBase_NCR.png	"Image/Lever/Lever_Black_L.png,Image/Lever/Lever_Black_N.png,Image/Lever/Lever_Black_R.png"									
+Image	W32_PG		転てつ器表示灯		TH67_W32	N					451	45											"0,1"	0		"Image/Light/N.png,Image/Light/PG.png"									
+Image	W32_PY		転てつ器表示灯		TH67_W32	R					485	45											"0,1"	0		"Image/Light/N.png,Image/Light/PY.png"									
 TextBlock	W32_Label	W32									14	20	11	11				32	10	Transparent	#FFBCBCBC	P32													
-LeverImage	W33		物理てこ	TH67_33							1198	64										P33	-1,0,1	0	Image/Lever/LeverBase_NCR.png	Image/Lever/Lever_Black_L.png,Image/Lever/Lever_Black_N.png,Image/Lever/Lever_Black_R.png									
-Image	W33_PG		転てつ器表示灯		TH67_W33	N					1196	45											0,1	0		Image/Light/N.png,Image/Light/PG.png									
-Image	W33_PY		転てつ器表示灯		TH67_W33	R					1230	45											0,1	0		Image/Light/N.png,Image/Light/PY.png									
+LeverImage	W33		物理てこ	TH67_33							1198	64										P33	"-1,0,1"	0	Image/Lever/LeverBase_NCR.png	"Image/Lever/Lever_Black_L.png,Image/Lever/Lever_Black_N.png,Image/Lever/Lever_Black_R.png"									
+Image	W33_PG		転てつ器表示灯		TH67_W33	N					1196	45											"0,1"	0		"Image/Light/N.png,Image/Light/PG.png"									
+Image	W33_PY		転てつ器表示灯		TH67_W33	R					1230	45											"0,1"	0		"Image/Light/N.png,Image/Light/PY.png"									
 TextBlock	W33_Label	W33									14	20	11	11				33	10	Transparent	#FFBCBCBC	P33													
-LeverImage	W34		物理てこ	TH67_34							1266	64										P34	-1,0,1	0	Image/Lever/LeverBase_NCR.png	Image/Lever/Lever_Black_L.png,Image/Lever/Lever_Black_N.png,Image/Lever/Lever_Black_R.png									
-Image	W34_PG		転てつ器表示灯		TH67_W34	N					1264	45											0,1	0		Image/Light/N.png,Image/Light/PG.png									
-Image	W34_PY		転てつ器表示灯		TH67_W34	R					1298	45											0,1	0		Image/Light/N.png,Image/Light/PY.png									
+LeverImage	W34		物理てこ	TH67_34							1266	64										P34	"-1,0,1"	0	Image/Lever/LeverBase_NCR.png	"Image/Lever/Lever_Black_L.png,Image/Lever/Lever_Black_N.png,Image/Lever/Lever_Black_R.png"									
+Image	W34_PG		転てつ器表示灯		TH67_W34	N					1264	45											"0,1"	0		"Image/Light/N.png,Image/Light/PG.png"									
+Image	W34_PY		転てつ器表示灯		TH67_W34	R					1298	45											"0,1"	0		"Image/Light/N.png,Image/Light/PY.png"									
 TextBlock	W34_Label	W34									14	20	11	11				34	10	Transparent	#FFBCBCBC	P34													
-LeverImage	W35		物理てこ	TH67_35							1334	64										P35	-1,0,1	0	Image/Lever/LeverBase_NCR.png	Image/Lever/Lever_Black_L.png,Image/Lever/Lever_Black_N.png,Image/Lever/Lever_Black_R.png									
-Image	W35_PG		転てつ器表示灯		TH67_W35	N					1332	45											0,1	0		Image/Light/N.png,Image/Light/PG.png									
-Image	W35_PY		転てつ器表示灯		TH67_W35	R					1366	45											0,1	0		Image/Light/N.png,Image/Light/PY.png									
+LeverImage	W35		物理てこ	TH67_35							1334	64										P35	"-1,0,1"	0	Image/Lever/LeverBase_NCR.png	"Image/Lever/Lever_Black_L.png,Image/Lever/Lever_Black_N.png,Image/Lever/Lever_Black_R.png"									
+Image	W35_PG		転てつ器表示灯		TH67_W35	N					1332	45											"0,1"	0		"Image/Light/N.png,Image/Light/PG.png"									
+Image	W35_PY		転てつ器表示灯		TH67_W35	R					1366	45											"0,1"	0		"Image/Light/N.png,Image/Light/PY.png"									
 TextBlock	W35_Label	W35									14	20	11	11				35	10	Transparent	#FFBCBCBC	P35													
-LeverImage	W36		物理てこ	TH67_36							1402	64										P36	-1,0,1	0	Image/Lever/LeverBase_NCR.png	Image/Lever/Lever_Black_L.png,Image/Lever/Lever_Black_N.png,Image/Lever/Lever_Black_R.png									
-Image	W36_PG		転てつ器表示灯		TH67_W36	N					1400	45											0,1	0		Image/Light/N.png,Image/Light/PG.png									
-Image	W36_PY		転てつ器表示灯		TH67_W36	R					1434	45											0,1	0		Image/Light/N.png,Image/Light/PY.png									
+LeverImage	W36		物理てこ	TH67_36							1402	64										P36	"-1,0,1"	0	Image/Lever/LeverBase_NCR.png	"Image/Lever/Lever_Black_L.png,Image/Lever/Lever_Black_N.png,Image/Lever/Lever_Black_R.png"									
+Image	W36_PG		転てつ器表示灯		TH67_W36	N					1400	45											"0,1"	0		"Image/Light/N.png,Image/Light/PG.png"									
+Image	W36_PY		転てつ器表示灯		TH67_W36	R					1434	45											"0,1"	0		"Image/Light/N.png,Image/Light/PY.png"									
 TextBlock	W36_Label	W36									14	20	11	11				36	10	Transparent	#FFBCBCBC	P36													
-KeyImage	駅扱切換		物理鍵てこ	TH67_81							1827	64										駅扱切換	-1,1,-11,11	1	Image/Lever/LeverBase_LR.png	Image/Lever/KeyLever_KeyOFF_L.png,Image/Lever/KeyLever_KeyOFF_R.png,Image/Lever/KeyLever_KeyON_L.png,Image/Lever/KeyLever_KeyON_R.png	駅扱切換はLR								
-Image	駅扱切換_PY		駅扱切換表示灯	TH67_81							1825	45											0,1	0		Image/Light/N.png,Image/Light/PY.png									
-Image	駅扱切換_PG		駅扱切換表示灯	TH67_81							1859	45											0,1	0		Image/Light/N.png,Image/Light/PG.png									
-Image	108T_1		軌道回路表示灯	上り108T							52	289											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png	0度※以下0度省略								
-Image	114T_1		軌道回路表示灯	上り114T							82	289											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	120T_1		軌道回路表示灯	上り120T							112	289											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	124T_1		軌道回路表示灯	上り124T							161	289											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	124T_2		軌道回路表示灯	上り124T							229	289											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_1RT_1		軌道回路表示灯	TH67_1RT							334	289											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_1RT_2		軌道回路表示灯	TH67_1RT							417	289											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_TST_1		軌道回路表示灯	TH67_TST							250	349											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_TST_2		軌道回路表示灯	TH67_TST							329	349											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_31T_W31N_1		軌道回路表示灯	TH67_31T	TH67_W31	N					383	349											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_31T_W31N_2		軌道回路表示灯	TH67_31T	TH67_W31	N					458	349											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_31T_W31N_3		軌道回路表示灯	TH67_31T	TH67_W31	N					533	349											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_31T_W31R_1		軌道回路表示灯	TH67_31T	TH67_W31	R					383	349											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_31T_W31R_2		軌道回路表示灯	TH67_31T	TH67_W31	R					459	419											0,1,2	0		Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png	135度								
-Image	TH67_31T_W31R_3		軌道回路表示灯	TH67_31T	TH67_W31	R					533	463											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_32T_W32N_1		軌道回路表示灯	TH67_32T	TH67_W32	N					472	289											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_32T_W32N_2		軌道回路表示灯	TH67_32T	TH67_W32	N					557	289											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_32T_W32N_3		軌道回路表示灯	TH67_32T	TH67_W32	N					642	289											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_32T_W32R_1		軌道回路表示灯	TH67_32T	TH67_W32	R					472	289											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_32T_W32R_2		軌道回路表示灯	TH67_32T	TH67_W32	R					558	205											0,1,2	0		Image/Light/45N.png,Image/Light/45Y.png,Image/Light/45R.png	45度								
-Image	TH67_32T_W32R_3		軌道回路表示灯	TH67_32T	TH67_W32	R					642	175											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_1RAT_1		軌道回路表示灯	TH67_1RAT							711	175											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_1RAT_2		軌道回路表示灯	TH67_1RAT							955	175											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_1RBT_1		軌道回路表示灯	TH67_1RBT							711	289											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_1RBT_2		軌道回路表示灯	TH67_1RBT							955	289											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_4LT_1		軌道回路表示灯	TH67_4LT							602	349											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_4LT_2		軌道回路表示灯	TH67_4LT							846	349											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_5LT_1		軌道回路表示灯	TH67_5LT							602	463											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_5LT_2		軌道回路表示灯	TH67_5LT							846	463											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_33イT_W33イN_1		軌道回路表示灯	TH67_33イT	TH67_W33	N					1082	175											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_33イT_W33イN_2		軌道回路表示灯	TH67_33イT	TH67_W33	N					1168	204											0,1,2	0		Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png	135度								
-Image	TH67_33イT_W33イN_3		軌道回路表示灯	TH67_33イT	TH67_W33	N					1253	229											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_33イT_W33イR_1		軌道回路表示灯	TH67_33イT	TH67_W33	R					1082	175											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_33イT_W33イR_2		軌道回路表示灯	TH67_33イT	TH67_W33	R					1168	204											0,1,2	0		Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png	135度								
-Image	TH67_33イT_W33イR_3		軌道回路表示灯	TH67_33イT	TH67_W33	R					1211	247											0,1,2	0		Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png	135度								
-Image	TH67_33ロT_W33ロN_1		軌道回路表示灯	TH67_33ロT	TH67_W33	N					1082	289											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_33ロT_W33ロN_2		軌道回路表示灯	TH67_33ロT	TH67_W33	N					1167	289											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_33ロT_W33ロN_3		軌道回路表示灯	TH67_33ロT	TH67_W33	N					1253	289											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_33ロT_W33ロR_1		軌道回路表示灯	TH67_33ロT	TH67_W33	R					1231	267											0,1,2	0		Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png	135度								
-Image	TH67_33ロT_W33ロR_2		軌道回路表示灯	TH67_33ロT	TH67_W33	R					1253	289											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_34T_W34N_1		軌道回路表示灯	TH67_34T	TH67_W34	N					944	349											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_34T_W34N_2		軌道回路表示灯	TH67_34T	TH67_W34	N					1167	349											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_34T_W34N_3		軌道回路表示灯	TH67_34T	TH67_W34	N					1253	349											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_34T_W34R_1		軌道回路表示灯	TH67_34T	TH67_W34	R					944	463											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_34T_W34R_2		軌道回路表示灯	TH67_34T	TH67_W34	R					1168	430											0,1,2	0		Image/Light/45N.png,Image/Light/45Y.png,Image/Light/45R.png	45度								
-Image	TH67_34T_W34R_3		軌道回路表示灯	TH67_34T	TH67_W34	R					1253	349											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_35イT_W35イN_1		軌道回路表示灯	TH67_35イT	TH67_W35	N					1281	349											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_35イT_W35イN_2		軌道回路表示灯	TH67_35イT	TH67_W35	N					1347	349											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_35イT_W35イR_1		軌道回路表示灯	TH67_35イT	TH67_W35	R					1281	349											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_35イT_W35イR_2		軌道回路表示灯	TH67_35イT	TH67_W35	R					1305	327											0,1,2	0		Image/Light/45N.png,Image/Light/45Y.png,Image/Light/45R.png	45度								
-Image	TH67_35ロT_W35ロN_1		軌道回路表示灯	TH67_35ロT	TH67_W35	N					1281	289											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_35ロT_W35ロN_2		軌道回路表示灯	TH67_35ロT	TH67_W35	N					1347	289											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_35ロT_W35ロR_1		軌道回路表示灯	TH67_35ロT	TH67_W35	R					1325	307											0,1,2	0		Image/Light/45N.png,Image/Light/45Y.png,Image/Light/45R.png	45度								
-Image	TH67_35ロT_W35ロR_2		軌道回路表示灯	TH67_35ロT	TH67_W35	R					1347	289											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_36イT_W36イN_1		軌道回路表示灯	TH67_36イT	TH67_W36	N					1375	289											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_36イT_W36イN_2		軌道回路表示灯	TH67_36イT	TH67_W36	N					1441	289											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_36イT_W36イR_1		軌道回路表示灯	TH67_36イT	TH67_W36	R					1375	289											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_36イT_W36イR_2		軌道回路表示灯	TH67_36イT	TH67_W36	R					1399	267											0,1,2	0		Image/Light/45N.png,Image/Light/45Y.png,Image/Light/45R.png	45度								
-Image	TH67_36ロT_W36ロN_1		軌道回路表示灯	TH67_36ロT	TH67_W36	N					1281	229											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_36ロT_W36ロN_2		軌道回路表示灯	TH67_36ロT	TH67_W36	N					1361	229											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_36ロT_W36ロN_3		軌道回路表示灯	TH67_36ロT	TH67_W36	N					1441	229											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_36ロT_W36ロR_1		軌道回路表示灯	TH67_36ロT	TH67_W36	R					1419	247											0,1,2	0		Image/Light/45N.png,Image/Light/45Y.png,Image/Light/45R.png	45度								
-Image	TH67_36ロT_W36ロR_2		軌道回路表示灯	TH67_36ロT	TH67_W36	R					1441	229											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_23RT_1		軌道回路表示灯	TH67_23RT							1510	229											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_23RT_2		軌道回路表示灯	TH67_23RT							1754	229											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_SST_1		軌道回路表示灯	TH67_SST							1494	289											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_SST_2		軌道回路表示灯	TH67_SST							1570	289											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_10LT_1		軌道回路表示灯	TH67_10LT							1402	349											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH67_10LT_2		軌道回路表示灯	TH67_10LT							1485	349											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	137T_1		軌道回路表示灯	下り137T							1590	349											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	137T_2		軌道回路表示灯	下り137T							1658	349											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	143T_1		軌道回路表示灯	下り143T							1707	349											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	145T_1		軌道回路表示灯	下り145T							1737	349											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	151T_1		軌道回路表示灯	下り151T							1767	349											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_5LET_1		軌道回路表示灯	TH66S_5LET							1797	349											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_53T_1		軌道回路表示灯	TH66S_53T							1827	349											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	TH66S_5LT_1		軌道回路表示灯	TH66S_5LT							1857	349											0,1,2	0		Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png									
-Image	停電_R		状態表示灯	TH67_PWR-FAILURE							54	45											0,1	0		Image/Light/N.png,Image/Light/R.png									
-Image	CTC故障_R		状態表示灯	TH67_CTC-FAILURE							102	45											0,1	0		Image/Light/N.png,Image/Light/R.png									
-Image	鎖錠60秒_R		状態表示灯	TH67_60TEK							936	567											0,1	0		Image/Light/N.png,Image/Light/R.png									
-Image	鎖錠30秒_R		状態表示灯	TH67_30TEK							974	567											0,1	0		Image/Light/N.png,Image/Light/R.png									
+KeyImage	駅扱切換		物理鍵てこ	TH67_81							1827	64										駅扱切換	"-1,1,-11,11"	1	Image/Lever/LeverBase_LR.png	"Image/Lever/KeyLever_KeyOFF_L.png,Image/Lever/KeyLever_KeyOFF_R.png,Image/Lever/KeyLever_KeyON_L.png,Image/Lever/KeyLever_KeyON_R.png"	駅扱切換はLR								
+Image	駅扱切換_PY		駅扱切換表示灯	TH67_81							1825	45											"0,1"	0		"Image/Light/N.png,Image/Light/PY.png"									
+Image	駅扱切換_PG		駅扱切換表示灯	TH67_81							1859	45											"0,1"	0		"Image/Light/N.png,Image/Light/PG.png"									
+Image	108T_1		軌道回路表示灯	上り108T							52	289											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"	0度※以下0度省略								
+Image	114T_1		軌道回路表示灯	上り114T							82	289											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	120T_1		軌道回路表示灯	上り120T							112	289											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	124T_1		軌道回路表示灯	上り124T							161	289											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	124T_2		軌道回路表示灯	上り124T							229	289											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_1RT_1		軌道回路表示灯	TH67_1RT							334	289											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_1RT_2		軌道回路表示灯	TH67_1RT							417	289											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_TST_1		軌道回路表示灯	TH67_TST							250	349											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_TST_2		軌道回路表示灯	TH67_TST							329	349											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_31T_W31N_1		軌道回路表示灯	TH67_31T	TH67_W31	N					383	349											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_31T_W31N_2		軌道回路表示灯	TH67_31T	TH67_W31	N					458	349											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_31T_W31N_3		軌道回路表示灯	TH67_31T	TH67_W31	N					533	349											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_31T_W31R_1		軌道回路表示灯	TH67_31T	TH67_W31	R					383	349											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_31T_W31R_2		軌道回路表示灯	TH67_31T	TH67_W31	R					459	419											"0,1,2"	0		"Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png"	135度								
+Image	TH67_31T_W31R_3		軌道回路表示灯	TH67_31T	TH67_W31	R					533	463											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_32T_W32N_1		軌道回路表示灯	TH67_32T	TH67_W32	N					472	289											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_32T_W32N_2		軌道回路表示灯	TH67_32T	TH67_W32	N					557	289											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_32T_W32N_3		軌道回路表示灯	TH67_32T	TH67_W32	N					642	289											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_32T_W32R_1		軌道回路表示灯	TH67_32T	TH67_W32	R					472	289											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_32T_W32R_2		軌道回路表示灯	TH67_32T	TH67_W32	R					558	205											"0,1,2"	0		"Image/Light/45N.png,Image/Light/45Y.png,Image/Light/45R.png"	45度								
+Image	TH67_32T_W32R_3		軌道回路表示灯	TH67_32T	TH67_W32	R					642	175											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_1RAT_1		軌道回路表示灯	TH67_1RAT							711	175											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_1RAT_2		軌道回路表示灯	TH67_1RAT							955	175											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_1RBT_1		軌道回路表示灯	TH67_1RBT							711	289											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_1RBT_2		軌道回路表示灯	TH67_1RBT							955	289											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_4LT_1		軌道回路表示灯	TH67_4LT							602	349											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_4LT_2		軌道回路表示灯	TH67_4LT							846	349											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_5LT_1		軌道回路表示灯	TH67_5LT							602	463											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_5LT_2		軌道回路表示灯	TH67_5LT							846	463											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_33イT_W33イN_1		軌道回路表示灯	TH67_33イT	TH67_W33	N					1082	175											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_33イT_W33イN_2		軌道回路表示灯	TH67_33イT	TH67_W33	N					1168	204											"0,1,2"	0		"Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png"	135度								
+Image	TH67_33イT_W33イN_3		軌道回路表示灯	TH67_33イT	TH67_W33	N					1253	229											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_33イT_W33イR_1		軌道回路表示灯	TH67_33イT	TH67_W33	R					1082	175											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_33イT_W33イR_2		軌道回路表示灯	TH67_33イT	TH67_W33	R					1168	204											"0,1,2"	0		"Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png"	135度								
+Image	TH67_33イT_W33イR_3		軌道回路表示灯	TH67_33イT	TH67_W33	R					1211	247											"0,1,2"	0		"Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png"	135度								
+Image	TH67_33ロT_W33ロN_1		軌道回路表示灯	TH67_33ロT	TH67_W33	N					1082	289											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_33ロT_W33ロN_2		軌道回路表示灯	TH67_33ロT	TH67_W33	N					1167	289											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_33ロT_W33ロN_3		軌道回路表示灯	TH67_33ロT	TH67_W33	N					1253	289											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_33ロT_W33ロR_1		軌道回路表示灯	TH67_33ロT	TH67_W33	R					1231	267											"0,1,2"	0		"Image/Light/135N.png,Image/Light/135Y.png,Image/Light/135R.png"	135度								
+Image	TH67_33ロT_W33ロR_2		軌道回路表示灯	TH67_33ロT	TH67_W33	R					1253	289											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_34T_W34N_1		軌道回路表示灯	TH67_34T	TH67_W34	N					944	349											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_34T_W34N_2		軌道回路表示灯	TH67_34T	TH67_W34	N					1167	349											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_34T_W34N_3		軌道回路表示灯	TH67_34T	TH67_W34	N					1253	349											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_34T_W34R_1		軌道回路表示灯	TH67_34T	TH67_W34	R					944	463											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_34T_W34R_2		軌道回路表示灯	TH67_34T	TH67_W34	R					1168	430											"0,1,2"	0		"Image/Light/45N.png,Image/Light/45Y.png,Image/Light/45R.png"	45度								
+Image	TH67_34T_W34R_3		軌道回路表示灯	TH67_34T	TH67_W34	R					1253	349											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_35イT_W35イN_1		軌道回路表示灯	TH67_35イT	TH67_W35	N					1281	349											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_35イT_W35イN_2		軌道回路表示灯	TH67_35イT	TH67_W35	N					1347	349											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_35イT_W35イR_1		軌道回路表示灯	TH67_35イT	TH67_W35	R					1281	349											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_35イT_W35イR_2		軌道回路表示灯	TH67_35イT	TH67_W35	R					1305	327											"0,1,2"	0		"Image/Light/45N.png,Image/Light/45Y.png,Image/Light/45R.png"	45度								
+Image	TH67_35ロT_W35ロN_1		軌道回路表示灯	TH67_35ロT	TH67_W35	N					1281	289											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_35ロT_W35ロN_2		軌道回路表示灯	TH67_35ロT	TH67_W35	N					1347	289											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_35ロT_W35ロR_1		軌道回路表示灯	TH67_35ロT	TH67_W35	R					1325	307											"0,1,2"	0		"Image/Light/45N.png,Image/Light/45Y.png,Image/Light/45R.png"	45度								
+Image	TH67_35ロT_W35ロR_2		軌道回路表示灯	TH67_35ロT	TH67_W35	R					1347	289											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_36イT_W36イN_1		軌道回路表示灯	TH67_36イT	TH67_W36	N					1375	289											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_36イT_W36イN_2		軌道回路表示灯	TH67_36イT	TH67_W36	N					1441	289											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_36イT_W36イR_1		軌道回路表示灯	TH67_36イT	TH67_W36	R					1375	289											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_36イT_W36イR_2		軌道回路表示灯	TH67_36イT	TH67_W36	R					1399	267											"0,1,2"	0		"Image/Light/45N.png,Image/Light/45Y.png,Image/Light/45R.png"	45度								
+Image	TH67_36ロT_W36ロN_1		軌道回路表示灯	TH67_36ロT	TH67_W36	N					1281	229											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_36ロT_W36ロN_2		軌道回路表示灯	TH67_36ロT	TH67_W36	N					1361	229											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_36ロT_W36ロN_3		軌道回路表示灯	TH67_36ロT	TH67_W36	N					1441	229											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_36ロT_W36ロR_1		軌道回路表示灯	TH67_36ロT	TH67_W36	R					1419	247											"0,1,2"	0		"Image/Light/45N.png,Image/Light/45Y.png,Image/Light/45R.png"	45度								
+Image	TH67_36ロT_W36ロR_2		軌道回路表示灯	TH67_36ロT	TH67_W36	R					1441	229											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_23RT_1		軌道回路表示灯	TH67_23RT							1510	229											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_23RT_2		軌道回路表示灯	TH67_23RT							1754	229											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_SST_1		軌道回路表示灯	TH67_SST							1494	289											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_SST_2		軌道回路表示灯	TH67_SST							1570	289											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_10LT_1		軌道回路表示灯	TH67_10LT							1402	349											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH67_10LT_2		軌道回路表示灯	TH67_10LT							1485	349											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	137T_1		軌道回路表示灯	下り137T							1590	349											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	137T_2		軌道回路表示灯	下り137T							1658	349											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	143T_1		軌道回路表示灯	下り143T							1707	349											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	145T_1		軌道回路表示灯	下り145T							1737	349											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	151T_1		軌道回路表示灯	下り151T							1767	349											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_5LET_1		軌道回路表示灯	TH66S_5LET							1797	349											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_53T_1		軌道回路表示灯	TH66S_53T							1827	349											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	TH66S_5LT_1		軌道回路表示灯	TH66S_5LT							1857	349											"0,1,2"	0		"Image/Light/0N.png,Image/Light/0Y.png,Image/Light/0R.png"									
+Image	転てつ不良_R		状態表示灯	TH67_W-FAILURE							64	45											"0,1"	0		"Image/Light/N.png,Image/Light/R.png"									
+Image	停電_R		状態表示灯	TH67_PWR-FAILURE							122	45											"0,1"	0		"Image/Light/N.png,Image/Light/R.png"									
+Image	CTC故障_R		状態表示灯	TH67_CTC-FAILURE							180	45											"0,1"	0		"Image/Light/N.png,Image/Light/R.png"									
+Image	鎖錠60秒_R		状態表示灯	TH67_60TEK							936	567											"0,1"	0		"Image/Light/N.png,Image/Light/R.png"									
+Image	鎖錠30秒_R		状態表示灯	TH67_30TEK							974	567											"0,1"	0		"Image/Light/N.png,Image/Light/R.png"									
 Retsuban	列番新野崎上り第2接近		列車番号	TH67_TTC_Up2							24	211														Image/Retsuban/Retsuban-Window.png									
 Retsuban	列番新野崎上り第1接近		列車番号	TH67_TTC_Up1							174	211														Image/Retsuban/Retsuban-Window.png									
 Retsuban	列番新野崎1番線		列車番号	TH67_TTC_Track1							773	164														Image/Retsuban/Retsuban-Window.png									

@@ -74,7 +74,7 @@ namespace TatehamaInterlockingConsole.Services
                             PointNameB = columns[(int)EnumData.ColumnIndex.PointNameB],
                             PointValueB = columns[(int)EnumData.ColumnIndex.PointValueB] == "N" ? EnumData.NRC.Normal : columns[(int)EnumData.ColumnIndex.PointValueB] == "R" ? EnumData.NRC.Reversed : EnumData.NRC.Center,
                             DirectionName = columns[(int)EnumData.ColumnIndex.DirectionName],
-                            DirectionValue = columns[(int)EnumData.ColumnIndex.DirectionValue] == "L" ? EnumData.LNR.Left : columns[(int)EnumData.ColumnIndex.PointValueA] == "N" ? EnumData.LNR.Normal : EnumData.LNR.Right,
+                            DirectionValue = columns[(int)EnumData.ColumnIndex.DirectionValue] == "L" ? EnumData.LNR.Left : columns[(int)EnumData.ColumnIndex.DirectionValue] == "N" ? EnumData.LNR.Normal : EnumData.LNR.Right,
                             X = double.TryParse(columns[(int)EnumData.ColumnIndex.X], out var x) ? x : 0,
                             Y = double.TryParse(columns[(int)EnumData.ColumnIndex.Y], out var y) ? y : 0,
                             RelativeX = double.TryParse(columns[(int)EnumData.ColumnIndex.X], out var relativeX) ? relativeX : 0,

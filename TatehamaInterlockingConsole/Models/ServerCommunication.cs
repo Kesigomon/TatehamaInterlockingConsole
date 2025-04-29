@@ -80,6 +80,11 @@ namespace TatehamaInterlockingConsole.Models
         /// <returns></returns>
         public async Task AuthenticateAsync()
         {
+            if (ServerAddress.IsDebug)
+            {
+                await InitializeConnection();
+                return;
+            }
             try
             {
                 using var source = new CancellationTokenSource(TimeSpan.FromSeconds(90));
@@ -227,11 +232,31 @@ namespace TatehamaInterlockingConsole.Models
                         // 方向てこ情報を保存
                         if (data.Directions != null)
                         {
-                            _dataManager.DirectionStateList = data.Directions.Select(d => new DirectionStateList
+                            _dataManager.DirectionStateList = data.Directions.Select(d =>
                             {
-                                Name = d.Name,
-                                State = d.State,
-                                UpdateTime = DateTime.Now
+                                var existingDirection = _dataManager.DirectionStateList?.FirstOrDefault(ds => ds.Name == d.Name);
+                                if (existingDirection != null)
+                                {
+                                    // 値が変更されている場合のみ更新
+                                    if (existingDirection.State != d.State)
+                                    {
+                                        existingDirection.State = d.State;
+                                        existingDirection.UpdateTime = DateTime.Now;
+                                        existingDirection.IsAlarmPlayed = false;
+                                    }
+                                    return existingDirection;
+                                }
+                                else
+                                {
+                                    // 新しいデータの場合は追加
+                                    return new DirectionStateList
+                                    {
+                                        Name = d.Name,
+                                        State = d.State,
+                                        UpdateTime = DateTime.Now,
+                                        IsAlarmPlayed = false
+                                    };
+                                }
                             }).ToList();
                         }
 
