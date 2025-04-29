@@ -40,7 +40,7 @@ jobs:
           latest_tag="${{ steps.latest_release.outputs.result }}"
           if [ -n "${latest_tag}" ]; then
             today=$(date +%Y%m%d)
-            if [[ $latest_tag == *$today* ]]; then
+            if [[ $latest_tag == $today* ]]; then
               n=$(echo $latest_tag | awk -F. '{print $4}')
               n=$((n + 1))
             else
